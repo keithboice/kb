@@ -63,17 +63,18 @@
 | ----- | ----------------------------------------------------- | ----- | ------------------------------------------------------- | ----- | ----------------------------------------------------- |
 | dev   | https://dev.kb.keithboice.com | stage | https://stage.kb.keithboice.com | prod  | https://www.kb.keithboice.com |
 
+
 ## Reference
 
--   [Code of Conduct](https://github.com/keithboice/kb/CODE_OF_CONDUCT)
+-   [Code of Conduct](https://github.com/keithboice/kb/CODE_OF_CONDUCT.md)
 -   Getting Started
--   [Read Me](https://github.com/keithboice/kb/README)
--   [Contributing](https://github.com/keithboice/kb/CONTRIBUTING)
--   [Issues](https://github.com/keithboice/kb/issues)
--   [Pull Requests](https://github.com/keithboice/kb/pulls)
+    -   [Read Me](https://github.com/keithboice/kb/README.md)
+    -   [Contributing](https://github.com/keithboice/kb/CONTRIBUTING.md)
+    -   [Issues](https://github.com/keithboice/kb/issues)
+    -   [Pull Requests](https://github.com/keithboice/kb/pulls)
 -   Getting Help
--   [Discussions](https://github.com/keithboice/kb/discussions)
--   [API Docs](https://github.com/keithboice/kb/docs)
--   [Wiki](https://github.com/keithboice/kb/wiki)
+    -   [Discussions](https://github.com/keithboice/kb/discussions)
+    -   [API Docs](https://github.com/keithboice/kb/docs)
+    -   [Wiki](https://github.com/keithboice/kb/wiki)
 -   [License](https://github.com/keithboice/kb/LICENSE)
--   [Security](https://github.com/keithboice/kb/SECURITY)
+-   [Security](https://github.com/keithboice/kb/SECURITY.md)
