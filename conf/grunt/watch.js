@@ -17,4 +17,22 @@ module.exports = {
 		files: '<%= jshint.test.src %>',
 		tasks: ['jshint:test', 'nodeunit']
 	},
+	submodules: {
+		run: {
+			files: '.run/**/*',
+			tasks: ['github:push:run', 'github:update:run']
+		},
+		github: {
+			files: '.github/**/*',
+			tasks: ['github:push:github', 'github:update:github']
+		},
+		conf: {
+			files: 'conf/**/*',
+			tasks: ['github:push:conf', 'github:update:conf']
+		}
+	},
+	docs: {
+		files: 'docs/**/*',
+		tasks: ['writefile']
+	}
 };
