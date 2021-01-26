@@ -6,7 +6,7 @@
 ## Usage
 
 ```
-const eslintConfig = require('eslint-config');
+const base = require('base');
 
 // TODO: DEMONSTRATE API
 ```
@@ -14,4 +14,4 @@ const eslintConfig = require('eslint-config');
 
 
 
-# `eslint-config`
+# `base`

@@ -1,0 +1,6 @@
+useTabs: true
+tabWidth: 4
+singleQuote: true
+vueIndentScriptAndStyle: true
+jsxSingleQuote: true
+printWidth: 110

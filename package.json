@@ -5,17 +5,28 @@
   },
   "dependencies": {
     "base": "file:packages/base",
-    "eslint-config-kb": "file:packages/eslint-config"
+    "eslint-config-kb": "file:packages/eslint-config-kb",
+    "prettier-plugin-kb": "file:packages/prettier-plugin-kb"
   },
   "description": "kb packages",
   "devDependencies": {
+    "eslint": "*",
     "grunt": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-nodeunit": "^2.1.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-run": "^0.8.1",
+    "grunt-writefile": "^0.1.4",
     "lerna": "^3.22.1",
-    "prettier": "2.2.1"
+    "load-grunt-config": "^3.0.1",
+    "prettier": "2.2.1",
+    "recursive-merge": "^1.2.1"
   },
   "eslintConfig": {
-    "noInlineConfig": true,
-    "extends": ["eslint-config-kb"]
+    "extends": [
+      "eslint-config-kb"
+    ]
   },
   "homepage": "https://keithboice.github.io/kb/",
   "keywords": [
@@ -24,11 +35,16 @@
   "license": "MIT",
   "main": "index.js",
   "name": "kb",
+  "prettier": "prettier-plugin-kb",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/keithboice/kb.git"
   },
   "scripts": {
+    "add": "npx lerna add --dev",
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean:lint": "eslint -c \"packages/eslint-config-kb/lib/.eslintrc.yaml\" --resolve-plugins-relative-to \"packages/eslint-config-kb\"  --fix --quiet --cache --ignore-path .gitignore .",
+    "clean:style": "prettier --write --ignore-unknown --ignore-path .gitignore .",
     "test": "test"
   },
   "version": "0.0.1"

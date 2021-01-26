@@ -1,0 +1,12 @@
+[submodule ".github"]
+	path = .github
+	url = git@github.com:keithboice/.github.git
+
+[submodule "workflows"]
+	path = .github/workflows
+	url = git@github.com:keithboice/templates_.github-workflows.git
+
+
+[submodule "workflows"]
+	path = .github/workflows
+	url = git@github.com:keithboice/templates_.github-workflows.git

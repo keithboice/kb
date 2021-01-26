@@ -1,8 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="new dev dependency" type="js.build_tools.npm" singleton="false">
+  <configuration default="false" name="install (dev)" type="js.build_tools.npm" singleton="false">
     <package-json value="$PROJECT_DIR$/package.json" />
-    <command value="install" />
-    <arguments value="-SD $Prompt$" />
+    <command value="run" />
+    <scripts>
+      <script value="add" />
+    </scripts>
+    <arguments value=" $Prompt$" />
     <node-interpreter value="project" />
     <envs />
     <method v="2" />

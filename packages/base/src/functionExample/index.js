@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 /**
  *
@@ -14,20 +13,15 @@
  * @param paramExample
  *
  */
-async function functionExample (paramExample) {
+async function functionExample(paramExample) {
+  return new Promise(async (resolve, reject) => {
+    const returnExample = "";
 
-	return new Promise (async (resolve, reject) => {
-
-		let returnExample = '';
-
-		if (returnExample) {
-			return resolve (returnExample);
-		} else {
-			return reject ({error: 'Error in functionExample'});
-		}
-
-	});
+    if (returnExample) {
+      return resolve(returnExample);
+    }
+    return reject({ error: "Error in functionExample" });
+  });
 }
-
 
 module.exports.functionExample = functionExample;
