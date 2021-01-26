@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "base": "file:packages/base",
+    "dot-github": "file:packages/dot-github",
     "eslint-config-kb": "file:packages/eslint-config-kb",
     "prettier-plugin-kb": "file:packages/prettier-plugin-kb"
   },
@@ -43,7 +44,7 @@
   },
   "scripts": {
     "add": "npx lerna add --dev",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "npx lerna bootstrap --hoist",
     "clean:lint": "eslint -c \"packages/eslint-config-kb/lib/.eslintrc.yaml\" --resolve-plugins-relative-to \"packages/eslint-config-kb\"  --fix --quiet --cache --ignore-path .gitignore .",
     "clean:style": "prettier --write --ignore-unknown --ignore-path .gitignore .",
     "test": "test"
