@@ -20,6 +20,7 @@
     "grunt-writefile": "^0.1.4",
     "lerna": "^3.22.1",
     "load-grunt-config": "^3.0.1",
+    "mocha": "^8.2.1",
     "prettier": "2.2.1",
     "recursive-merge": "^1.2.1"
   },
