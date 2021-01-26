@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "base": "file:packages/base",
-    "eslint-config-kb": "file:packages/eslint-config"
+    "eslint-config-kb": "file:packages/eslint-config-kb"
   },
   "description": "kb packages",
   "devDependencies": {
