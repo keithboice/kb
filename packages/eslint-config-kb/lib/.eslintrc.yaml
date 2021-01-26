@@ -1,0 +1,22 @@
+root: true
+extends:
+  - prettier/standard
+  - plugin:node/recommended
+  - plugin:flowtype/recommended
+  - prettier/@typescript-eslint
+  - plugin:prettier/recommended
+  - prettier/babel
+  - prettier/flowtype
+  - prettier/prettier
+  - prettier
+  - prettier/react
+  - prettier/unicorn
+  - prettier/vue
+plugins:
+  - node
+  - babel
+  - flowtype
+  - react
+  - prettier
+rules:
+  max-len: "off"

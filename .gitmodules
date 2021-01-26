@@ -1,7 +1,3 @@
-[submodule "eslint-config-kb"]
-	path = packages/eslint-config-kb
-	url = https://github.com/keithboice/eslint-config-kb
-
 [submodule ".github"]
 	path = .github
 	url = https://github.com/keithboice/.github.git
