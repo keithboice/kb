@@ -1,0 +1,103 @@
+{
+  "author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
+  "bugs": {
+	"url": "${{env.REPOSITORY_GITHUB_URL}}/issues"
+  },
+  "dependencies": {
+	"node": "^15.4.0",
+	"npm": "^6.14.11",
+	"npx": "^10.2.2",
+	"yarn": "^2.0.0-rc.27"
+  },
+  "description": "${{env.REPOSITORY_DESCRIPTION}}",
+  "devDependencies": {
+	"backend": "keithboice/core_nodejs",
+	"better-docs": "*",
+	"ci": "keithboice/core_ci_nodejs",
+	"codecov": "*",
+	"documentation": "*",
+	"husky": "*",
+	"jsdoc": "*",
+	"jsdoc-babel": "*",
+	"jsdoc-mermaid": "*",
+	"mocha": "*",
+	"nodemon": "*",
+	"npm-run-all": "*",
+	"nyc": "*",
+	"pinst": "*",
+	"prettier": "*",
+	"semver": "*",
+	"typescript": "*",
+	"watch": "*",
+	"yargs": "*"
+  },
+  "engines": {
+	"node": ">=15.0.0",
+	"npm": ">=7.0.0"
+  },
+  "homepage": "${{env.REPOSITORY_README_URL}}",
+  "husky": {
+	"hooks": {
+	  "pre-commit": "npm run clean:prettier"
+	}
+  },
+  "license": "${{env.REPOSITORY_LICENSE}}",
+  "main": "index.js",
+  "man" : [ "./docs/frontend", "./docs/backend" ],
+  "name": "${{env.REPOSITORY_SLUG}}",
+  "nodemonConfig": {
+	"ignore": [
+	  ".config/",
+	  ".github",
+	  "ci/*",
+	  "docs/*",
+	  "node_modules/",
+	  "frontend"
+	]
+  },
+  "prettier": {
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": true,
+	"jsxSingleQuote": true
+  },
+  "repository": {
+	"type": "git",
+	"url": "${{env.REPOSITORY_SSH_URL}}",
+	"directory": "./"
+  },
+  "scripts": {
+	"build": "run-p build:backend build:frontend",
+	"build:backend": "babel backend/src --out-dir backend/lib",
+	"build:frontend": "babel frontend/src --out-dir frontend/lib",
+	"clean:prettier": "prettier --write --ignore-unknown --ignore-path .gitignore .",
+	"clean:lint": "eslint --fix --quiet --cache --ignore-path .gitignore .",
+	"clean:img": "imagemin-lint-staged",
+	"dev": "run-p dev:backend dev:frontend",
+	"dev:backend": "run-s build:backend watch:backend",
+	"dev:frontend": "run-s build:frontend watch:frontend",
+	"docs": "run-p docs:backend docs:frontend",
+	"docs:backend": "run-p docs:backend:html docs:backend:md",
+	"docs:backend:html": "documentation build backend/src/** -f html -o docs/backend/html",
+	"docs:backend:md": "documentation build backend/src/** -f md -o docs/backend/md",
+	"docs:frontend": "run-p docs:frontend:html docs:frontend:md",
+	"docs:frontend:html": "documentation build frontend/src/** -f html -o docs/frontend/html",
+	"docs:frontend:md": "documentation build frontend/src/** -f md -o docs/frontend/md",
+	"flow": "flow --flowconfig-name backend/src/.flowconfig",
+	"flow:check": "flow --flowconfig-name backend/src/.flowconfig --quiet",
+	"flow:coverage": "flow batch-coverage --flowconfig-name backend/src/.flowconfig .",
+	"flow:deps": "flow-typed install --packageDir backend/src --rootDir backend/src",
+	"flow:rm": "flow-remove-types backend/src/ -d backend/lib/ --all --pretty",
+	"flow:start": "flow status --flowconfig-name backend/src/.flowconfig",
+	"flow:stop": "flow stop --flowconfig-name backend/src/.flowconfig",
+	"start": "npm run build && node backend/lib/",
+	"test": "run-s test:unit test:report test:coverage",
+	"test:unit": "mocha --config backend/node_modules/kb_ci_nodejs/.mocharc.yml backend/lib/**/*.spec.js",
+	"test:report": "nyc --reporter=lcov --reporter=text-summary npm run test",
+	"test:coverage": "codecov",
+	"watch": "watch --wait=1",
+	"watch:backend": "nodemon -w backend/lib/",
+	"watch:frontend": "nodemon -w frontend/lib/"
+  },
+  "version": "0.0.1"
+}

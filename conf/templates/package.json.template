@@ -1,0 +1,93 @@
+{
+	"author": "Keith Boice <keith.boice.work@gmail.com>",
+	"bugs": {
+		"url": "{{ env.[REPOSITORY_GITHUB_URL] }}/issues"
+	},
+	"dependencies": {
+		"node": "^15.4.0",
+		"npm": "^6.14.11",
+		"npx": "^10.2.2",
+		"yarn": "^2.0.0-rc.27"
+	},
+	"description": "{{ env.[REPOSITORY_DESCRIPTION] }}",
+	"devDependencies": {
+		"better-docs": "*",
+		"documentation": "*",
+		"husky": "*",
+		"jsdoc": "*",
+		"jsdoc-babel": "*",
+		"jsdoc-mermaid": "*",
+		"nodemon": "*",
+		"npm-run-all": "*",
+		"pinst": "*",
+		"prettier": "*",
+		"typescript": "*",
+		"watch": "*",
+		"yargs": "*"
+	},
+	"engines": {
+		"node": ">=15.0.0",
+		"npm": ">=7.0.0"
+	},
+	"homepage": "{{ env.[REPOSITORY_README_URL] }}",
+	"husky": {
+		"hooks": {
+			"pre-commit": "build"
+		}
+	},
+	"license": "{{ env.[REPOSITORY_LICENSE] }}",
+	"main": "index.js",
+	"name": "{{ env.[REPOSITORY_NAME] }}",
+	"nodemonConfig": {
+		"ignore": [
+			"ci/*",
+			"docs/*",
+			"node_modules/",
+			".templates/",
+			".config",
+			"frontend"
+		]
+	},
+	"prettier": {
+		"useTabs": true,
+		"tabWidth": 4,
+		"singleQuote": true,
+		"jsxSingleQuote": true
+	},
+	"repository": {
+		"type": "git",
+		"url": "{{ env.[REPOSITORY_SSH_URL] }}"
+	},
+	"scripts": {
+		"build": "npm run build:babel",
+		"build:babel": "babel src --out-dir lib",
+		"build:babel-node": "babel-node",
+		"clean:prettier": "prettier --write --ignore-unknown --ignore-path .gitignore .",
+		"clean:lint": "eslint --fix --quiet --cache --ignore-path .gitignore .",
+		"clean:img": "imagemin-lint-staged",
+		"dev": "run-s build:babel watch:mon",
+		"dev:flowrm": "run-s watch flow:rm watch:mon",
+		"dev:babel": "run-s build:babel watch:mon",
+		"docs": "run-p docs:js docs:html docs:md",
+		"docs:js": "jsdoc -c ./docs/jsdoc.json",
+		"docs:html": "documentation build src/** -f html -o docs/html",
+		"docs:md": "documentation build src/** -f md -o docs/md",
+		"flow": "flow --flowconfig-name ./src/.flowconfig",
+		"flow:check": "flow --flowconfig-name ./src/.flowconfig --quiet",
+		"flow:coverage": "flow batch-coverage --flowconfig-name ./src/.flowconfig .",
+		"flow:deps": "flow-typed install --packageDir ./ --rootDir ./src",
+		"flow:rm": "flow-remove-types src/ -d lib/ --all --pretty",
+		"flow:start": "flow status --flowconfig-name ./src/.flowconfig",
+		"flow:stop": "flow stop --flowconfig-name ./src/.flowconfig",
+		"stage": "lint-staged --quiet",
+		"start": "npm run build && node ./lib/",
+		"test": "run-s test:unit test:report test:coverage",
+		"test:unit": "mocha --config ./node_modules/kb_ci_nodejs/.mocharc.yml lib/**/*.spec.js",
+		"test:report": "nyc --reporter=lcov --reporter=text-summary npm run test",
+		"test:coverage": "codecov",
+		"watch": "watch --wait=1",
+		"watch:mon": "nodemon -w ./lib/",
+		"watch:js": "run-s flow:check flow:rm test"
+	},
+	"version": "{{ env.[RELEASE_VERSION] }}"
+}
