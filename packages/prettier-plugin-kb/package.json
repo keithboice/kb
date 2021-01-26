@@ -1,0 +1,32 @@
+{
+  "author": "keithboice <69816300+keithboice@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "description": "kb default prettier config",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/prettier-plugin-kb#readme",
+  "keywords": [
+    "prettier"
+  ],
+  "license": "ISC",
+  "main": "lib/.prettierrc.yaml",
+  "name": "prettier-plugin-kb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/kb.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "version": "0.0.1"
+}

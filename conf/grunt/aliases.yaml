@@ -1,0 +1,12 @@
+default: ['watch', 'writefile']
+
+
+new:
+  description: 'Generates new set of repository docs from templates'
+  tasks:
+    - 'writefile'
+
+dev:
+  description: 'Watches relevant file types and directories to build changes to code in real-time'
+  tasks:
+    - 'watch'

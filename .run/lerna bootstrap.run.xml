@@ -1,8 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="lerna dependencies" type="BashProRunConfiguration" singleton="false">
-    <scriptContent>npx lerna link convert</scriptContent>
+  <configuration default="false" name="lerna bootstrap" type="BashProRunConfiguration" singleton="false">
+    <scriptContent>npx lerna bootstrap</scriptContent>
     <option name="sourceType" value="snippet" />
-    <option name="workingDirectory" value="$PROJECT_DIR$" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
     <method v="2" />
   </configuration>

@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="writefile:readme" type="js.build_tools.grunt" singleton="false">
+    <node-interpreter value="project" />
+    <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+    <tasks>
+      <task value="writefile:readme" />
+    </tasks>
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
