@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="lerna-wizard" type="BashProRunConfiguration" singleton="false">
+  <configuration default="false" name="wizard" type="BashProRunConfiguration" folderName="lerna" singleton="false">
     <scriptContent>npx lerna-wizard</scriptContent>
     <option name="sourceType" value="snippet" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="new git submodule" type="BashProRunConfiguration" singleton="false">
+  <configuration default="false" name="init submodule" type="BashProRunConfiguration" folderName="git" singleton="false">
     <scriptContent>git submodule init</scriptContent>
     <option name="sourceType" value="snippet" />
     <option name="workingDirectory" value="$FilePrompt$" />
