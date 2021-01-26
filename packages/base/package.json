@@ -1,0 +1,29 @@
+{
+  "author": "keithboice <69816300+keithboice@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/keithboice/package_base/issues"
+  },
+  "description": "kb default package configuration",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/base#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "base",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/package_base.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "version": "0.0.1"
+}

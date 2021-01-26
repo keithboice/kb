@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  #[push, pull_request]
+
+  workflow_dispatch:
+
+jobs:
+    build: # make sure build/ci work properly
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - run: npm install
+        - run: npm run all
+
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: ./
+        - uses: actions/upload-artifact@v2
+          with:
+            name: Results
+            path: coverage/*.*
+
+    coverage:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [15.x]
+                language: ['javascript']
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: Build
+              run: |
+                  npm install
+                  npm run build
+            - name: Test
+              run: |
+                  npm test
+            - name: Codecov
+              env:
+                  CODECOV_TOKEN: 'ec7ed574-b123-4346-832b-366162af1609'
+              run: |
+                  bash <(curl -s https://codecov.io/bash)
