@@ -1,10 +1,20 @@
 module.exports = {
-	all: {
+	readme: {
 		files: [
-			'README.md.hbs'
+			'conf/templates/README.md.hbs'
 		],
-		tasks: [
-			'default'
-		]
-	}
+		tasks: ['writefile:readme']
+	},
+	gruntfile: {
+		files: '<%= jshint.gruntfile.src %>',
+		tasks: ['jshint:gruntfile']
+	},
+	lib: {
+		files: '<%= jshint.lib.src %>',
+		tasks: ['jshint:lib', 'nodeunit']
+	},
+	test: {
+		files: '<%= jshint.test.src %>',
+		tasks: ['jshint:test', 'nodeunit']
+	},
 };

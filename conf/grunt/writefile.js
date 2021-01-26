@@ -1,28 +1,27 @@
-const path = require ('path');
-const template = path.join(process.cwd(), 'README.md.hbs');
-const output = path.join(process.cwd(), 'README.md');
-
-const currentdate = new Date ();
-const datetime = 'Last update: ' + currentdate.getDate () + '/'
-                 + (currentdate.getMonth () + 1) + '/'
-                 + currentdate.getFullYear () + ' @ '
-                 + currentdate.getHours () + ':'
-                 + currentdate.getMinutes () + ':'
-                 + currentdate.getSeconds ();
 
 module.exports = {
 	readme: {
+		files: [{
+			expand: false,
+			src: '<%= readmeTemplatePath %>',
+			dest: './README.md'
+		}],
 		options: {
+			preserveExtension: false,
+			mode: '0644',
 			data: {
-				REPOSITORY_SLUG: 'kb',
-				REPOSITORY_DESCRIPTION: 'kb github repository',
-				REPOSITORY_NAME: 'kb',
-				date: datetime
+				pkg: '<%= pkg %>'
+			},
+			paths: {
+				src: '<%= readmeTemplatePath %>',
+				dest: './README.md'
 			}
 		},
 		main: {
-			src: template,
-			dest: output
+			files: [{
+				src: '<%= readmeTemplatePath %>',
+				dest: './README.md'
+			}]
 		}
 	}
 };

@@ -5,7 +5,9 @@
     <tasks>
       <task value="writefile:readme" />
     </tasks>
+    <arguments value="--debug --verbose" />
     <envs />
+    <verbose value="true" />
     <method v="2" />
   </configuration>
 </component>

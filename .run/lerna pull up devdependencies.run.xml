@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="lerna dependencies" type="BashProRunConfiguration" singleton="false">
+  <configuration default="false" name="lerna convert" type="BashProRunConfiguration" singleton="false">
     <scriptContent>npx lerna link convert</scriptContent>
     <option name="sourceType" value="snippet" />
     <option name="workingDirectory" value="$PROJECT_DIR$" />
