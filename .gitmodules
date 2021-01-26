@@ -1,0 +1,3 @@
+[submodule "packages/eslint-config-kb"]
+	path = packages/eslint-config-kb
+	url = git@github.com:keithboice/package_estlint_config.git
