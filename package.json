@@ -5,12 +5,17 @@
   },
   "dependencies": {
     "base": "file:packages/base",
-    "eslint-config": "file:packages/eslint-config"
+    "eslint-config-kb": "file:packages/eslint-config"
   },
   "description": "kb packages",
   "devDependencies": {
+    "grunt": "^1.3.0",
     "lerna": "^3.22.1",
     "prettier": "2.2.1"
+  },
+  "eslintConfig": {
+    "noInlineConfig": true,
+    "extends": ["eslint-config-kb"]
   },
   "homepage": "https://keithboice.github.io/kb/",
   "keywords": [
