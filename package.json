@@ -1,0 +1,30 @@
+{
+  "author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "dependencies": {
+    "base": "file:packages/base",
+    "eslint-config": "file:packages/eslint-config"
+  },
+  "description": "kb packages",
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "2.2.1"
+  },
+  "homepage": "https://keithboice.github.io/kb/",
+  "keywords": [
+    "kb"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "kb",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keithboice/kb.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "version": "0.0.1"
+}
