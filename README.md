@@ -2,9 +2,7 @@
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/keithboice/kb?sort=semver&style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/keithboice/kb/ci?style=for-the-badge)
-![GitHub branch checks state](https://img.shields.io/github/checks-status/keithboice/kb/main?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/keithboice/kb?style=for-the-badge)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/keithboice/kb?style=for-the-badge)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=for-the-badge)](https://lerna.js.org/)
 
 
