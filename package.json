@@ -45,6 +45,7 @@
   },
   "scripts": {
     "add": "lerna add --dev",
+    "bootstrap": "lerna bootstrap --hoist",
     "lerna:bootstrap": "lerna bootstrap --hoist",
     "lerna:convert": "lerna link convert",
     "lerna:update": "lerna:convert && lerna:bootstrap",

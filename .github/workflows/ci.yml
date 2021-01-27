@@ -6,21 +6,10 @@ jobs:
   ci:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [15.x]
-        language: ["javascript"]
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Nodejs ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Build
-        run: |
-          npm install lerna
-          lerna bootstrap --hoist
+          node-version: 14
+      - run: npm install -g lerna
+      - run: npm run bootstrap
