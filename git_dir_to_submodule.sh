@@ -15,6 +15,7 @@ git add . && git commit -m "initial commit" || exit
 cd "$ROOT_DIR" || exit
 git submodule add -f git@github.com:keithboice/.github.git "$TARGET_DIR" || exit
 
-git submodule add -b "main" -f --name "dot-github" git@github.com:keithboice/.github.git "./packages/dot-github/"
+git submodule init "./packages/dot-github/"
+git submodule add -f --name "dot-github" git@github.com:keithboice/.github.git "./packages/dot-github/"
 
 git submodule absorbgitdirs
