@@ -3,8 +3,6 @@ name: ci
 on:
   [push, pull_request]
 
-  workflow_dispatch:
-
 jobs:
     ci:
 
@@ -26,4 +24,5 @@ jobs:
 
             - name: Build
               run: |
-                npm install lerna && npm run lerna:bootstrap
+                npm install lerna
+                npm run lerna:bootstrap
