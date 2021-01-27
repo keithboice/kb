@@ -1,0 +1,12 @@
+- name: bug
+  description: A bug or defect
+  color: b71c1c
+- name: feature
+  description: An enhancement
+  color: 1b5e20
+- name: tech
+  description: A non-functional task
+  color: 1a237e
+- name: automated
+  description: A github action
+  color: 263238

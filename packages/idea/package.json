@@ -1,0 +1,25 @@
+{
+  "author": "keithboice <69816300+keithboice@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "description": "kb .idea",
+  "directories": {
+    "lib": "./"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/.idea#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "dot-idea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/.idea.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "version": "0.0.1"
+}
