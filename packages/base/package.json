@@ -25,5 +25,6 @@
   "scripts": {
     "test": "test"
   },
-  "version": "0.0.5"
+  "version": "0.0.5",
+  "gitHead": "52fb9d3325dd7e39be0addf9d60eae3e02809822"
 }
