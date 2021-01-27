@@ -1,6 +1,6 @@
 module.exports = {
   node_modules: {
-    files: ["node_modules/", "**/node_modules/", "*/node_modules/"],
+    files: ["node_modules/", "**/node_modules/", "*/node_modules/", "./**/*/node_modules/"],
     tasks: ["run:update:lerna"]
   }
   /*readme: {

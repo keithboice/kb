@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="add dependency (dev)" type="BashProRunConfiguration" folderName="lerna">
+  <configuration default="false" name="add dependency (dev)" type="BashProRunConfiguration">
     <scriptContent>npx lerna link convert</scriptContent>
     <option name="sourceType" value="snippet" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />

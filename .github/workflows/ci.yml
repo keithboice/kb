@@ -26,4 +26,4 @@ jobs:
 
             - name: Build
               run: |
-                  npm run bootstrap
+                npm install lerna && npm run lerna:bootstrap
