@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="writefile:readme" type="js.build_tools.grunt" singleton="false">
+  <configuration default="false" name="writefile:readme" type="js.build_tools.start" singleton="false">
     <node-interpreter value="project" />
     <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
     <tasks>

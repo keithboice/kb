@@ -12,13 +12,13 @@
 ### Install
 
 ```shell
-$ npm i @kb/grunt
+$ npm i @kb/start
 ```
 
 ```json
 {
-  "grunt": {
-    "extends": ["@kb/grunt"]
+  "start": {
+    "extends": ["@kb/start"]
   }
 }
 ```
@@ -27,4 +27,4 @@ update package.json
 
 <br />
 
-# `@kb/grunt`
+# `@kb/start`

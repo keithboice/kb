@@ -11,7 +11,6 @@
   },
   "description": "kb packages",
   "devDependencies": {
-    "app-root-path": "^3.0.0",
     "chai": "^4.2.0",
     "eslint": "^7.18.0",
     "jest": "^26.6.3",

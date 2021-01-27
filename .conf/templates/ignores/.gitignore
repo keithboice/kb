@@ -1,3 +1,4 @@
+# v1.0.0
 .idea
 /.idea
 out/
@@ -27,7 +28,7 @@ lib-cov
 coverage
 *.lcov
 .nyc_output
-.grunt
+.start
 bower_components
 .lock-wscript
 build/Release

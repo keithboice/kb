@@ -5,20 +5,26 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/keithboice/kb?style=for-the-badge)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=for-the-badge)](https://lerna.js.org/)
 
-
-
--------
+---
 
 ## Getting Started
 
 ### Install
 
-```sh
-$ npm i @kb/{{ pkg.name }}
+```shell
+$ npm i @kb/start
 ```
 
+```json
+{
+  "start": {
+    "extends": ["@kb/start"]
+  }
+}
+```
+update package.json
 
 
 <br />
 
-# `@kb/{{ pkg.name }}`
+# `@kb/start`
