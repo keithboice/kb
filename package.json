@@ -42,7 +42,7 @@
   },
   "scripts": {
     "add": "lerna add --dev",
-    "bootstrap": "npm-run-all lerna:link lerna:bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "modified:dependency": "npm-run-all bootstrap",
     "modified:js": "npm-run-all clean:lint clean:p",
     "clean:lint": "eslint -c \"packages/eslint-config-kb/lib/.eslintrc.yaml\" --resolve-plugins-relative-to \"packages/eslint-config-kb\"  --fix --quiet --cache --ignore-path .gitignore .",
