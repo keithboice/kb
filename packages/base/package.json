@@ -28,5 +28,6 @@
   "version": "0.0.2",
   "dependencies": {
     "recursive-merge": "^1.2.1"
-  }
+  },
+  "gitHead": "31cb8b8e96ed168d05394af25299328637c4e807"
 }
