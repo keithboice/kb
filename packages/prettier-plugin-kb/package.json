@@ -11,7 +11,11 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "engines": {
+    "node": ">= 6.9.0"
+  },
   "files": [
+    "index.js",
     "lib"
   ],
   "homepage": "https://keithboice.github.io/kb/tree/master/packages/prettier-plugin-kb#readme",
@@ -21,9 +25,13 @@
   "license": "ISC",
   "main": "lib/.prettierrc.yaml",
   "name": "@kb/prettier-plugin-kb",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/kb.git"
+    "url": "git+https://github.com/keithboice/kb.git",
+    "directory": "packages/prettier-plugin-kb"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

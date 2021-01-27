@@ -8,7 +8,11 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "engines": {
+    "node": ">= 6.9.0"
+  },
   "files": [
+    "index.js",
     "lib"
   ],
   "homepage": "https://github.com/keithboice/kb/tree/master/packages/jest-config-kb#readme",
@@ -23,7 +27,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/kb.git"
+    "url": "git+https://github.com/keithboice/kb.git",
+    "directory": "packages/jest-config-kb"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

@@ -24,7 +24,11 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "engines": {
+    "node": ">= 6.9.0"
+  },
   "files": [
+    "index.js",
     "lib"
   ],
   "homepage": "https://keithboice.github.io/kb/tree/master/packages/eslint-config-kb#readme",
@@ -34,9 +38,13 @@
   "license": "ISC",
   "main": "lib/.eslintrc.yaml",
   "name": "@kb/eslint-config-kb",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/kb.git"
+    "url": "git+https://github.com/keithboice/kb.git",
+    "directory": "packages/eslint-config-kb"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

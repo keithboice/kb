@@ -12,13 +12,13 @@
 ### Install
 
 ```shell
-$ npm i @kb/eslint-config-kb
+$ npm i @kb/grunt
 ```
 
 ```json
 {
-  "eslintConfig": {
-    "extends": ["@kb/eslint-config-kb"]
+  "grunt": {
+    "extends": ["@kb/grunt"]
   }
 }
 ```
@@ -27,4 +27,4 @@ update package.json
 
 <br />
 
-# `@kb/eslint-config-kb`
+# `@kb/grunt`
