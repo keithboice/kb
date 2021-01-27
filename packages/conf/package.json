@@ -21,6 +21,6 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "gitHead": "80cc880d2be92ec36a9ada40e2c7e2d05e1c1a74"
 }
