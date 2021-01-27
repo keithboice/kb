@@ -11,7 +11,8 @@
   },
   "description": "kb packages",
   "devDependencies": {
-    "eslint": "*",
+    "chai": "^4.2.0",
+    "eslint": "^7.18.0",
     "grunt": "^1.3.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-nodeunit": "^2.1.0",
@@ -22,6 +23,7 @@
     "lerna": "^3.22.1",
     "load-grunt-config": "^3.0.1",
     "mocha": "^8.2.1",
+    "npm-run-all": "^4.1.5",
     "prettier": "2.2.1",
     "recursive-merge": "^1.2.1"
   },
@@ -44,7 +46,9 @@
   },
   "scripts": {
     "add": "npx lerna add --dev",
-    "bootstrap": "npx lerna bootstrap --hoist",
+    "lerna:bootstrap": "npx lerna bootstrap --hoist",
+    "lerna:convert": "npx lerna link convert",
+    "lerna:update": "run-s lerna:convert lerna:bootstrap",
     "clean:lint": "eslint -c \"packages/eslint-config-kb/lib/.eslintrc.yaml\" --resolve-plugins-relative-to \"packages/eslint-config-kb\"  --fix --quiet --cache --ignore-path .gitignore .",
     "clean:style": "prettier --write --ignore-unknown --ignore-path .gitignore .",
     "test": "test"

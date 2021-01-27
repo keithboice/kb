@@ -20,3 +20,4 @@ plugins:
   - prettier
 rules:
   max-len: "off"
+  node/no-extraneous-require: 0

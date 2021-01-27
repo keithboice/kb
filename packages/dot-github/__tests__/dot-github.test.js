@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const dotGithub = require('..');
+const dotGithub = require("..");
 
-describe('dot-github', () => {
-    it('needs tests');
+describe("dot-github", () => {
+  it("needs tests");
 });

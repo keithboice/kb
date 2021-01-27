@@ -2,19 +2,19 @@
 
 # git_dir_to_submodule.sh
 
-ROOT_DIR=""
+ROOT_DIR="$(pwd)"
+TARGET_DIR="./packages/dot-github/"
 
-system_info() {
-  echo "<h2>System release info</h2>"
-  echo "<p>Function not yet implemented</p>"
+#git add remote origin git@github.com:keithboice/.github.git || exit
+#cd "$ROOT_DIR" || exit
+#git submodule add git@github.com:keithboice/.github.git "./.github/" || exit
 
-} # end of system_info
+git init "$TARGET_DIR" || exit
+git checkout -b main || exit
+git add . && git commit -m "initial commit" || exit
+cd "$ROOT_DIR" || exit
+git submodule add -f git@github.com:keithboice/.github.git "$TARGET_DIR" || exit
 
-while getopts p: flag; do
-  # shellcheck disable=SC2220
-  case "${flag}" in
-  p) ROOT_DIR=${OPTARG} ;;
-  esac
-done
+git submodule add -b "main" -f --name "dot-github" git@github.com:keithboice/.github.git "./packages/dot-github/"
 
-echo "root paths: /"
+git submodule absorbgitdirs

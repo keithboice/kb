@@ -14,13 +14,13 @@
  *
  */
 async function functionExample(paramExample) {
-  return await new Promise ((resolve, reject) => {
+  return await new Promise((resolve, reject) => {
     const returnExample = "";
 
     if (returnExample) {
-      return resolve (returnExample);
+      return resolve(returnExample);
     }
-    return reject ({ error: "Error in functionExample" });
+    return reject({ error: "Error in functionExample" });
   });
 }
 
