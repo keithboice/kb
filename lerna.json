@@ -9,10 +9,14 @@
       "message": "chore(release): publish"
     },
     "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
   "npmClient": "npm",
-  "packages": ["packages/*"],
-  "version": "0.0.1"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.2"
 }

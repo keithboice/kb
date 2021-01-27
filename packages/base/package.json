@@ -25,7 +25,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "recursive-merge": "^1.2.1"
   }
