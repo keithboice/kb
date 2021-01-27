@@ -9,7 +9,7 @@
 
 -------
 
-# kb v0.0.1
+# @kb packages
 
 ## Getting Started
 

@@ -9,13 +9,10 @@ TARGET_DIR="./packages/dot-github/"
 #cd "$ROOT_DIR" || exit
 #git submodule add git@github.com:keithboice/.github.git "./.github/" || exit
 
-git init "$TARGET_DIR" || exit
-git checkout -b main || exit
-git add . && git commit -m "initial commit" || exit
-cd "$ROOT_DIR" || exit
-git submodule add -f git@github.com:keithboice/.github.git "$TARGET_DIR" || exit
+#git init "$TARGET_DIR" || exit
+#git checkout -b main || exit
+#git add . && git commit -m "initial commit" || exit
+#cd "$ROOT_DIR" || exit
+#git submodule add -f git@github.com:keithboice/.github.git "$TARGET_DIR" || exit
 
-git submodule init "./packages/dot-github/"
-git submodule add -f --name "dot-github" git@github.com:keithboice/.github.git "./packages/dot-github/"
-
-git submodule absorbgitdirs
+git submodule add -f --name "dot-run" git@github.com:keithboice/.run.git "./packages/.run/" && git submodule absorbgitdirs
