@@ -1,4 +1,4 @@
 silent: true
-branchName: 'feat_${issue.number}'
+branchName: "feat_${issue.number}"
 autoCloseIssue: false
 openPR: true
