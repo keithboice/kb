@@ -10,13 +10,13 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://keithboice.github.io/kb/tree/master/packages/.run#readme",
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/run#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "name": "dot-run",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/.run.git"
+    "url": "git+https://github.com/keithboice/kb.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

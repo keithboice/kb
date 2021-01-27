@@ -1,7 +1,7 @@
 {
   "author": "keithboice <69816300+keithboice@users.noreply.github.com>",
   "bugs": {
-    "url": "https://github.com/keithboice/templates_package_base/issues"
+    "url": "https://github.com/keithboice/kb/issues"
   },
   "description": "kb default package configuration",
   "directories": {
@@ -11,7 +11,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/keithboice/templates_package_base#readme",
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/base#readme",
   "keywords": [
     "kb"
   ],
@@ -20,7 +20,7 @@
   "name": "base",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/templates_package_base.git"
+    "url": "git+https://github.com/keithboice/kb.git"
   },
   "scripts": {
     "test": "test"
