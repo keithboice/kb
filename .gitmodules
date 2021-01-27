@@ -1,4 +1,4 @@
-[submodule "packages/.github"]
+[submodule "dot-github"]
 	path = packages/github
 	url = git@github.com:keithboice/.github.git
 [submodule "dot-conf"]
