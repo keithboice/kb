@@ -10,3 +10,6 @@
 [submodule "dot-run"]
 	path = packages/.run
 	url = git@github.com:keithboice/.run.git
+[submodule "dot-docs"]
+	path = packages/.docs
+	url = git@github.com:keithboice/.docs.git

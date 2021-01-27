@@ -15,4 +15,4 @@ TARGET_DIR="./packages/dot-github/"
 #cd "$ROOT_DIR" || exit
 #git submodule add -f git@github.com:keithboice/.github.git "$TARGET_DIR" || exit
 
-git submodule add -f --name "dot-run" git@github.com:keithboice/.run.git "./packages/.run/" && git submodule absorbgitdirs
+git submodule add -f --name "dot-docs" git@github.com:keithboice/.docs.git "./packages/.docs/" && git submodule absorbgitdirs

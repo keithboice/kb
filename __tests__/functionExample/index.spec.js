@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-const { functionExample } = require("../functionExample");
+const { functionExample } = require("./index.js");
 
 /**
  *
