@@ -20,8 +20,8 @@ $ npm i @kb/prettier-plugin-kb
   "prettier": "@kb/prettier-plugin-kb"
 }
 ```
-
 update package.json
+
 
 <br />
 

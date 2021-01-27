@@ -3,24 +3,17 @@
   "bugs": {
     "url": "https://github.com/keithboice/kb/issues"
   },
-  "dependencies": {
-    "prettier": "^2.2.1"
-  },
-  "description": "kb prettier preset",
+  "description": "kb .docs",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
   ],
-  "homepage": "https://keithboice.github.io/kb/tree/master/packages/prettier-plugin-kb#readme",
-  "keywords": [
-    "prettier"
-  ],
+  "homepage": "https://keithboice.github.io/kb/tree/master/packages/docs#readme",
   "license": "ISC",
-  "main": "lib/.prettierrc.yaml",
-  "name": "@kb/prettier-plugin-kb",
+  "main": "lib/index.js",
+  "name": "dot-docs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keithboice/kb.git"

@@ -19,7 +19,7 @@
     "eslint-plugin-unicorn": "^27.0.0",
     "eslint-plugin-vue": "^7.5.0"
   },
-  "description": "kb default eslint config",
+  "description": "kb eslint preset",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -33,7 +33,7 @@
   ],
   "license": "ISC",
   "main": "lib/.eslintrc.yaml",
-  "name": "eslint-config-kb",
+  "name": "@kb/eslint-config-kb",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keithboice/kb.git"
@@ -42,5 +42,5 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "version": "0.0.6",
-  "gitHead": "52fb9d3325dd7e39be0addf9d60eae3e02809822"
+  "gitHead": "c6dc374459e7f853fb4759b1405333b2f158ea8f"
 }

@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 
   require("load-grunt-config")(grunt, {
     // path to task.js files, defaults to grunt dir
-    configPath: path.join(process.cwd(), "conf", "grunt"),
+    configPath: path.join(process.cwd(), ".conf", "grunt"),
 
     // path to project package.json file
     packageJsonPath: path.join(process.cwd(), "package.json"),

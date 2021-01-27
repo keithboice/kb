@@ -1,22 +1,33 @@
 {
   "command": {
+    "create": {
+      "homepage": "https://github.com/keithboice/kb",
+      "license": "ISC",
+      "config": {
+        "access": "public",
+        "scope": "@kb"
+      }
+    },
     "publish": {
       "ignoreChanges": [
-        ".gitignore",
-        "*.md",
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md",
         "docs/"
       ],
       "message": "chore(release): publish"
     },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): %s"
+    },
     "bootstrap": {
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
+      "npmClientArgs": ["--no-package-lock"]
     }
   },
   "npmClient": "npm",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.0.6"
 }

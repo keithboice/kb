@@ -12,13 +12,13 @@
 ### Install
 
 ```shell
-$ npm i @kb/eslint-config-kb
+$ npm i @kb/jest-config-kb
 ```
 
 ```json
 {
-  "eslintConfig": {
-    "extends": ["eslint-config-kb"]
+  "jest": {
+	"preset": "@kb/jest-config-kb"
   }
 }
 ```
@@ -27,4 +27,4 @@ update package.json
 
 <br />
 
-# `@kb/eslint-config-kb`
+# `@kb/jest-config-kb`

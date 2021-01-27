@@ -3,10 +3,7 @@
   "bugs": {
     "url": "https://github.com/keithboice/kb/issues"
   },
-  "dependencies": {
-    "prettier": "^2.2.1"
-  },
-  "description": "kb prettier preset",
+  "description": "kb jest preset",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,13 +11,16 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://keithboice.github.io/kb/tree/master/packages/prettier-plugin-kb#readme",
+  "homepage": "https://github.com/keithboice/kb/tree/master/packages/jest-config-kb#readme",
   "keywords": [
-    "prettier"
+    "jest"
   ],
   "license": "ISC",
-  "main": "lib/.prettierrc.yaml",
-  "name": "@kb/prettier-plugin-kb",
+  "main": "lib/jest-preset.js",
+  "name": "@kb/jest-config-kb",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keithboice/kb.git"
@@ -29,5 +29,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "version": "0.0.6",
-  "gitHead": "c6dc374459e7f853fb4759b1405333b2f158ea8f"
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
 }
