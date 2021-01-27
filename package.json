@@ -5,6 +5,11 @@
   },
   "dependencies": {
     "base": "file:packages/base",
+    "dot-conf": "file:packages/conf",
+    "dot-docs": "file:packages/docs",
+    "dot-github": "file:packages/github",
+    "dot-idea": "file:packages/idea",
+    "dot-run": "file:packages/run",
     "eslint-config-kb": "file:packages/eslint-config-kb",
     "prettier-plugin-kb": "file:packages/prettier-plugin-kb"
   },
