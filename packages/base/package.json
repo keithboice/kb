@@ -1,8 +1,9 @@
 {
   "author": "keithboice <69816300+keithboice@users.noreply.github.com>",
   "bugs": {
-    "url": "https://github.com/keithboice/package_base/issues"
+    "url": "https://github.com/keithboice/templates_package_base/issues"
   },
+  "dependencies": {},
   "description": "kb default package configuration",
   "directories": {
     "lib": "lib",
@@ -11,23 +12,19 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://keithboice.github.io/kb/tree/master/packages/base#readme",
+  "homepage": "https://github.com/keithboice/templates_package_base#readme",
   "keywords": [
-    "eslint"
+    "kb"
   ],
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "index.js",
   "name": "base",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithboice/package_base.git"
+    "url": "git+https://github.com/keithboice/templates_package_base.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "test"
   },
-  "version": "0.0.4",
-  "dependencies": {
-    "recursive-merge": "^1.2.1"
-  },
-  "gitHead": "80cc880d2be92ec36a9ada40e2c7e2d05e1c1a74"
+  "version": "0.0.1"
 }
