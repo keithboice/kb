@@ -44,7 +44,7 @@
     "url": "git+ssh://git@github.com/keithboice/kb.git"
   },
   "scripts": {
-    "add": "lerna add --dev",
+    "add": "lerna add --include=dev",
     "bootstrap": "lerna bootstrap --hoist",
     "lerna:bootstrap": "lerna bootstrap --hoist",
     "lerna:convert": "lerna link convert",

@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="add git remote" type="BashProRunConfiguration" singleton="false">
+    <option name="scriptParameters" value="$Prompt$" />
+    <option name="scriptPath" value="$PROJECT_DIR$/conf/scripts/git_remote_add.sh" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

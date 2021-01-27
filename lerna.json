@@ -4,9 +4,7 @@
       "ignoreChanges": [
         ".gitignore",
         "*.md",
-        "docs/",
-        "node_modules/",
-        ".github/"
+        "docs/"
       ],
       "message": "chore(release): publish"
     },
