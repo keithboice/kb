@@ -1,12 +1,11 @@
-default: ['watch', 'writefile']
-
+default: ["watch", "writefile"]
 
 new:
-  description: 'Generates new set of repository assets from templates'
+  description: "Generates new set of repository assets from templates"
   tasks:
-    - 'writefile:readme'
+    - "writefile:readme"
 
 dev:
-  description: 'Watches relevant file types and directories to build changes to code in real-time'
+  description: "Watches relevant file types and directories to build changes to code in real-time"
   tasks:
-    - 'watch'
+    - "watch"

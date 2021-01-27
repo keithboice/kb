@@ -8,8 +8,8 @@ Here are some github md examples to copy and paste when needed.
 
 ### Header 3
 
--   Bulleted
--   List
+- Bulleted
+- List
 
 1. Numbered
 2. List
@@ -40,11 +40,11 @@ back example
 
 ```jsonc
 {
-	// ...
-	"example": "json"
+  // ...
+  "example": "json"
 }
 ```
 
 ```js
-this.is = 'a javascript example';
+this.is = "a javascript example";
 ```

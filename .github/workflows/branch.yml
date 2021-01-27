@@ -1,17 +1,17 @@
 name: branch
 
 on:
-    issues:
-        types: [opened]
+  issues:
+    types: [opened]
 
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    branch:
-        runs-on: ubuntu-latest
+  branch:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Create Issue Branch
-              uses: robvanderleek/create-issue-branch@master
-              env:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Create Issue Branch
+        uses: robvanderleek/create-issue-branch@master
+        env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

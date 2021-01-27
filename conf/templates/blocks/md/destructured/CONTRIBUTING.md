@@ -40,10 +40,10 @@ We take our open source community seriously and hold ourselves and other contrib
 
 Contributions are made to this repo via Issues and Pull Requests (PRs). A few general guidelines that cover both:
 
--   To report security vulnerabilities, please use our [Security Issues Section](${{ env.REPOSITORY_ISSUES_URL }}) which is monitored by our security team.
--   Search for existing Issues and PRs before creating your own.
--   We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
--   If you've never contributed before, see [the getting started section of our readme](${{ env.REPOSITORY_README_URL }}) for tips on how to get started.
+- To report security vulnerabilities, please use our [Security Issues Section](${{ env.REPOSITORY_ISSUES_URL }}) which is monitored by our security team.
+- Search for existing Issues and PRs before creating your own.
+- We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
+- If you've never contributed before, see [the getting started section of our readme](${{ env.REPOSITORY_README_URL }}) for tips on how to get started.
 
 ### Issues
 
@@ -55,11 +55,11 @@ If you find an Issue that addresses the problem you're having, please add your o
 
 PRs to our libraries are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:
 
--   Only fix/add the functionality in question **OR** address wide-spread whitespace/style issues, not both.
--   Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
--   Address a single concern in the least number of changed lines as possible.
--   Include documentation in the repo or on our [docs site](https://keithboice.github.io/${{ env.REPOSITORY_SLUG }}/).
--   Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
+- Only fix/add the functionality in question **OR** address wide-spread whitespace/style issues, not both.
+- Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
+- Address a single concern in the least number of changed lines as possible.
+- Include documentation in the repo or on our [docs site](https://keithboice.github.io/${{ env.REPOSITORY_SLUG }}/).
+- Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
 
 For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
 

@@ -1,9 +1,9 @@
 ---
 name: Feature
 about: New feature and enhancement stories
-title: '[FTR] title'
+title: "[FTR] title"
 labels: feature
-assignees: ''
+assignees: ""
 ---
 
 **Is your feature request related to a problem? Please describe.**

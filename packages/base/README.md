@@ -5,9 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/keithboice/kb?style=for-the-badge)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=for-the-badge)](https://lerna.js.org/)
 
-
-
-------- 
+---
 
 ## Getting Started
 
@@ -16,8 +14,6 @@
 ```shell
 $ npm i @kb/base
 ```
-
-
 
 <br />
 

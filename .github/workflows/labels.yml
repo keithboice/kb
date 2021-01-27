@@ -8,9 +8,7 @@ on:
       - ../labels.yml
 
 jobs:
-
   labels:
-
     runs-on: ubuntu-latest
 
     steps:
