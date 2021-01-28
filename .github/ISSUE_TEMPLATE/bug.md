@@ -3,7 +3,8 @@ name: Bug
 about: Bug and defect stories
 title: "[BUG] title"
 labels: bug
-assignees: ""
+assignees: ''
+
 ---
 
 ### Subject of the issue
