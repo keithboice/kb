@@ -1,6 +1,6 @@
 ---
 name: action
-about: Will trigger a github action on the repo
+about: will trigger a github action on the repo
 title: "[ACT] trigger this"
 labels: ''
 assignees: ''
