@@ -2,7 +2,7 @@
 name: Bug
 about: Bug and defect stories
 title: "[BUG] title"
-labels: bug
+labels: ''
 assignees: ''
 
 ---
