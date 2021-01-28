@@ -1,7 +1,10 @@
 ---
-name: Action
+name: action
 about: Will trigger a github action on the repo
-title: "[BOT] title"
-labels: actions
-assignees: ""
+title: "[ACT] trigger this"
+labels: ''
+assignees: ''
+
 ---
+
+
