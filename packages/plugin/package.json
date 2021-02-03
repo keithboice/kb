@@ -4,31 +4,26 @@
 	"bugs": {
 		"url": "https://github.com/keithboice/kb/issues"
 	},
-	"description": "commit",
+	"description": "plugin",
 	"directories": {},
 	"engines": {
 		"node": ">=14.0.0"
 	},
-	"exports": {
-		"default": "./index.js",
-		"import": "./index.mjs",
-		"require": "./index.cjs"
-	},
 	"files": [
 		"./"
 	],
-	"homepage": "https://github.com/keithboice/kb/tree/master/packages/commit#readme",
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/plugin#readme",
 	"license": "MIT",
 	"main": "./index.js",
 	"module": "./index.js",
-	"name": "@kb/commit",
+	"name": "@kb/plugin",
 	"publishConfig": {
 		"access": "public"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/keithboice/kb.git",
-		"directory": "packages/commit"
+		"directory": "packages/plugin"
 	},
 	"scripts": {
 		"test": "echo \"Error: run test from root\" && exit 1",

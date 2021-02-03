@@ -33,10 +33,12 @@
 		"@kb/hook-post-install": "workspace:packages/hook-post-install",
 		"@kb/hook-pre-commit": "workspace:packages/hook-pre-commit",
 		"@kb/make-docs": "workspace:packages/make-docs",
+		"@kb/plugin": "workspace:packages/plugin",
 		"@kb/run": "workspace:packages/run",
 		"@kb/templates": "workspace:packages/templates",
 		"@kb/test": "workspace:packages/test",
-		"@kb/version": "workspace:packages/version"
+		"@kb/version": "workspace:packages/version",
+		"@kb/yo": "workspace:packages/yo"
 	},
 	"scripts": {
 		"pkg:clean": "node packages/clean",

@@ -1,0 +1,28 @@
+{
+  "name": "@kb/yo",
+  "version": "0.0.1",
+  "description": "yeoman generator packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/kb.git"
+  },
+  "keywords": [
+    "kb",
+    "yeoman",
+    "scaffold"
+  ],
+  "author": "Keith Boice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "homepage": "https://github.com/keithboice/kb#readme",
+  "dependencies": {
+    "generator-generator": "^4.0.2",
+    "yeoman-generator": "^4.13.0"
+  }
+}

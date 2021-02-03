@@ -32,11 +32,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="grunt" />
     <orderEntry type="module" module-name=".github" />
-    <orderEntry type="library" name="@types/eslint" level="application" />
     <orderEntry type="library" name="@types/eslint-config-prettier" level="application" />
     <orderEntry type="library" name="@types/eslint-plugin-prettier" level="application" />
-    <orderEntry type="library" name="@types/node" level="application" />
-    <orderEntry type="library" name="@types/prettier" level="application" />
     <orderEntry type="library" name="NodeJS" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
     <orderEntry type="library" name="@types/mocha" level="application" />

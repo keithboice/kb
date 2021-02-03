@@ -24,5 +24,6 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/yo/generator-make-pkg" vcs="Git" />
   </component>
 </project>
