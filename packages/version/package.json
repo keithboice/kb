@@ -1,0 +1,36 @@
+{
+	"author": "keithboice <69816300+keithboice@users.noreply.github.com>",
+	"bugs": {
+		"url": "https://github.com/keithboice/kb/issues"
+	},
+	"description": "kb repository and semantic versioning package",
+	"directories": {
+		"lib": "lib",
+		"bin": "bin",
+		"src": "src",
+		"test": "__tests__"
+	},
+	"files": [
+		"./",
+		"lib"
+	],
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/version#readme",
+	"keywords": [
+		"version"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@kb/version",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/keithboice/kb.git",
+		"directory": "packages/version"
+	},
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	},
+	"version": "0.0.6"
+}

@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yarn -&gt; new package" type="BashProRunConfiguration" folderName="utils">
+    <scriptContent>yarn init</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="startup script" type="BashProRunConfiguration" folderName="startup">
+    <scriptContent>yarn --version</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="yarn -&gt; latest version" run_configuration_type="BashProRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="core dependencies" run_configuration_type="BashProRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="yarn ide sdk updates" run_configuration_type="BashProRunConfiguration" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="new hygen generator + template" type="BashProRunConfiguration" folderName="automation" singleton="false">
+    <scriptContent>hygen init self &amp;&amp; hygen generator new $1 &amp;&amp; hygen $1 new $2 &amp;&amp; echo &quot;created $1 generator $2 action&quot;</scriptContent>
+    <option name="scriptParameters" value="$Prompt$ $Prompt$" />
+    <option name="scriptPath" value="$PROJECT_DIR$/packages/templates/lib/util/hygen_new_generator.sh" />
+    <option name="sourceType" value="snippet" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

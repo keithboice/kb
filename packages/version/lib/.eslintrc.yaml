@@ -1,0 +1,12 @@
+root: true
+extends:
+    - eslint:recommended
+    - plugin:prettier/recommended
+    - prettier
+    - prettier/prettier
+plugins:
+    - prettier
+    - jest
+rules:
+    max-len: "off"
+    node/no-unpublished-require: 0

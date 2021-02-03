@@ -1,0 +1,52 @@
+data:
+    author:
+        name: "Keith Boice"
+        email: "69816300+keithboice@users.noreply.github.com"
+        url: "https://github.com/keithboice"
+        concat: "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)"
+    paths:
+        main: "./dist/index.cjs"
+        bin: "./bin/cli.js"
+        directories:
+            - name: "bin"
+              path: "bin"
+            - name: "dist"
+              path: "dist"
+        files:
+            - name: "bin"
+              path: "bin/"
+            - name: "dist"
+              path: "dist/"
+    scripts:
+        test: 'echo "Error: run tests from root" && exit 1'
+    repository:
+        type: "git"
+        url: "https://github.com/keithboice/kb.git"
+        directory: "packages/{{name}}"
+    homepage: "https://keithboice.github.io/kb/tree/master/packages/{{name}}#readme"
+    bugs:
+        - url: "https://github.com/keithboice/kb/issues"
+    description: "@kb {{package_name}} package"
+    engines:
+        - node: ">=14.0.0"
+    license: MIT
+    private: false
+    type: "module"
+    exports:
+        import: "./dist/index.mjs"
+        require: "./dist/index.cjs"
+    publishConfig:
+        access: "public"
+
+templates:
+    mono:
+        - name: readme
+          path: packages/
+    packages:
+        - name: readme
+          path: packages/
+        - name: structure
+          path:
+    projects:
+        - name: readme
+          path: packages/

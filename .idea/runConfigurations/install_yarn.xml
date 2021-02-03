@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="install yarn" type="BashProRunConfiguration" folderName="utils">
+    <scriptContent>npm install -g yarn 
+npm install yarn</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

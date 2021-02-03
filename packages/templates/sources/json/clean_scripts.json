@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"clean:all": "eslint --config lib/.eslintrc.js --ignore-path lib/.cleanignore --quiet --color --cache --fix .",
+		"clean:css": "stylelint --config lib/.stylelintrc.js --cache --color --ignore-path lib/.cleanignore --quiet --fix '**/*.{css,scss,sass}'",
+		"clean:js": "eslint --config lib/js.eslintrc.js --ignore-path lib/.cleanignore --quiet --color --cache --env node --ext .js,.cjs,.mjs --fix tests/files",
+		"clean:pretty": "prettier-eslint '**/*.*' --write --eslint-config-path ./lib/.eslintrc.js --config ./lib/.prettierrc.js ",
+		"clean:es": "eslint --config lib/.eslintrc.js --ignore-path lib/.cleanignore --quiet --color --cache --fix .",
+		"clean:pkg": "prettier --write package.json && prettier --write '**/*/package.json"
+	}
+}

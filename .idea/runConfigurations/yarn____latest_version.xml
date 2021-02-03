@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yarn -&gt; latest version" type="BashProRunConfiguration" folderName="startup">
+    <option name="defaultInterpreter" value="bash" />
+    <scriptContent>yarn set version latest</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

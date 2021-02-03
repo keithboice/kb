@@ -1,0 +1,9 @@
+undecided:
+    - kb
+    - "@kb/build"
+    - "@kb/clean"
+    - "@kb/hook-post-install"
+    - "@kb/make-docs"
+    - "@kb/run"
+    - "@kb/test"
+    - "@kb/version"
