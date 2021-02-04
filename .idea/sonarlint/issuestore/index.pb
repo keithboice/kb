@@ -123,9 +123,6 @@ I
 packages/run/package.json,f/5/f533ee75a7004ed77449d1841596d2a7014c3faf
 =
 .editorconfig,6/2/626a747c8694eaae66f2afb3d1a745b045782c70
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 ;
 .yarnrc.yml,9/d/9da6c3f8f0ef45beafba161d8dd084500ea7d884
 M
@@ -454,8 +451,6 @@ h
 8packages/templates/sources/github/ISSUE_TEMPLATE/tech.md,e/4/e4eabfb0b36c2deec0d59418f33c0aed856f6f22
 U
 %packages/run/lib/grunt/util/uglify.js,f/d/fd46e362fc194e2f1add761c969a4de0887574ef
->
-.run/update.sh,a/d/ad9eb2e89402d21977236f7508ed1dd3ba1f44d5
 z
 J.idea/runConfigurations/utils____install_dependencies_globally__clean_.xml,6/b/6bcacb9e6e68205a007beeb9652a6a4021c2ff74
 ^
