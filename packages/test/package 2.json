@@ -1,0 +1,34 @@
+{
+	"author": "keithboice <69816300+keithboice@users.noreply.github.com>",
+	"bugs": {
+		"url": "https://github.com/keithboice/kb/issues"
+	},
+	"description": "kb jest preset",
+	"directories": {
+		"bin": "bin",
+		"dist": "dist"
+	},
+	"files": [
+		"cli.js",
+		"index.js",
+		"index.cjs",
+		"index.mjs"
+	],
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/test#readme",
+	"license": "MIT",
+	"main": "./dist/index.cjs",
+	"name": "test",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/keithboice/kb.git",
+		"directory": "packages/test"
+	},
+	"scripts": {
+		"test": "echo \"Error: run test from root\" && exit 1"
+	},
+	"type": "module",
+	"version": "0.0.6"
+}

@@ -1,1 +1,0 @@
-# @kb/hook-install
