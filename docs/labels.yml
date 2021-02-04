@@ -1,0 +1,77 @@
+# task labels
+# color scale 900
+- name: tag:action
+  description: will trigger a github action on the repo
+  color: 006064
+- name: tag:fix
+  description: A bug fix
+  color: b71c1c
+- name: tag:feat
+  description: A new feature
+  color: 1b5e20
+- name: tag:docs
+  description: A documentation change
+  color: 0d47a1
+- name: tag:style
+  description: A styles or design change
+  color: 4a148c
+- name: tag:refactor
+  description: A code change that neither fixes a bug nor adds a feature
+  color: f57f17
+- name: tag:perf
+  description: A code change that improves performance
+  color: 3e2723
+- name: tag:test
+  description: A change adding missing or correcting existing tests
+  color: e65100
+- name: tag:chore
+  description: A change to the build process, tools or libraries
+  color: 263238
+- name: tag:automated
+  description: Initiated by a github action
+  color: 78909c
+
+# release/branch types
+# color scale 700
+- name: branch:fix
+  description: A patch release
+  color: 00b8d4
+- name: branch:feature
+  description: A minor feature release
+  color: 0091ea
+- name: branch:release
+  description: A major breaking release
+  color: aa00ff
+- name: branch:bot
+  description: An automated maintenence relase
+  color: 3e2723
+- name: branch:chore
+  description: An automated maintenence relase
+  color: 00bfa5
+
+# task state
+# color scale 200,500,700
+- name: state:new
+  description: Not prioritized yet
+  color: a5d6a7
+- name: state:wip
+  description: Started
+  color: 4caf50
+- name: state:next
+  description: Prioritized
+  color: a5d6a7
+- name: state:done
+  description: Finished and can be closed
+  color: 2e7d32
+- name: state:blocked
+  description: Waiting on a dependency
+  color: e57373
+- name: state:question
+  description: Waiting for additional information
+  color: ffcdd2
+- name: state:wontfix
+  description: Will not be worked on
+  color: d32f2f
+- names: automerge
+  description: Will be automerged be action
+  color: ffffff

@@ -56,16 +56,17 @@
 	},
 	"dependencies": {
 		"@kb/build": "workspace:*",
-		"@kb/clean": "workspace:*",
-		"@kb/hook-commit": "workspace:*",
-		"@kb/hook-install": "workspace:*",
-		"@kb/make-docs": "workspace:*",
-		"@kb/run": "workspace:*",
-		"@kb/templates": "workspace:*",
-		"@kb/test": "workspace:*",
-		"@kb/version": "workspace:*",
-		"@typescript-eslint/eslint-plugin": "^4.14.2",
-		"@yarnpkg/cli": "^2.4.0",
-		"eslint": "^7.19.0"
+	  "@kb/clean": "workspace:*",
+	  "@kb/hook-commit": "workspace:*",
+	  "@kb/hook-install": "workspace:*",
+	  "@kb/make-docs": "workspace:*",
+	  "@kb/run": "workspace:*",
+	  "@kb/templates": "workspace:*",
+	  "@kb/test": "workspace:*",
+	  "@kb/version": "workspace:*",
+	  "@typescript-eslint/eslint-plugin": "^4.14.2",
+	  "@yarnpkg/cli": "^2.4.0",
+	  "commitizen": "^4.2.3",
+	  "eslint": "^7.19.0"
 	}
 }

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd2e88e1-9c1f-45bd-9022-23b15e881e31" name="BUG(kb-36) - \n [TECH] hook-commit package \n\n fixes # kb-36 \n\n 36 kb 0h 0m " comment="fix(36): bug fix">
+      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarnrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hook-commit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hook-commit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <list id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="feat(34): apply github repo defaults&#10;&#10;Fixes #34&#10;&#10;kb">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/git_new_subtree.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/action.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/chore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/feature.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/fix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/PULL_REQUEST_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/PULL_REQUEST_TEMPLATE/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/issue-branch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/labels.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/packages.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/packages.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/git-new_directory_as_repo.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_new_generator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_new_generator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_new_template.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_new_template.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/mac terminal change global node_npm packages path.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/node_set_global_path.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/mac terminal install nodejs latest.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/node_install_latest_version.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/mac terminal install pkg.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/pkg_install.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/new hygen generator.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/hygen_new_generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/stage yarn config.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn_stage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/yarn add.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn add.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/yarn path.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn path.run.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mocha Test" />
+        <option value="Shell script" />
+        <option value="Github Action" />
+        <option value="includes test" />
+        <option value="JavaScript Class" />
+        <option value="Function" />
+        <option value="CSS File" />
+        <option value="Yarn package no build.js.child.2" />
+        <option value="Yarn package no build.js.child.0" />
+        <option value="Yarn package no build.js.child.1" />
+        <option value="Yarn package no build" />
+        <option value="BashSupport Pro Bash" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+    <option name="OPTIONS">
+      <set>
+        <option value="SQUASH" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="keithboice &lt;69816300+keithboice@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1611619120" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/base" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1611701220" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.github/workflows" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1611701223" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397170" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1612397169" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/yo/generator-make-pkg" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397171" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1612397170" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/make-react-test/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397171" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1612397170" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/version/src/config" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397171" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612397170" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/make-frontend/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397171" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612397170" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/handle-config/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397172" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612397171" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/make-pkg/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397173" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1612397172" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/hydrate/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612397173" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612397172" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/fetch/src" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="fix/36-hook-commit_package" />
+                    <option name="lastUsedInstant" value="1612429561" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612423953" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
+                    <option name="lastUsedInstant" value="1612423741" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feat_17" />
+                    <option name="lastUsedInstant" value="1612320812" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1611631309" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="develop" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="keithboice" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="kb" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1na5c5ongTWO9vfZaWpM4IsUCHM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="HOTFIX_customHotfixCommitMessage_text" value="Tagging hotfix %name%" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RELEASE_customTagCommitMessage_text" value="Tagging version %name%" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/packages/prettier-config-kb/lib/prettier-config-kb.yml&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/.pnp.js&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/templates/README.md&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/generate-docs/lib/index.js&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/generate-docs/dist/index.js&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/clean/lib/configs/global-installs.sh&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/foo/dist/index.mjs&#10;/Users/dkb/Library/Mobile Documents/com~apple~CloudDocs/repos/packages/packages/foo/dist/index.js" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="RegExp&#10;TEXT" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="yarn:packages/fetch/src/package.json:gulp" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/runConfigurations.scripts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="yarn:packages/clean/package.json:eslint" />
+    <property name="node.js.selected.package.standard" value="yarn:.yarn/unplugged/node-gyp-npm-7.1.2-002c5798eb/node_modules/node-gyp/package.json:standard" />
+    <property name="node.js.selected.package.stylelint" value="/usr/local/lib/node_modules/stylelint" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="/usr/local/lib/node_modules/mocha" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.npm-packages/lib/node_modules/prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.splitter.proportion" value="0.16062176" />
+    <property name="tasks.open.task.update.state.enabled" value="true" />
+    <property name="ts.external.directory.path" value="yarn:packages/clean/package.json:typescript" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+      <force-push-target remote-path="origin" branch="feat_17" />
+      <force-push-target remote-path="origin" branch="feat/34-apply_github_repo_defaults" />
+    </force-push-targets>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea/runConfigurations.scripts" />
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE" />
+      <recent name="$PROJECT_DIR$/packages/yo/generators/generator-make" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea/runConfigurations" />
+      <recent name="$PROJECT_DIR$/.run/lib" />
+      <recent name="$PROJECT_DIR$/.run/git" />
+      <recent name="$PROJECT_DIR$/packages/hook-install/src" />
+      <recent name="$PROJECT_DIR$/packages/clean/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="BashSupport Pro.new directory as repo">
+    <configuration default="true" type="BashProRunConfiguration">
+      <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling log-folder="../../../../../../../." />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="aws.lambda" factoryName="Local">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="clean:all" type="js.build_tools.npm" singleton="false">
+      <package-json value="$PROJECT_DIR$/packages/clean/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean:all" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="clean:css" type="js.build_tools.npm" singleton="false">
+      <package-json value="$PROJECT_DIR$/packages/clean/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean:css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>PATTERN</test-kind>
+      <test-pattern>*.spec.js</test-pattern>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="BashSupport Pro.rm all directories by name" />
+      <item itemvalue="BashSupport Pro.yarn test" />
+      <item itemvalue="BashSupport Pro.install yarn" />
+      <item itemvalue="BashSupport Pro.yarn -&gt; new package" />
+      <item itemvalue="BashSupport Pro.new directory as repo" />
+      <item itemvalue="BashSupport Pro.yarn add core dependencies" />
+      <item itemvalue="BashSupport Pro.startup script" />
+      <item itemvalue="BashSupport Pro.yarn ide sdk updates" />
+      <item itemvalue="BashSupport Pro.yarn -&gt; latest version" />
+      <item itemvalue="BashSupport Pro.make-docs" />
+      <item itemvalue="BashSupport Pro.@kb/make-docs" />
+      <item itemvalue="npm.clean:all" />
+      <item itemvalue="npm.clean:css" />
+      <item itemvalue="npm.make:docs:dev" />
+      <item itemvalue="npm.version:mono:change" />
+      <item itemvalue="npm.clean:es" />
+      <item itemvalue="npm.utils:mono:rebuild" />
+      <item itemvalue="npm.make:docs:start" />
+      <item itemvalue="npm.clean:pretty" />
+      <item itemvalue="npm.make:docs:build" />
+      <item itemvalue="npm.clean:js" />
+      <item itemvalue="npm.clean:pkg" />
+      <item itemvalue="npm.utils -&gt; install dependencies globally (clean)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <branch name="feat/34-apply_github_repo_defaults" repository="$PROJECT_DIR$" />
+      <changelist id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="" />
+      <created>1611615438739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <running>true</running>
+      <updated>1612429560415</updated>
+      <workItem from="1611977978509" duration="276000" />
+      <workItem from="1611978496211" duration="7059000" />
+      <workItem from="1611986241454" duration="231000" />
+      <workItem from="1611988136874" duration="17577000" />
+      <workItem from="1612146352753" duration="12706000" />
+      <workItem from="1612386240707" duration="18182000" />
+      <workItem from="1612405749031" duration="4073000" />
+      <workItem from="1612423740024" duration="4816000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1611625035637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611625035637</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1611628141323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611628141323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1611634557195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611634557196</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1611647526669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611647526670</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1611660113005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611660113005</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1611660453407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611660453407</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1611700151745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611700151745</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1611702143171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611702143171</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1611712100880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611712100881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial commit">
+      <created>1611712873258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611712873258</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial commit">
+      <created>1611713186778</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611713186778</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1611714655063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611714655063</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial commit">
+      <created>1611721536484</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611721536485</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial commit">
+      <created>1611722113864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611722113864</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat(17) fixes #17">
+      <created>1612321284032</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612321284032</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat(17) fixes #17">
+      <created>1612332329805</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612332329805</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat(17) fixes #17">
+      <created>1612333550616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612333550616</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feature(99) fixes #99">
+      <created>1612349788630</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612349788630</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat(34)&#10;&#10;fixes #34&#10;&#10;feat/34-apply_github_repo_defaults">
+      <created>1612397329658</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612397329659</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat/34-apply_github_repo_defaults&#10;&#10;fixes #34">
+      <created>1612398550401</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1612398550401</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat/34-apply_github_repo_defaults&#10;&#10;fixes #34">
+      <created>1612401196692</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612401196693</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat(34): apply github repo defaults&#10;&#10;Fixes #34&#10;&#10;kb">
+      <created>1612406911100</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612406911101</updated>
+    </task>
+    <task active="true" id="kb-36" summary="[TECH] hook-commit package">
+      <branch name="feat/34-apply_github_repo_defaults" repository="$PROJECT_DIR$" original="true" />
+      <branch name="fix/36-hook-commit_package" repository="$PROJECT_DIR$" />
+      <changelist id="dd2e88e1-9c1f-45bd-9022-23b15e881e31" name="BUG(kb-36) - \n [TECH] hook-commit package \n\n fixes # kb-36 \n\n 36 kb 0h 0m " comment="" />
+      <created>1612407272000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/keithboice/kb/issues/36</url>
+      <option name="number" value="36" />
+      <option name="presentableId" value="kb-36" />
+      <option name="project" value="kb" />
+      <option name="type" value="BUG" />
+      <updated>1612429560415</updated>
+      <workItem from="1612409946900" duration="13474000" />
+      <workItem from="1612429560832" duration="473000" />
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <option name="changelistNameFormat" value="${taskType}(${id}): ${summary}" />
+    <option name="branchNameFormat" value="${taskType}/${id}-${summary}" />
+    <servers>
+      <GitHub shared="true" url="https://github.com">
+        <commitMessageFormat>${taskType}(${id}): ${summary}
+
+Fixes #{id}
+Number {number}
+@keithboice
+
+{project} {time} ({time spent on task})</commitMessageFormat>
+        <option name="repoAuthor" value="keithboice" />
+        <option name="repoName" value="kb" />
+        <option name="shouldFormatCommitMessage" value="true" />
+      </GitHub>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.t" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <confirmRemoveEmptyChangelist value="2" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LIMIT_HISTORY" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/package_base" />
+      <path value="$PROJECT_DIR$/packages/package_base" />
+      <path value="$PROJECT_DIR$/packages/eslint-config" />
+      <path value="$PROJECT_DIR$/packages/eslint-config.bk" />
+      <path value="$PROJECT_DIR$/packages/eslint-config-kb/package_estlint_config" />
+      <path value="$PROJECT_DIR$/packages/eslint-config-kb" />
+      <path value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE" />
+      <path value="$PROJECT_DIR$/.github/workflows" />
+      <path value="$PROJECT_DIR$/conf/grunt" />
+      <path value="$PROJECT_DIR$/conf/templates" />
+      <path value="$PROJECT_DIR$/docs2" />
+      <path value="$PROJECT_DIR$/packages/base" />
+      <path value="$PROJECT_DIR$/packages/dot-github" />
+      <path value="$PROJECT_DIR$/../.github" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.github" />
+      <path value="$PROJECT_DIR$/.idea" />
+      <path value="$PROJECT_DIR$/.run" />
+      <path value="$PROJECT_DIR$/conf" />
+      <path value="$PROJECT_DIR$/docs" />
+      <path value="$PROJECT_DIR$/conf.bk/grunt" />
+      <path value="$PROJECT_DIR$/conf.bk/templates" />
+      <path value="$PROJECT_DIR$/berry" />
+      <path value="$PROJECT_DIR$/packages/run-generate/build" />
+      <path value="$PROJECT_DIR$/packages/fetch/src" />
+      <path value="$PROJECT_DIR$/packages/handle-config/src" />
+      <path value="$PROJECT_DIR$/packages/hydrate/src" />
+      <path value="$PROJECT_DIR$/packages/make-frontend/src" />
+      <path value="$PROJECT_DIR$/packages/make-pkg/src" />
+      <path value="$PROJECT_DIR$/packages/make-react-test/src" />
+      <path value="$PROJECT_DIR$/packages/version/src/config" />
+      <path value="$PROJECT_DIR$/packages/yo/generator-make-pkg" />
+      <path value="$PROJECT_DIR$/docs/gitGetter" />
+    </ignored-roots>
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="feat(17) fixes #17" />
+    <MESSAGE value="rebasing to main" />
+    <MESSAGE value="feature(99) fixes #99" />
+    <MESSAGE value="feat(34)&#10;&#10;fixes #34&#10;&#10;feat/34-apply_github_repo_defaults" />
+    <MESSAGE value="feat/34-apply_github_repo_defaults&#10;&#10;fixes #34" />
+    <MESSAGE value="feat(34): apply github repo defaults&#10;&#10;Fixes #34&#10;&#10;kb" />
+    <MESSAGE value="feat(36): hook-commit package &#10;&#10;working on it." />
+    <MESSAGE value="fix(36): bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(36): bug fix" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint log-message="true" log-stack="true" type="javascript-exception">
+          <properties uncaughtOnly="true" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

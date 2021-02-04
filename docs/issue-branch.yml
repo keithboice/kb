@@ -1,0 +1,4 @@
+silent: true
+branchName: "${issue.name}/${issue.number}-${issue.title}"
+autoCloseIssue: true
+openPR: true

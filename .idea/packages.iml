@@ -24,22 +24,16 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/templates/sources/.archive" />
       <excludeFolder url="file://$MODULE_DIR$/packages/base" />
       <excludeFolder url="file://$MODULE_DIR$/packages/run/lib/hygen" />
-      <excludeFolder url="file://$MODULE_DIR$/.vscode" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/cmd-clean.bk" />
       <excludeFolder url="file://$MODULE_DIR$/packages/version/src/.archive" />
-      <excludePattern pattern=".yarn/*" />
-      <excludePattern pattern="*.run" />
-      <excludePattern pattern=".run/*" />
-      <excludePattern pattern=".idea/*" />
-      <excludePattern pattern=".github/*" />
-      <excludePattern pattern=".archive/*" />
+      <excludePattern pattern="archive/*" />
       <excludePattern pattern="*.bk" />
       <excludePattern pattern="node_modules/*" />
-      <excludePattern pattern=".git/*" />
       <excludePattern pattern=".DS_Store" />
       <excludePattern pattern="/**/*/dist" />
       <excludePattern pattern="dist" />
       <excludePattern pattern="/dist/" />
+      <excludePattern pattern="*.icloud" />
     </content>
     <content url="file://$MODULE_DIR$/.yarn" />
     <orderEntry type="inheritedJdk" />
