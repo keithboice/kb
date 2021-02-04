@@ -1,0 +1,28 @@
+contact_links:
+    - name: fix
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
+      about: A bug or defect
+      title: "[BUG] title"
+      labels: branch:fix,tag:fix
+      assignees: "keithboice"
+
+    - name: feature
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
+      about: A new feature or enhancement
+      title: "[FEAT] title"
+      labels: tag:feat,branch:feat
+      assignees: "keithboice"
+
+    - name: chore
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
+      about: A non-functional requirement on technical task
+      title: "[CHORE] title"
+      labels: tag:chore,branch:chore
+      assignees: "keithboice"
+
+    - name: action
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
+      about: A github action or automated task
+      title: "[BOT] trigger the <action> action"
+      labels: tag:action,branch:bot,tag:automated
+      assignees: "octocat"

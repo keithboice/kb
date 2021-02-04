@@ -5,7 +5,13 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
+    - package-ecosystem: "yarn"
+      directory: "/" # Location of package manifests
+      schedule:
+          interval: "daily"
+      assignees:
+        - "bot"
+      labels:
+        - "automerge"
+        - "tag:automated"
+        - "branch:bot"

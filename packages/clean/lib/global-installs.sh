@@ -1,0 +1,3 @@
+#!/bin/bash
+
+npm install -g @types/eslint @types/eslint-plugin-prettier @types/prettier eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier eslint-config-xo eslint-plugin-ava eslint-plugin-eslint-comments eslint-plugin-html eslint-plugin-jest eslint-plugin-jest-formatting eslint-plugin-json eslint-plugin-markdown eslint-plugin-no-use-extend-native eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-unicorn eslint-plugin-yaml eslint-plugin-yml prettier stylelint stylelint-config-idiomatic-order stylelint-config-standard stylelint-order yaml-eslint-parser

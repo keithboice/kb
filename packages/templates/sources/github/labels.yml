@@ -1,0 +1,71 @@
+# task types
+# color scale 900
+- name: action
+  description: will trigger a github action on the repo
+  color: 006064
+- name: fix
+  description: a bug fix
+  color: b71c1c
+- name: feat
+  description: a new feature
+  color: 1b5e20
+- name: docs
+  description: documentation only changes
+  color: 0d47a1
+- name: style
+  description: changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+  color: 4a148c
+- name: refactor
+  description: a code change that neither fixes a bug nor adds a feature
+  color: f57f17
+- name: perf
+  description: a code change that improves performance
+  color: 3e2723
+- name: test
+  description: adding missing or correcting existing tests
+  color: e65100
+- name: chore
+  description: changes to the build process or auxiliary tools and libraries such as documentation generation
+  color: 263238
+- name: tag:bot
+  description: reserved. Initiated by a github action
+  color: 263238
+
+# release types
+# color scale 600
+- name: rel:fix
+  description: patch Release
+  color: f44336
+- name: rel:feat
+  description: minor Feature Release
+  color: 4caf50
+- name: rel:perf
+  description: major Breaking Release
+  color: 2196f3
+- name: rel:bot
+  description: automated Maintenence Relase
+  color: 546e7a
+
+# task state
+# color scale 200
+- name: st:wip
+  description: work in progress
+  color: a5d6a7
+- name: st:next
+  description: in the backlog and will be worked on
+  color: c8e6c9
+- name: st:done
+  description: finished the task
+  color: 66bb6a
+- name: st:blocked
+  description: waiting on a dependency
+  color: ffcc80
+- name: st:question
+  description: have a question that needs to be answered or it will block
+  color: fff59d
+
+# task attributes
+# color scale 400
+- name: tag:automated
+  description: reserved. Initiated by a github action
+  color: 78909c

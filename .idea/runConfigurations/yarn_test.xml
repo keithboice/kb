@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yarn test" type="BashProRunConfiguration" folderName="utils">
+    <option name="interpreterPath" value="/Users/dkb/.npm-packages/lib/node_modules/yarn/bin/yarn" />
+    <scriptContent>yarn --version</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

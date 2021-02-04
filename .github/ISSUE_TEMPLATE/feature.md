@@ -1,9 +1,9 @@
 ---
-name: Feature
-about: New feature and enhancement stories
+name: feature
+about: A new feature or enhancement
 title: "[FTR] title"
-labels: ''
-assignees: ''
+labels: feat,branch:feat
+assignees: keithboice
 
 ---
 

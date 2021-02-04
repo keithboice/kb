@@ -1,0 +1,51 @@
+{
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
+	"bin": "./bin/cli.js",
+	"bugs": {
+		"url": "https://github.com/keithboice/kb/issues"
+	},
+	"dependencies": {
+		"app-root-path": "^3.0.0",
+		"commander": "^7.0.0",
+		"handlebars": "^4.7.6"
+	},
+	"description": "make-docs",
+	"directories": {
+		"bin": "bin",
+		"dist": "dist",
+		"man": "man",
+		"lib": "lib"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"exports": {
+		"default": "./dist/index.js",
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.cjs"
+	},
+	"files": [
+		"dist",
+		"bin"
+	],
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/make-docs#readme",
+	"license": "MIT",
+	"main": "dist/index.js",
+	"module": "dist/index.cjs",
+	"name": "@kb/make-docs",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git",
+		"directory": "packages/make-docs"
+	},
+	"scripts": {
+		"test": "echo \"Error: run test from root\" && exit 1",
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"start": "node src/index.js"
+	},
+	"version": "0.0.6"
+}

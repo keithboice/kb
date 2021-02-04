@@ -1,4 +1,4 @@
 silent: true
-branchName: "feat_${issue.number}"
-autoCloseIssue: false
+branchName: "${issue.name}/${issue.number}-${issue.title}"
+autoCloseIssue: true
 openPR: true

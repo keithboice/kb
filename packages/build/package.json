@@ -1,0 +1,37 @@
+{
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
+	"bin": "./bin/cli.js",
+	"bugs": {
+		"url": "https://github.com/keithboice/kb/issues"
+	},
+	"dependencies": {
+		"@rollup/plugin-commonjs": "^17.1.0",
+		"@rollup/plugin-node-resolve": "^11.1.1",
+		"app-root-path": "^3.0.0",
+		"commander": "^7.0.0",
+		"rollup": "^2.38.4",
+		"rollup-plugin-node-polyfills": "^0.2.1"
+	},
+	"description": "build",
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/make-docs#readme",
+	"license": "MIT",
+	"main": "rollup.config.js",
+	"name": "@kb/build",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git",
+		"directory": "packages/build"
+	},
+	"scripts": {
+		"test": "echo \"Error: run test from root\" && exit 1",
+		"build": "rollup -c",
+		"dev": "rollup -c -w"
+	},
+	"version": "0.0.6"
+}

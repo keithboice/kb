@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yarn -&gt; new dependency" type="BashProRunConfiguration" folderName="utils">
+    <option name="interpreterPath" value="/Users/dkb/.npm-packages/lib/node_modules/yarn/bin/yarn.js" />
+    <scriptContent>yarn add $1</scriptContent>
+    <option name="scriptParameters" value="$Prompt$" />
+    <option name="sourceType" value="snippet" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="BashV5" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

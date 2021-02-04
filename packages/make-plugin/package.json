@@ -1,0 +1,38 @@
+{
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
+	"bin": "./index.js",
+	"bugs": {
+		"url": "https://github.com/keithboice/kb/issues"
+	},
+	"description": "plugin",
+	"directories": {},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"files": [
+		"./"
+	],
+	"homepage": "https://github.com/keithboice/kb/tree/master/packages/plugin#readme",
+	"license": "MIT",
+	"main": "./index.js",
+	"module": "./index.js",
+	"name": "@kb/plugin",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git",
+		"directory": "packages/plugin"
+	},
+	"scripts": {
+		"test": "echo \"Error: run test from root\" && exit 1",
+		"start": "node ./index.js"
+	},
+	"version": "0.0.6",
+	"dependencies": {
+		"app-root-path": "^3.0.0",
+		"commander": "^7.0.0",
+		"handlebars": "^4.7.6"
+	}
+}
