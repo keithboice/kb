@@ -8,42 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2e88e1-9c1f-45bd-9022-23b15e881e31" name="BUG(kb-36) - \n [TECH] hook-commit package \n\n fixes # kb-36 \n\n 36 kb 0h 0m " comment="fix(36): bug fix">
-      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarnrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/hook-commit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hook-commit/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
-    <list id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="feat(34): apply github repo defaults&#10;&#10;Fixes #34&#10;&#10;kb">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/git_new_subtree.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/action.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/chore.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/feature.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/ISSUE_TEMPLATE/fix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/PULL_REQUEST_TEMPLATE/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/PULL_REQUEST_TEMPLATE/default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/issue-branch.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/labels.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/packages.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/packages.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/git-new_directory_as_repo.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_new_generator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_new_generator.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/lib/hygen_new_template.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/hygen_new_template.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/mac terminal change global node_npm packages path.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/node_set_global_path.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/mac terminal install nodejs latest.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/node_install_latest_version.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/mac terminal install pkg.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/pkg_install.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/new hygen generator.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/hygen_new_generator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/stage yarn config.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn_stage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.scripts/update.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/yarn add.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn add.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/yarn path.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn path.run.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd2e88e1-9c1f-45bd-9022-23b15e881e31" name="BUG(kb-36) - \n [TECH] hook-commit package \n\n fixes # kb-36 \n\n 36 kb 0h 0m " comment="fix(36): bug fix" />
+    <list id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="feat(34): apply github repo defaults&#10;&#10;Fixes #34&#10;&#10;kb" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -504,17 +470,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="BashSupport Pro.make-docs" />
+      <item itemvalue="BashSupport Pro.new hygen generator + template" />
+      <item itemvalue="BashSupport Pro.stage yarn config" />
+      <item itemvalue="BashSupport Pro.@kb/make-docs" />
+      <item itemvalue="BashSupport Pro.yarn add core dependencies" />
+      <item itemvalue="BashSupport Pro.startup script" />
+      <item itemvalue="BashSupport Pro.yarn ide sdk updates" />
+      <item itemvalue="BashSupport Pro.yarn -&gt; latest version" />
+      <item itemvalue="BashSupport Pro.yarn -&gt; new dependency" />
+      <item itemvalue="BashSupport Pro.yarn path" />
       <item itemvalue="BashSupport Pro.rm all directories by name" />
       <item itemvalue="BashSupport Pro.yarn test" />
       <item itemvalue="BashSupport Pro.install yarn" />
       <item itemvalue="BashSupport Pro.yarn -&gt; new package" />
       <item itemvalue="BashSupport Pro.new directory as repo" />
-      <item itemvalue="BashSupport Pro.yarn add core dependencies" />
-      <item itemvalue="BashSupport Pro.startup script" />
-      <item itemvalue="BashSupport Pro.yarn ide sdk updates" />
-      <item itemvalue="BashSupport Pro.yarn -&gt; latest version" />
-      <item itemvalue="BashSupport Pro.make-docs" />
-      <item itemvalue="BashSupport Pro.@kb/make-docs" />
       <item itemvalue="npm.clean:all" />
       <item itemvalue="npm.clean:css" />
       <item itemvalue="npm.make:docs:dev" />
@@ -527,6 +497,9 @@
       <item itemvalue="npm.clean:js" />
       <item itemvalue="npm.clean:pkg" />
       <item itemvalue="npm.utils -&gt; install dependencies globally (clean)" />
+      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal change global node/npm packages path" />
+      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install nodejs latest" />
+      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install pkg" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -716,6 +689,7 @@
       <updated>1612429560415</updated>
       <workItem from="1612409946900" duration="13474000" />
       <workItem from="1612429560832" duration="473000" />
+      <workItem from="1612430265800" duration="633000" />
     </task>
     <option name="localTasksCounter" value="30" />
     <option name="changelistNameFormat" value="${taskType}(${id}): ${summary}" />
