@@ -1,11 +1,10 @@
 name: branch
-
 on:
     issues:
         types:
-          - opened
-          - edited
-    workflow_dispatch:
+            - opened
+            - reopened
+            - edited
 
 jobs:
     branch:

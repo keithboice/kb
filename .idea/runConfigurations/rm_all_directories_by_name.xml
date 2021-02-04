@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="rm all directories by name" type="BashProRunConfiguration" folderName="utils" singleton="false">
+    <scriptContent>find . -type d -name &quot;$1&quot; -exec rm -rf {} +</scriptContent>
+    <option name="scriptParameters" value="$Prompt$" />
+    <option name="sourceType" value="snippet" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

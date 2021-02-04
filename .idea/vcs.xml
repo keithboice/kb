@@ -24,13 +24,5 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/fetch/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/handle-config/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/hydrate/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/make-frontend/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/make-pkg/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/make-react-test/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/version/src/config" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/yo/generator-make-pkg" vcs="Git" />
   </component>
 </project>
