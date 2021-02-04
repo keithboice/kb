@@ -3,8 +3,8 @@ name: action
 <<<<<<< HEAD
 about: Will trigger a github action on the repo
 <<<<<<< HEAD
-title: "[ACT] trigger the <action> action"
-labels: action, rel:bot, tag:automated
+title: "[BOT] <action>"
+labels: action, branch:bot, tag:automated
 assignees: bot
 =======
 =======
@@ -18,3 +18,10 @@ assignees: ''
 ---
 
 
+# � Bot / Automated
+
+### Description
+
+<pre><code>
+This is an automated Github action.
+</code></pre>
