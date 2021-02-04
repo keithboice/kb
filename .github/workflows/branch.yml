@@ -2,8 +2,9 @@ name: branch
 
 on:
     issues:
-        types: [opened,edited]
-
+        types:
+          - opened
+          - edited
     workflow_dispatch:
 
 jobs:
@@ -11,7 +12,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - name: Create Issue Branch
+            - name: Create Branch
               uses: robvanderleek/create-issue-branch@master
               env:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
