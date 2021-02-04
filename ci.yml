@@ -1,0 +1,20 @@
+name: ci
+
+on:
+    pull_request:
+        types:
+            - opened
+    push:
+    workflow_dispatch:
+
+jobs:
+    ci:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 14
+            - run: npm install yarn
+            #- run: npm install

@@ -1,0 +1,17 @@
+name: branch
+on:
+    issues:
+        types:
+            - opened
+            - reopened
+            - edited
+
+jobs:
+    branch:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Create Branch
+              uses: robvanderleek/create-issue-branch@master
+              env:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
