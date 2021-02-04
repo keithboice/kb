@@ -31,16 +31,10 @@ Qpackages/templates/sources/.archive/_templates/generator/new/project-readme.ejs
 Npackages/templates/sources/.archive/_templates/generator/new/mono-readme.ejs.t,7/c/7c6ea079cb5d88218de129c70ce2dad90b1480b5
 ~
 Npackages/templates/sources/.archive/_templates/readme/new/package-readme.ejs.t,c/b/cb2443b0d7a6bc9fe51dbd8d1a4da239a60a88d7
-J
-packages/version/README.md,2/0/202277c401eb6dbf1eb476a98678dc9937f0ff6c
-K
-packages/version/LICENSE.md,9/0/90b0c904b629662c7fdd6ea909a11782b4de24ce
 h
 8packages/templates/sources/project-package.json.template,1/c/1cf2e421232d9daf99ff3f56ecff0e6f4b3a32ff
 e
 5packages/templates/sources/mono-package.json.template,0/a/0a96036b8c9b62e6211173c0c1406c3287134d97
-S
-#packages/hook-pre-commit/bin/cli.js,8/0/804a453d49cd80d371d63cbba32924c460722834
 a
 1packages/templates/sources/package-structure.json,1/2/12d0cecdd14ef4fdf5a8dc3e525669ddbde6e421
 U
@@ -89,8 +83,6 @@ R
 "packages/templates/sources/LICENSE,8/7/878d069fbd0b141c1b7f904cadee8cc84c24c2c6
 L
 packages/templates/README.md,0/b/0b0e865ae8c9ddb31b7467f3f693557294815149
-W
-'packages/hook-post-install/lib/index.js,1/b/1b1a2b78073deb4a1207f1fda722995c8e1fff3a
 o
 ?packages/templates/sources/packages/scaffolding/root/bin/cli.js,b/9/b9f513ac2cfe06ed564afc34e18f76dd571b41d1
 q
@@ -117,8 +109,6 @@ K
 packages/clean/lib/index.js,8/8/88968d1467ac6521f85332f3f841362a0e0ab68e
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-W
-'packages/hook-post-install/package.json,4/3/43982cd0f6584ce6282106620548860155c8cca6
 O
 packages/make-docs/package.json,5/2/52b039183ccd25de95e9c7cdd206c58b11b1d8c8
 J
@@ -144,16 +134,10 @@ G
 packages/test/README.md,6/2/625443deade0e6b9b87d2facd8ebe0ef00f043f4
 8
 start.js,7/1/714ba0644640b28429ef8edf2bf15bd7510ce83a
-7
-.yarnrc,a/5/a5bb330e57fbb7d374f6c02e8f2d3f6f2fa5aac3
 N
 packages/make-docs/lib/main.js,5/6/56efccac5ee94f89c6968f5f40bd220350313560
 M
 packages/make-docs/src/cli.js,0/e/0e3c04b44a5043576c465e3c10c962fee92b7e20
-S
-#packages/make-docs/rollup.config.js,5/1/5116bb3e91e43a8e13371936b7cf11a408a40547
-U
-%packages/hook-pre-commit/package.json,0/4/047b4d8319ab25d83f42b6e801cbe5db1336b5a9
 K
 packages/build/package.json,a/b/ab3b2cd78476e95851e1ccef19d3851f55ffcf95
 O
@@ -162,12 +146,6 @@ N
 packages/make-docs/src/main.js,5/9/59c271842b42df328de2a165d71df8d057e77702
 O
 packages/make-docs/src/index.js,c/8/c8d10b467d98787273bbece30133b6b9e0cedce0
-L
-packages/plugin/package.json,a/f/af87e869685bcbf99b827c7ffdd303b96d9348fd
-G
-packages/plugin/main.js,3/e/3e462e8aec424cd947a0236cf9347850442229c0
-G
-packages/plugin/test.js,d/8/d8eb113258d2fd0bbef39cbe3d74a07624551d4d
 S
 #packages/clean/tests/files/test.css,3/9/392449e2c320b86a5cb55103d1366be3a5d3d30c
 U
@@ -190,20 +168,12 @@ Q
 !packages/clean/lib/.prettierrc.js,3/7/376433313500b7202614fd5ff09b6523eea97f27
 N
 packages/clean/.stylelintcache,a/3/a33b27d95e53f0b036cb53d1a579205603147844
-H
-packages/plugin/index.js,9/2/92494b0755a1ef1130058bcc19261ac41554338b
->
-yarn-error.log,f/3/f3b7336f891b6569b2fd4a67fd391439c7eb76e3
 9
 	yarn.lock,5/3/53585a096fe3a3b96321113856ae62602995a33b
 I
 packages/clean/lib/cli.js,5/4/5470ac770b937d17b9d409601c59354c2be87983
 ?
 .github/LICENSE,d/a/da4c1afe392d9bc38dc460c17f0fbaa30b59a9f9
-F
-packages/version/.czrc,1/2/120039c59e7c520b1f9eafdc2de9dd346f0b16d5
-S
-#packages/version/lib/.eslintrc.yaml,1/8/18cacfeba0e142b23c31c57fc9f969b5a000000c
 Z
 *packages/run/lib/assets/ignores/.gitignore,6/4/646358213859c2273b1e7bfb96d721dfae6a4116
 `
@@ -212,18 +182,12 @@ G
 packages/run/.gitignore,0/e/0e29c799fe7460cb5ec19d756544cbc4983bb1a6
 f
 6packages/templates/sources/github/gitignore/.gitignore,7/7/77272186b82f2064c195c87b710282e4f3cb4621
-H
-packages/test/.gitignore,e/2/e2da16f4e9f4ddcee7d5e71148ff3aba523c74a9
-K
-packages/version/.gitignore,9/6/9686ccb7fdab7b7cc44be4bea6a7578f33b9ae20
 7
 .pnp.js,e/3/e3b6edd46cbd2af862caba2064ecbe330ad40ab1
 Y
 ).idea/runConfigurations/_kb_make_docs.xml,b/5/b5086f411e8e339b8e4ae0af0c2602d992853441
 o
 ?.idea/runConfigurations/_template__of_BashConfigurationType.xml,4/7/4710367b80593348225e1c611e9269ba948eb92f
-K
-.yarn/versions/aa9e9548.yml,6/4/6474bf5a3ed00d6b22b07d52788bebf8f5a598b3
 P
  .github/ISSUE_TEMPLATE/action.md,9/f/9fe6c53e3e3fd8e023cbd208d35df36c593c4de5
 j
@@ -238,8 +202,6 @@ L
 .github/workflows/branch.yml,b/8/b8d2e0e4d889c601f3506e9e8ce0d28597a177ac
 f
 6packages/templates/sources/github/workflows/branch.yml,0/f/0f64d82fc58cc6d7cd2b3f571e84b16854e8c004
-M
-.github/ISSUE_TEMPLATE/bug.md,b/4/b4ddedf3e3f0c18781daaf4fc53400302496618f
 g
 7packages/templates/sources/github/ISSUE_TEMPLATE/bug.md,f/d/fd53987d8ea989d1dfbed7225726d6b7030e3304
 H
@@ -260,8 +222,6 @@ Q
 !packages/clean/tests/files/cli.js,4/4/447ba7d48de81c05383f9391693dc841045769c8
 G
 packages/run/bin/cli.js,f/a/fa4a5d4294c3018509b3ad5b52bf8c86a04c32d0
-H
-packages/test/bin/cli.js,5/6/569a8d22c1b9bcb04ef884aef7e606b70b96d8f7
 j
 :packages/run/lib/assets/md/destructured/CODE_OF_CONDUCT.md,b/b/bbf38ae9cbff4d7062cb08c50869f5774c50f8fd
 T
@@ -292,8 +252,6 @@ b
 2packages/run/lib/assets/md/blocks/diagram_cloud.md,4/1/414aa39d1a13f20517cfc2521c6a38ad19c52f37
 h
 8packages/run/lib/hygen/assets/md/blocks/diagram_cloud.md,3/3/33af61165c2f5f3d17ba47a9236f94ca61b741ef
-N
-.github/ISSUE_TEMPLATE/docs.md,a/4/a4d3476fda65891ce2fc30c0d2bd13998fec0277
 h
 8packages/templates/sources/github/ISSUE_TEMPLATE/docs.md,0/6/06e7b20213748acc1f35c5e79b289a1498c4ea1e
 a
@@ -312,8 +270,6 @@ d
 4packages/run/lib/assets/md/blocks/getting_started.md,5/d/5d231d53e005f478fa21c14386df406a249f8ad9
 j
 :packages/run/lib/hygen/assets/md/blocks/getting_started.md,c/c/ccb20691a988a2c9b807de28b132258582ab938e
-[
-+packages/version/__tests__/git-flow.test.js,5/d/5d70727e147cb183c8f267a05d9f268af7481c78
 ^
 .packages/run/lib/assets/sh/git_fetch_rebase.sh,c/b/cb89262e157fd8072fae2c2ac9e7dda0e6755cb0
 d
@@ -362,22 +318,14 @@ O
 packages/run/lib/hygen/index.js,8/4/846309a1f5375b19d79b813103122846a64ace50
 F
 packages/test/index.js,f/7/f7cb8ccada0f05ac157a68d52bfd12ac3d844336
-I
-packages/version/index.js,a/c/ac5aa9626b4832d1ae8bfe4936cc5cea892fcc69
 C
 tests/index.test.js,3/c/3c41ab34e2f6ae47f5cbaa99190558d48be62a6f
 X
 (.idea/runConfigurations/install_yarn.xml,2/0/20d120f3bc35f7c5a7e6bee54054871840e19da2
-K
-.yarn/sdks/integrations.yml,b/b/bb0d06b8dc1abf869b3d1c458d5a7132da307a81
 W
 'packages/run/lib/assets/js/jest.test.js,5/e/5e70a52252fb1963a981317084c8fb4ef0f3eb68
 ]
 -packages/run/lib/hygen/assets/js/jest.test.js,d/1/d13a8ff30c4c0573a8d9dd73b71859cc8ba19f20
-P
- packages/test/lib/jest-preset.js,7/4/74c0130fa884f8aa3522535a05511dbc8cb7e3a3
-[
-+packages/test/__tests__/jest-preset.test.js,1/d/1d9220102015788a0d07a8cd7ca183553d7cc29a
 U
 %packages/run/lib/grunt/util/jshint.js,2/e/2e16705adc937879deb4e4acf2feb1ac74702f3a
 J
@@ -398,8 +346,6 @@ X
 (packages/run/lib/hygen/assets/md/LICENSE,1/4/14dc093aa61b59bd06c15e4c21aa5f2cbb4198af
 G
 packages/run/LICENSE.md,0/c/0c8ecbdfac92de325e428266d552d67a6a5c359d
-H
-packages/test/LICENSE.md,0/4/041c93c7b1883c2370711a2e41f0ae388c9aa2d6
 Z
 *packages/run/lib/assets/md/blocks/links.md,8/f/8faee9f07fe7570990932e566ae4f84820d34538
 `
@@ -450,12 +396,6 @@ Lpackages/run/lib/hygen/_templates/generator/with-prompt/package-readme.ejs.t,4
 Kpackages/run/lib/hygen/_templates/readme-generator/new/package-readme.ejs.t,3/a/3abf3746876a10edeb6d7c6463c85813f9204be1
 f
 6packages/run/lib/hygen/assets/ejs/package-readme.ejs.t,f/6/f6f67924c8efa0ec5c0ee38beb1bf8a31feddb25
-]
--.yarn/plugins/@yarnpkg/plugin-constraints.cjs,f/0/f001e41d83ee9dd3aadb12bf8f2c69281138411c
-Y
-).yarn/plugins/@yarnpkg/plugin-version.cjs,5/1/5120124513f636f448f919f259bae8bad87012f4
-a
-1.yarn/plugins/@yarnpkg/plugin-workspace-tools.cjs,1/5/15516a5709795062a785b54ece25cfd922f2aec2
 U
 %packages/clean/tests/prettier.test.js,e/8/e821debe41bf991fe7b283542949a5ac235a360e
 L
@@ -466,16 +406,10 @@ L
 ,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
 t
 Dpackages/run/lib/hygen/_templates/generator/with-prompt/prompt.ejs.t,3/7/37640ace1135cc38e27667a9db436a45d58a9e95
-]
--.github/PULL_REQUEST_TEMPLATE/pull_request.md,0/8/0853aed84b9835e69a8f54829555625a3575f7d8
 w
 Gpackages/templates/sources/github/PULL_REQUEST_TEMPLATE/pull_request.md,3/c/3c8f28fcd917bc3cab43e9ed4f4b0abf3c990a49
 T
 $packages/clean/tests/files/README.md,6/d/6dff3473673f880da779d8bc730ebd1715e99430
-T
-$packages/hook-post-install/README.md,4/7/4706d7d90c4920e3822c8146a3c0b978a657fdd2
-R
-"packages/hook-pre-commit/README.md,6/f/6f5a221aac4a66aff2c2c41763bef9b5155bf1a2
 a
 1packages/run/lib/assets/md/destructured/README.md,2/5/253545c394666489d7a5cc510942d48a2c9182b3
 g

@@ -16,8 +16,12 @@
     <option name="links">
       <list>
         <IssueNavigationLink>
-          <option name="issueRegexp" value="([A-Za-z]+)\((\d+)\)" />
-          <option name="linkRegexp" value="https://github.com/keithboice/kb/issues/$2" />
+          <option name="issueRegexp" value="[\w|\s]+[(|\/]+(\d+)[)|[-]|\s]" />
+          <option name="linkRegexp" value="https://github.com/keithboice/kb/issues/$1" />
+        </IssueNavigationLink>
+        <IssueNavigationLink>
+          <option name="issueRegexp" value="([A-Za-z]+)\/(\d+)" />
+          <option name="linkRegexp" value="https://example.com/issue/$2" />
         </IssueNavigationLink>
       </list>
     </option>
