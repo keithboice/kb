@@ -19,6 +19,11 @@
 		"type": "git",
 		"url": "https://github.com/keithboice/kb.git"
 	},
+	"scripts": {
+		"commit": "cz",
+		"build": "yarn workspaces foreach run build",
+		"start": "yarn workspaces server start"
+	},
 	"resolutions": {
 		"@kb/build": "workspace:packages/build",
 		"@kb/clean": "workspace:packages/clean",
@@ -29,8 +34,7 @@
 		"@kb/run": "workspace:packages/run",
 		"@kb/templates": "workspace:packages/templates",
 		"@kb/test": "workspace:packages/test",
-		"@kb/version": "workspace:packages/version",
-		"@kb/yo": "workspace:packages/yo"
+		"@kb/version": "workspace:packages/version"
 	},
 	"version": "0.0.0-development",
 	"workspaces": [
@@ -52,21 +56,27 @@
 		"@yarnpkg/plugin-pnp": "2.4.0",
 		"@yarnpkg/plugin-workspace-tools": "2.2.0",
 		"@yarnpkg/pnpify": "2.4.0",
+		"cz-conventional-changelog": "^3.3.0",
 		"semantic-release": "^17.3.7"
 	},
 	"dependencies": {
 		"@kb/build": "workspace:*",
-	  "@kb/clean": "workspace:*",
-	  "@kb/hook-commit": "workspace:*",
-	  "@kb/hook-install": "workspace:*",
-	  "@kb/make-docs": "workspace:*",
-	  "@kb/run": "workspace:*",
-	  "@kb/templates": "workspace:*",
-	  "@kb/test": "workspace:*",
-	  "@kb/version": "workspace:*",
-	  "@typescript-eslint/eslint-plugin": "^4.14.2",
-	  "@yarnpkg/cli": "^2.4.0",
-	  "commitizen": "^4.2.3",
-	  "eslint": "^7.19.0"
+		"@kb/clean": "workspace:*",
+		"@kb/hook-commit": "workspace:*",
+		"@kb/hook-install": "workspace:*",
+		"@kb/make-docs": "workspace:*",
+		"@kb/run": "workspace:*",
+		"@kb/templates": "workspace:*",
+		"@kb/test": "workspace:*",
+		"@kb/version": "workspace:*",
+		"@typescript-eslint/eslint-plugin": "^4.14.2",
+		"@yarnpkg/cli": "^2.4.0",
+		"commitizen": "^4.2.3",
+		"eslint": "^7.19.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }

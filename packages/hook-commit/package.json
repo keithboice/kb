@@ -1,7 +1,7 @@
 {
   "author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
   "bin": {
-    "bin": "./dist/bin.js"
+    "bin": "./bin.js"
   },
   "bugs": {
     "url": "https://github.com/keithboice/kb/issues"
@@ -18,17 +18,17 @@
   "name": "@kb/hook-commit",
   "license": "MIT",
   "types": "commonjs",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./index.js",
+  "module": "./index.mjs",
   "languageName": "node",
   "files": [
     "dist/**/*"
   ],
   "publishConfig": {
     "access": "public",
-    "bin": "./dist/bin.js",
-    "main": "./dist/index.js",
-    "module": "./dist/index.mjs"
+    "bin": "./bin.js",
+    "main": "./index.js",
+    "module": "./index.mjs"
   },
   "installConfig": {
     "hoistingLimits": "none"
