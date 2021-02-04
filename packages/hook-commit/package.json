@@ -1,5 +1,39 @@
 {
-  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
+  "bin": {
+    "bin": "./dist/bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "description": "kb {{name}} packages",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithboice/kb.git"
+  },
   "homepage": "https://github.com/keithboice/kb",
-  "name": "@kb/hook-commit"
+  "name": "@kb/hook-commit",
+  "license": "MIT",
+  "private": false,
+  "types": "commonjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "languageName": "node",
+  "files": [
+    "dist/**/*"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "bin": "./dist/bin.js",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs"
+  },
+  "installConfig": {
+    "hoistingLimits": "none"
+  }
 }
+
+

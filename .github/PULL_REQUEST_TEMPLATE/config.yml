@@ -1,29 +1,28 @@
-blank_issues_enabled: false
 contact_links:
     - name: fix
-      url: https://github.com/keithboice/kb/issues/new?template=fix.md&assignees=keithboice&labels=branch%3Afix&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
       about: A bug or defect
       title: "[BUG] title"
       labels: branch:fix,tag:fix
       assignees: "keithboice"
 
     - name: feature
-      url: https://github.com/keithboice/kb/issues/new?template=feature.md&assignees=keithboice&labels=branch%3Afeat&title=%5BFEAT%5D+title
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
       about: A new feature or enhancement
       title: "[FEAT] title"
       labels: tag:feat,branch:feat
       assignees: "keithboice"
 
     - name: chore
-      url: https://github.com/keithboice/kb/issues/new?template=chore.md&assignees=keithboice&labels=branch%3Achore&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
       about: A non-functional requirement on technical task
       title: "[CHORE] title"
       labels: tag:chore,branch:chore
       assignees: "keithboice"
 
     - name: action
-      url: https://github.com/keithboice/kb/issues/new?template=action.md&assignees=keithboice&labels=branch%3Abot&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/pull/new/main?template=default.md&assignees=keithboice&labels=automerge
       about: A github action or automated task
       title: "[BOT] trigger the <action> action"
       labels: tag:action,branch:bot,tag:automated
-      assignees: "bot"
+      assignees: "octocat"

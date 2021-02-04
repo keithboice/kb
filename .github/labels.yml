@@ -1,71 +1,77 @@
-# task types
+# task labels
 # color scale 900
-- name: action
+- name: tag:action
   description: will trigger a github action on the repo
   color: 006064
-- name: fix
-  description: a bug fix
+- name: tag:fix
+  description: A bug fix
   color: b71c1c
-- name: feat
-  description: a new feature
+- name: tag:feat
+  description: A new feature
   color: 1b5e20
-- name: docs
-  description: documentation only changes
+- name: tag:docs
+  description: A documentation change
   color: 0d47a1
-- name: style
-  description: changes that do not affect the meaning of the code
+- name: tag:style
+  description: A styles or design change
   color: 4a148c
-- name: refactor
-  description: a code change that neither fixes a bug nor adds a feature
+- name: tag:refactor
+  description: A code change that neither fixes a bug nor adds a feature
   color: f57f17
-- name: perf
-  description: a code change that improves performance
+- name: tag:perf
+  description: A code change that improves performance
   color: 3e2723
-- name: test
-  description: adding missing or correcting existing tests
+- name: tag:test
+  description: A change adding missing or correcting existing tests
   color: e65100
-- name: chore
-  description: changes to the build process, tools or libraries
+- name: tag:chore
+  description: A change to the build process, tools or libraries
   color: 263238
-- name: tag:bot
-  description: reserved. Initiated by a github action
-  color: 263238
+- name: tag:automated
+  description: Initiated by a github action
+  color: 78909c
 
-# release types
-# color scale 600
-- name: rel:fix
-  description: patch Release
-  color: f44336
-- name: rel:feat
-  description: minor Feature Release
-  color: 4caf50
-- name: rel:perf
-  description: major Breaking Release
-  color: 2196f3
-- name: rel:bot
-  description: automated Maintenence Relase
-  color: 546e7a
+# release/branch types
+# color scale 700
+- name: branch:fix
+  description: A patch release
+  color: 00b8d4
+- name: branch:feature
+  description: A minor feature release
+  color: 0091ea
+- name: branch:release
+  description: A major breaking release
+  color: aa00ff
+- name: branch:bot
+  description: An automated maintenence relase
+  color: 3e2723
+- name: branch:chore
+  description: An automated maintenence relase
+  color: 00bfa5
 
 # task state
-# color scale 200
-- name: st:wip
-  description: work in progress
+# color scale 200,500,700
+- name: state:new
+  description: Not prioritized yet
   color: a5d6a7
-- name: st:next
-  description: in the backlog and will be worked on
-  color: c8e6c9
-- name: st:done
-  description: finished the task
-  color: 66bb6a
-- name: st:blocked
-  description: waiting on a dependency
-  color: ffcc80
-- name: st:question
-  description: have a question that needs to be answered or it will block
-  color: fff59d
-
-# task attributes
-# color scale 400
-- name: tag:automated
-  description: reserved. Initiated by a github action
-  color: 78909c
+- name: state:wip
+  description: Started
+  color: 4caf50
+- name: state:next
+  description: Prioritized
+  color: a5d6a7
+- name: state:done
+  description: Finished and can be closed
+  color: 2e7d32
+- name: state:blocked
+  description: Waiting on a dependency
+  color: e57373
+- name: state:question
+  description: Waiting for additional information
+  color: ffcdd2
+- name: state:wontfix
+  description: Will not be worked on
+  color: d32f2f
+- names: automerge
+  description: Will be automerged be action
+  color: ffffff
