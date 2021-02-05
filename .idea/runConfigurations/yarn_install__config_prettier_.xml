@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yarn install (config-prettier)" type="js.build_tools.npm" singleton="false">
+    <package-json value="$PROJECT_DIR$/packages/config-prettier/package.json" />
+    <command value="install" />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

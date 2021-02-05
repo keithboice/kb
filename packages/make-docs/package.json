@@ -1,9 +1,7 @@
 {
 	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com> (https://github.com/keithboice)",
 	"bin": "./bin/cli.js",
-	"bugs": {
-		"url": "https://github.com/keithboice/kb/issues"
-	},
+	"bugs": {},
 	"dependencies": {
 		"app-root-path": "^3.0.0",
 		"commander": "^7.0.0",
@@ -16,9 +14,7 @@
 		"man": "man",
 		"lib": "lib"
 	},
-	"engines": {
-		"node": ">=14.0.0"
-	},
+	"engines": {},
 	"exports": {
 		"default": "./dist/index.js",
 		"import": "./dist/index.mjs",
@@ -33,9 +29,7 @@
 	"main": "dist/index.js",
 	"module": "dist/index.cjs",
 	"name": "@kb/make-docs",
-	"publishConfig": {
-		"access": "public"
-	},
+	"publishConfig": {},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/keithboice/kb.git",

@@ -1,32 +1,27 @@
 {
-  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
-  "bin": {
-    "bin": "./bin.js"
-  },
-  "homepage": "https://github.com/keithboice/kb",
-  "installConfig": {
-    "hoistingLimits": "none"
-  },
-  "files": [
-    "./*",
-    "./**/*"
-  ],
-  "languageName": "node",
-  "main": "./index.js",
-  "module": "./index.mjs",
-  "publishConfig": {
-    "access": "public",
-    "bin": "./bin.js"
-  },
-  "types": "commonjs",
-  "name": "@kb/cmd-commit",
-  "dependencies": {
-    "commitizen": "^4.2.3",
-    "cz-conventional-changelog": "^3.3.0"
-  },
-  "scripts": {
-    "commit": "cz",
-    "build": "yarn workspaces foreach run build",
-    "start": "yarn workspaces server start"
-  }
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"bin": "bin.js",
+	"homepage": "https://github.com/keithboice/kb",
+	"installConfig": {},
+	"files": [
+		"bin.js",
+		"index.js"
+	],
+	"languageName": "node",
+	"main": "index.js",
+	"publishConfig": {
+		"access": "public",
+		"bin": "bin.js"
+	},
+	"types": "commonjs",
+	"name": "@kb/cmd-commit",
+	"dependencies": {
+		"commitizen": "^4.2.3",
+		"cz-conventional-changelog": "^3.3.0"
+	},
+	"scripts": {
+		"commit": "cz",
+		"build": "yarn workspaces foreach run build",
+		"start": "yarn workspaces server start"
+	}
 }

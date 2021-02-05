@@ -1,12 +1,8 @@
 {
 	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
-	"bugs": {
-		"url": "https://github.com/keithboice/kb/issues"
-	},
+	"bugs": {},
 	"description": "kb packages",
-	"engines": {
-		"node": ">=14.0.0"
-	},
+	"engines": {},
 	"homepage": "https://keithboice.github.io/kb/",
 	"keywords": [
 		"kb"
@@ -20,7 +16,12 @@
 		"url": "https://github.com/keithboice/kb.git"
 	},
 	"scripts": {
-		"commit": "cz",
+		"commit": "cz -a",
+		"push": "git push",
+		"stage": "yarn stage --commit",
+		"install": "yarn install",
+		"pack": "yarn pack",
+		"git:push": "run-s install pack stage commit push",
 		"build": "yarn workspaces foreach run build",
 		"start": "yarn workspaces server start"
 	},
@@ -28,12 +29,9 @@
 		"@kb/cmd-clean": "workspace:packages/cmd-clean",
 		"@kb/cmd-commit": "workspace:packages/cmd-commit",
 		"@kb/config-eslint": "workspace:packages/config-eslint",
+		"@kb/config-jest": "workspace:packages/config-jest",
 		"@kb/config-prettier": "workspace:packages/config-prettier",
-		"@kb/config-stylelint": "workspace:packages/config-stylelint",
-		"@kb/hook-commit": "workspace:packages/hook-commit",
-		"@kb/make-docs": "workspace:packages/make-docs",
-		"@kb/templates": "workspace:packages/templates",
-		"@kb/test": "workspace:packages/test"
+		"@kb/config-stylelint": "workspace:packages/config-stylelint"
 	},
 	"version": "0.0.0-development",
 	"workspaces": [
@@ -41,10 +39,11 @@
 	],
 	"devDependencies": {
 		"@kb/cmd-clean": "workspace:packages/cmd-clean",
-		"@kb/hook-commit": "workspace:*",
-		"@kb/make-docs": "workspace:*",
-		"@kb/templates": "workspace:*",
-		"@kb/test": "workspace:*",
+		"@kb/cmd-commit": "workspace:packages/cmd-commit",
+		"@kb/config-eslint": "workspace:packages/config-eslint",
+		"@kb/config-jest": "workspace:packages/config-jest",
+		"@kb/config-prettier": "workspace:packages/config-prettier",
+		"@kb/config-stylelint": "workspace:packages/config-stylelint",
 		"@yarnpkg/cli": "^2.4.0",
 		"@yarnpkg/core": "2.4.0",
 		"@yarnpkg/doctor": "2.1.3",
@@ -63,8 +62,9 @@
 		"cz-conventional-changelog": "^3.3.0"
 	},
 	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
+		"commitizen": {}
+	},
+	"dependencies": {
+		"yarn-run-all": "^3.1.1"
 	}
 }
