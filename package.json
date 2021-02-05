@@ -25,26 +25,29 @@
 		"start": "yarn workspaces server start"
 	},
 	"resolutions": {
-		"@kb/build": "workspace:packages/build",
-		"@kb/clean": "workspace:packages/clean",
-		"@kb/hook-install": "workspace:packages/hook-install",
+		"@kb/cmd-clean": "workspace:packages/cmd-clean",
+		"@kb/cmd-commit": "workspace:packages/cmd-commit",
+		"@kb/config-eslint": "workspace:packages/config-eslint",
+		"@kb/config-prettier": "workspace:packages/config-prettier",
+		"@kb/config-stylelint": "workspace:packages/config-stylelint",
 		"@kb/hook-commit": "workspace:packages/hook-commit",
 		"@kb/make-docs": "workspace:packages/make-docs",
-		"@kb/plugin": "workspace:packages/plugin",
-		"@kb/run": "workspace:packages/run",
 		"@kb/templates": "workspace:packages/templates",
-		"@kb/test": "workspace:packages/test",
-		"@kb/version": "workspace:packages/version"
+		"@kb/test": "workspace:packages/test"
 	},
 	"version": "0.0.0-development",
 	"workspaces": [
 		"packages/*"
 	],
 	"devDependencies": {
-		"@yarnpkg/builder": "2.1.3",
+		"@kb/cmd-clean": "workspace:packages/cmd-clean",
+		"@kb/hook-commit": "workspace:*",
+		"@kb/make-docs": "workspace:*",
+		"@kb/templates": "workspace:*",
+		"@kb/test": "workspace:*",
+		"@yarnpkg/cli": "^2.4.0",
 		"@yarnpkg/core": "2.4.0",
 		"@yarnpkg/doctor": "2.1.3",
-		"@yarnpkg/eslint-config": "0.2.0",
 		"@yarnpkg/plugin-constraints": "2.2.0",
 		"@yarnpkg/plugin-essentials": "2.4.0",
 		"@yarnpkg/plugin-git": "2.3.0",
@@ -56,23 +59,8 @@
 		"@yarnpkg/plugin-pnp": "2.4.0",
 		"@yarnpkg/plugin-workspace-tools": "2.2.0",
 		"@yarnpkg/pnpify": "2.4.0",
-		"cz-conventional-changelog": "^3.3.0",
-		"semantic-release": "^17.3.7"
-	},
-	"dependencies": {
-		"@kb/build": "workspace:*",
-		"@kb/clean": "workspace:*",
-		"@kb/hook-commit": "workspace:*",
-		"@kb/hook-install": "workspace:*",
-		"@kb/make-docs": "workspace:*",
-		"@kb/run": "workspace:*",
-		"@kb/templates": "workspace:*",
-		"@kb/test": "workspace:*",
-		"@kb/version": "workspace:*",
-		"@typescript-eslint/eslint-plugin": "^4.14.2",
-		"@yarnpkg/cli": "^2.4.0",
 		"commitizen": "^4.2.3",
-		"eslint": "^7.19.0"
+		"cz-conventional-changelog": "^3.3.0"
 	},
 	"config": {
 		"commitizen": {

@@ -1,0 +1,10 @@
+{
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"homepage": "https://github.com/keithboice/kb",
+	"name": "@kb/test",
+	"scripts": {
+		"test": "jest",
+		"test:dev": "jest --watch",
+		"test:coverage": "jest --coverage --no-cache"
+	}
+}

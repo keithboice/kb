@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+# locally
+yarn add commitizen && yarn run commitizen init cz-conventional-changelog --save-dev --save-exact --force
+
+# globally
+
+sudo npm install -g commitizen && sudo npm install -g cz-conventional-changelog && sudo echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+

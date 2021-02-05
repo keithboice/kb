@@ -1,0 +1,11 @@
+{
+  "name": "@kb/config-eslint",
+  "version": "1.0.0",
+  "description": "kb default eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Keith Boice",
+  "license": "MIT"
+}
