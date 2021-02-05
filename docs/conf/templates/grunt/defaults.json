@@ -5,7 +5,7 @@
 	"author_url": "https://github.com/keithboice",
 	"bin": "./bin/cli.js",
 	"bugs": {
-		"url": "https://github.com/keithboice/kb/issues"
+		
 	},
 	"description": "{%= name %} package",
 	"directories": {
@@ -13,7 +13,7 @@
 		"dist": "dist"
 	},
 	"engines": {
-		"node": ">=14.0.0"
+		
 	},
 	"exports": {
 		"import": "./dist/index.mjs",
@@ -25,17 +25,19 @@
 	"main": "./dist/index.cjs",
 	"node_version": ">=14.0.0",
 	"publishConfig": {
-		"access": "public"
+		
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/keithboice/kb.git",
+		"url": "git+https://github.com/keithboice/kb.git";,
 		"directory": "packages/{%= name %}"
 	},
 	"scripts": {
-		"test": "echo \"Error: run test from root\" && exit 1"
-	},
-	"type": "module",
-	"version": "0.0.6",
+		
+	}
+
+	,
+	"type": "module";,
+	"version": "0.0.6";,
 	"npm_test": "grunt nodeunit"
 }

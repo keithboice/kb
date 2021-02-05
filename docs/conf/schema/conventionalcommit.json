@@ -1,0 +1,65 @@
+{
+	"types": {
+		"refactor": {
+	  
+		},
+		"fix": {
+	  
+		},
+		"feat": {
+	  
+		},
+		"build": {
+			"description": "Changes which affect the build system or external dependencies.<br/>Example scopes: gulp, broccoli, npm",
+			"scopes": {
+				"npm": {},
+				"gulp": {},
+				"broccoli": {}
+			}
+		},
+		"chore": {
+	  
+		},
+		"style": {
+	  
+		},
+		"test": {
+	  
+		},
+		"docs": {
+	  
+		},
+		"perf": {
+	  
+		},
+		"ci": {
+	  
+		},
+		"revert": {
+	  
+		}
+	}
+
+	,
+		"footerTypes": [
+		{
+		"name": "BREAKING CHANGE",
+		"description": "The commit introduces breaking API changes"
+		},
+		{
+		"name": "Closes",
+		"description": "The commit closes issues or pull requests"
+		},
+		{
+		"name": "Implements",
+		"description": "The commit implements features"
+		},
+		{
+		"name": "Co-authored-by",
+		"description": "The commit is co-authored by another person.<br/>For multiple people use one line each"
+		},
+		{
+		"name": "Refs",
+		"description": "The commit references other commits by their hash ID.<br/>For multiple hash IDs use a comma as separator"
+		}
+}

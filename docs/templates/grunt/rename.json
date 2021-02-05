@@ -1,9 +1,0 @@
-{
-	"bin/cli.js": "bin/cli.js",
-	"dist/index.cjs": "dist/index.cjs",
-	"dist/index.mjs": "dist/index.mjs",
-	"dist/index.umd.js": "dist/index.umd.js",
-	"lib/index.js": "lib/index.js",
-	"src/index.js": "src/index.js",
-	"test/index.test.js": "test/index.test.js"
-}
