@@ -9,31 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/build_vercel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/properties/.yarnrc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/packages.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/packages.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/clean_pkg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/clean_pkg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/make_docs_start.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/utils____install_dependencies_globally__clean_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/utils____install_dependencies_globally__clean_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/utils_mono_rebuild.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/utils_mono_rebuild.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/version_mono_change.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/version_mono_change.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/yarn_add_all__prettier_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/yarn_add_all__prettier_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/utils/bin/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/versions/5237a153.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarnrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cmd-commit/bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cmd-commit/bin/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cmd-commit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cmd-commit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/config-jest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-jest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config-jest/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-jest/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-prettier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-prettier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-stylelint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-stylelint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/utils/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <disabled>
@@ -76,24 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Mocha Test" />
-        <option value="Shell script" />
-        <option value="Github Action" />
-        <option value="includes test" />
-        <option value="JavaScript Class" />
-        <option value="Function" />
-        <option value="CSS File" />
-        <option value="Yarn package no build.js.child.2" />
-        <option value="BashSupport Pro Bash" />
-        <option value="Yarn package no build" />
-        <option value="Yarn package no build.js.child.0" />
-        <option value="Yarn package no build.js.child.1" />
-        <option value="package" />
         <option value="Shared config.js.child.0" />
         <option value="Shared config" />
-        <option value="Package.js.child.0" />
-        <option value="Package.js.child.1" />
-        <option value="Package" />
         <option value="Class (common)" />
       </list>
     </option>
@@ -124,7 +93,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/27-scaffold_the_various_clean_subcommands" />
+        <entry key="$PROJECT_DIR$" value="feat/41-jest_package" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -303,6 +272,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/48-node_build_process" />
+                    <option name="lastUsedInstant" value="1612634941" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/41-jest_package" />
                     <option name="lastUsedInstant" value="1612601200" />
                   </RecentBranch>
@@ -317,10 +290,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1612423953" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/34-apply_github_repo_defaults" />
-                    <option name="lastUsedInstant" value="1612423741" />
                   </RecentBranch>
                 </list>
               </option>
@@ -387,7 +356,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="yarn:packages/fetch/src/package.json:gulp" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/conf/properties" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/utils" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -425,11 +394,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/utils" />
       <recent name="$PROJECT_DIR$/docs/conf/properties" />
       <recent name="$PROJECT_DIR$/packages/config-stylelint" />
       <recent name="$PROJECT_DIR$/packages/config-prettier" />
       <recent name="$PROJECT_DIR$/packages/config-eslint" />
-      <recent name="$PROJECT_DIR$/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/config-stylelint/src" />
@@ -439,7 +408,7 @@
       <recent name="$PROJECT_DIR$/packages/cmd-commit/bin" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build:vercel">
+  <component name="RunManager" selected="npm.git:commit">
     <configuration default="true" type="BashProRunConfiguration">
       <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
       <method v="2" />
@@ -837,7 +806,7 @@
       <workItem from="1612537055513" duration="6865000" />
       <workItem from="1612544811310" duration="39057000" />
     </task>
-    <task active="true" id="kb-41" summary="[FTR] jest package">
+    <task id="kb-41" summary="[FTR] jest package">
       <branch name="feat/27-scaffold_the_various_clean_subcommands" repository="$PROJECT_DIR$" original="true" />
       <branch name="feat/41-jest_package" repository="$PROJECT_DIR$" />
       <changelist id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="" />
@@ -848,8 +817,22 @@
       <option name="presentableId" value="kb-41" />
       <option name="project" value="kb" />
       <option name="type" value="BUG" />
-      <updated>1612601199982</updated>
-      <workItem from="1612601200219" duration="7003000" />
+      <updated>1612634940662</updated>
+      <workItem from="1612601200219" duration="7441000" />
+    </task>
+    <task active="true" id="kb-48" summary="node build process">
+      <branch name="feat/41-jest_package" repository="$PROJECT_DIR$" original="true" />
+      <branch name="feat/48-node_build_process" repository="$PROJECT_DIR$" />
+      <changelist id="50330c13-60a2-4de3-9254-87c2d4d2e4bb" name="Default Changelist" comment="" />
+      <created>1612634875000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/keithboice/kb/issues/48</url>
+      <option name="number" value="48" />
+      <option name="presentableId" value="kb-48" />
+      <option name="project" value="kb" />
+      <option name="type" value="BUG" />
+      <updated>1612634940662</updated>
+      <workItem from="1612634941343" duration="1608000" />
     </task>
     <option name="localTasksCounter" value="31" />
     <option name="changelistNameFormat" value="${taskType}(${id}): ${summary}" />

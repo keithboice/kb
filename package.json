@@ -34,10 +34,11 @@
 	},
 	"resolutions": {
 		"@kb/cmd-commit": "workspace:packages/cmd-commit",
-		"@kb/config-eslint": "workspace:packages/config-eslint",
-		"@kb/config-jest": "workspace:packages/config-jest",
-		"@kb/config-prettier": "workspace:packages/config-prettier",
-		"@kb/config-stylelint": "workspace:packages/config-stylelint"
+		"@kb/cmd-eslint": "workspace:packages/cmd-eslint",
+		"@kb/cmd-jest": "workspace:packages/cmd-jest",
+		"@kb/cmd-prettier": "workspace:packages/cmd-prettier",
+		"@kb/cmd-stylelint": "workspace:packages/cmd-stylelint",
+		"@kb/utils": "workspace:packages/utils"
 	},
 	"version": "0.0.0",
 	"workspaces": [
@@ -45,12 +46,23 @@
 	],
 	"dependencies": {
 		"@kb/cmd-commit": "workspace:packages/cmd-commit",
-		"@kb/config-eslint": "workspace:packages/config-eslint",
-		"@kb/config-jest": "workspace:packages/config-jest",
-		"@kb/config-prettier": "workspace:packages/config-prettier",
-		"@kb/config-stylelint": "workspace:packages/config-stylelint",
+		"@kb/cmd-eslint": "workspace:packages/cmd-eslint",
+		"@kb/cmd-jest": "workspace:packages/cmd-jest",
+		"@kb/cmd-prettier": "workspace:packages/cmd-prettier",
+		"@kb/cmd-stylelint": "workspace:packages/cmd-stylelint",
+		"@vercel/ncc": "^0.27.0",
 		"@yarnpkg/cli": "^2.4.0",
 		"@yarnpkg/core": "^2.4.0",
-		"@yarnpkg/plugin-workspace-tools": "^2.2.0"
+		"@yarnpkg/plugin-workspace-tools": "^2.2.0",
+		"app-root-path": "^3.0.0",
+		"chalk": "^4.1.0",
+		"chalk-pipe": "^5.0.0",
+		"cli-table": "^0.3.4",
+		"commitizen": "^4.2.3",
+		"cz-conventional-changelog": "^3.3.0",
+		"jest": "^26.6.3",
+		"jest-watch-directories": "^1.1.0",
+		"require-main-filename": "^2.0.0",
+		"yargs": "^16.2.0"
 	}
 }

@@ -6,19 +6,20 @@ const path = require("path");
 const appRoot = require("app-root-path").toString();
 const modPath = path.resolve(appRoot, path.join(__dirname, ".."));
 const config = path.resolve(modPath, "src/index.js");
-const ignore = path.resolve(modPath, "src/.eslintignore");
+const ignore = path.resolve(modPath, "src/.stylelintignore");
 
 const cmd = require("yargs/yargs")(process.argv.slice(2))
 	.usage("Usage: $0 <command> [options]")
-	.command("eslint", "Lint the code base with ESLint", () => {
+	.command("stylelint", "Lint the code base with stylelint", () => {
 
 	  /**
-	   * Applies the kb standard config for eslint.
-	   * @module @kb/config-eslint
+	   * Applies the kb standard config for stylelint.
+	   * @module @kb/cmd-stylelint
 	   * @constructor
 	   */
 	  require("child_process").execSync(
-		`cd "${appRoot}" && npx eslint -c "${config}" --ignore-path "${ignore}" --quiet --color --fix .`,
+		// stylelint --cache --color --quiet --fix '**/*.{css,scss,sass}'
+		`cd "${appRoot}" && npx stylelint --allow-empty-input --formatter compact --cache --config "${config}" --ignore-path "${ignore}" --quiet --color --fix "**/*.{css,scss,sass}" `,
 		{ stdio: "inherit" }
 	  );
 	})

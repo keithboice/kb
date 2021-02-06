@@ -3,21 +3,37 @@
 	"bin": {
 		"eslint": "bin/cli.js"
 	},
-	"homepage": "https://github.com/keithboice/kb",
-	"installConfig": {},
-	"version": "0.0.0-development",
-	"languageName": "node",
-	"main": "src/index.js",
+	"engines": {
+		"node": ">=14.0.0"
+	},
 	"files": [
-		"src/index.js",
 		"bin/cli.js",
-		"src/.eslintignore"
+		"src/index.js"
 	],
-	"publishConfig": {},
+	"homepage": "https://github.com/keithboice/kb",
+	"languageName": "node",
+	"license": "MIT",
+	"main": "src/index.js",
+	"publishConfig": {
+		"access": "public",
+		"bin": "bin/cli.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git"
+	},
+	"scripts": {
+		"build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-eslint/vercel.json -sm -o dist/cli",
+		"build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-eslint/vercel.json -sm -o dist/main",
+		"build": "concurrently 'npm:build:cli' 'npm:build:main'",
+		"test": "jest ../../tests/cmd-eslint.test.js",
+		"test:dev": "jest --watch",
+		"test:coverage": "jest --coverage --no-cache"
+	},
 	"types": "commonjs",
-	"name": "@kb/config-eslint",
+	"version": "0.0.0",
+	"name": "@kb/cmd-eslint",
 	"dependencies": {
-		"@prettier/plugin-xml": "^0.13.0",
 		"@types/eslint": "^7",
 		"@types/eslint-plugin-prettier": "^3",
 		"@types/prettier": "^2",
@@ -26,7 +42,7 @@
 		"app-root-path": "^3.0.0",
 		"eslint": "^7.19.0",
 		"eslint-config-airbnb-base": "^14.2.1",
-		"eslint-config-prettier": "^7.2.0",
+		"eslint-cmd-prettier": "^7.2.0",
 		"eslint-config-xo": "^0.34.0",
 		"eslint-plugin-ava": "^11.0.0",
 		"eslint-plugin-eslint-comments": "^3.2.0",
@@ -54,10 +70,10 @@
 		"prettier-plugin-sh": "^0.6.0",
 		"stylelint": "^13.9.0",
 		"stylelint-config-idiomatic-order": "^8.1.0",
-		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-cmd-prettier": "^8.0.2",
 		"stylelint-config-standard": "^20.0.0",
 		"stylelint-order": "^4.1.0",
-		"tslint-config-prettier": "^1.18.0",
+		"tslint-cmd-prettier": "^1.18.0",
 		"typescript": "^4.1.3",
 		"typescript-eslint": "^0.0.1-alpha.0",
 		"yaml-eslint-parser": "^0.3.2",

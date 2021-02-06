@@ -675,18 +675,22 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kb/cmd-commit@workspace:packages/cmd-commit"
   dependencies:
+    "@vercel/ncc": ^0.27.0
+    app-root-path: ^3.0.0
+    chalk: ^4.1.0
+    chalk-pipe: ^5.0.0
+    cli-table: ^0.3.4
     commitizen: ^4.2.3
     cz-conventional-changelog: ^3.3.0
   bin:
-    test: bin/cli.js
+    commit: bin/cli.js
   languageName: unknown
   linkType: soft
 
-"@kb/config-eslint@workspace:packages/config-eslint":
+"@kb/cmd-eslint@workspace:packages/cmd-eslint":
   version: 0.0.0-use.local
-  resolution: "@kb/config-eslint@workspace:packages/config-eslint"
+  resolution: "@kb/cmd-eslint@workspace:packages/cmd-eslint"
   dependencies:
-    "@prettier/plugin-xml": ^0.13.0
     "@types/eslint": ^7
     "@types/eslint-plugin-prettier": ^3
     "@types/prettier": ^2
@@ -695,7 +699,7 @@ __metadata:
     app-root-path: ^3.0.0
     eslint: ^7.19.0
     eslint-config-airbnb-base: ^14.2.1
-    eslint-config-prettier: ^7.2.0
+    eslint-cmd-prettier: ^7.2.0
     eslint-config-xo: ^0.34.0
     eslint-plugin-ava: ^11.0.0
     eslint-plugin-eslint-comments: ^3.2.0
@@ -723,10 +727,10 @@ __metadata:
     prettier-plugin-sh: ^0.6.0
     stylelint: ^13.9.0
     stylelint-config-idiomatic-order: ^8.1.0
-    stylelint-config-prettier: ^8.0.2
+    stylelint-cmd-prettier: ^8.0.2
     stylelint-config-standard: ^20.0.0
     stylelint-order: ^4.1.0
-    tslint-config-prettier: ^1.18.0
+    tslint-cmd-prettier: ^1.18.0
     typescript: ^4.1.3
     typescript-eslint: ^0.0.1-alpha.0
     yaml-eslint-parser: ^0.3.2
@@ -736,9 +740,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kb/config-jest@workspace:packages/config-jest":
+"@kb/cmd-jest@workspace:packages/cmd-jest":
   version: 0.0.0-use.local
-  resolution: "@kb/config-jest@workspace:packages/config-jest"
+  resolution: "@kb/cmd-jest@workspace:packages/cmd-jest"
   dependencies:
     "@vercel/ncc": ^0.27.0
     app-root-path: ^3.0.0
@@ -750,13 +754,13 @@ __metadata:
     require-main-filename: ^2.0.0
     yargs: ^16.2.0
   bin:
-    test: bin/cli.js
+    commit: bin/cli.js
   languageName: unknown
   linkType: soft
 
-"@kb/config-prettier@workspace:packages/config-prettier":
+"@kb/cmd-prettier@workspace:packages/cmd-prettier":
   version: 0.0.0-use.local
-  resolution: "@kb/config-prettier@workspace:packages/config-prettier"
+  resolution: "@kb/cmd-prettier@workspace:packages/cmd-prettier"
   dependencies:
     "@prettier/plugin-xml": ^0.13.0
     "@types/eslint-plugin-prettier": ^3.1.0
@@ -770,7 +774,7 @@ __metadata:
     prettier-plugin-package: ^1.3.0
     prettier-plugin-packagejson: ^2.2.9
     prettier-plugin-sh: ^0.6.0
-    tslint-config-prettier: ^1.18.0
+    tslint-cmd-prettier: ^1.18.0
     typescript: ^4.1.3
     yargs: ^16.2.0
   bin:
@@ -778,14 +782,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kb/config-stylelint@workspace:packages/config-stylelint":
+"@kb/cmd-stylelint@workspace:packages/cmd-stylelint":
   version: 0.0.0-use.local
-  resolution: "@kb/config-stylelint@workspace:packages/config-stylelint"
+  resolution: "@kb/cmd-stylelint@workspace:packages/cmd-stylelint"
   dependencies:
     app-root-path: ^3.0.0
     stylelint: ^13.9.0
     stylelint-config-idiomatic-order: ^8.1.0
-    stylelint-config-prettier: ^8.0.2
+    stylelint-cmd-prettier: ^8.0.2
     stylelint-config-standard: ^20.0.0
     stylelint-order: ^4.1.0
     yargs: ^16.2.0
@@ -3685,13 +3689,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^7.2.0":
+"eslint-cmd-prettier@npm:^7.2.0":
   version: 7.2.0
-  resolution: "eslint-config-prettier@npm:7.2.0"
+  resolution: "eslint-cmd-prettier@npm:7.2.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
-    eslint-config-prettier: bin/cli.js
+    eslint-cmd-prettier: bin/cli.js
   checksum: 6812150ea49703cd64035527205b4905bc1edcd34646e71f71665e1acff9ab4648f872598389bdb209964093ad73993830a2c821ba12642764a5293513b92a58
   languageName: node
   linkType: hard
@@ -3893,7 +3897,7 @@ __metadata:
     eslint: ">=5.0.0"
     prettier: ">=1.13.0"
   peerDependenciesMeta:
-    eslint-config-prettier:
+    eslint-cmd-prettier:
       optional: true
   checksum: cf35b0f0e9ef30782fe82913db92f6874181723d77f0c4613f9d69c87069f73d0dc420ef850ebc844613c00a8e87eb9762a36b7d028334c5c7b091763118347b
   languageName: node
@@ -6603,13 +6607,24 @@ fsevents@^2.1.2:
   resolution: "kb@workspace:."
   dependencies:
     "@kb/cmd-commit": "workspace:packages/cmd-commit"
-    "@kb/config-eslint": "workspace:packages/config-eslint"
-    "@kb/config-jest": "workspace:packages/config-jest"
-    "@kb/config-prettier": "workspace:packages/config-prettier"
-    "@kb/config-stylelint": "workspace:packages/config-stylelint"
+    "@kb/cmd-eslint": "workspace:packages/cmd-eslint"
+    "@kb/cmd-jest": "workspace:packages/cmd-jest"
+    "@kb/cmd-prettier": "workspace:packages/cmd-prettier"
+    "@kb/cmd-stylelint": "workspace:packages/cmd-stylelint"
+    "@vercel/ncc": ^0.27.0
     "@yarnpkg/cli": ^2.4.0
     "@yarnpkg/core": ^2.4.0
     "@yarnpkg/plugin-workspace-tools": ^2.2.0
+    app-root-path: ^3.0.0
+    chalk: ^4.1.0
+    chalk-pipe: ^5.0.0
+    cli-table: ^0.3.4
+    commitizen: ^4.2.3
+    cz-conventional-changelog: ^3.3.0
+    jest: ^26.6.3
+    jest-watch-directories: ^1.1.0
+    require-main-filename: ^2.0.0
+    yargs: ^16.2.0
   languageName: unknown
   linkType: soft
 
@@ -9581,14 +9596,14 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier@npm:^8.0.2":
+"stylelint-cmd-prettier@npm:^8.0.2":
   version: 8.0.2
-  resolution: "stylelint-config-prettier@npm:8.0.2"
+  resolution: "stylelint-cmd-prettier@npm:8.0.2"
   peerDependencies:
     stylelint: ">=11.0.0"
   bin:
-    stylelint-config-prettier: bin/check.js
-    stylelint-config-prettier-check: bin/check.js
+    stylelint-cmd-prettier: bin/check.js
+    stylelint-cmd-prettier-check: bin/check.js
   checksum: dd7b09ed02d2a932d9c2de4a1532298c559d590683dcb6c9974592e4e0a74e1d4b0962c9770a0499798dfef9341d4a0dac6a57877b23edc3d1e97e7f99cfd077
   languageName: node
   linkType: hard
@@ -10018,11 +10033,11 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"tslint-config-prettier@npm:^1.18.0":
+"tslint-cmd-prettier@npm:^1.18.0":
   version: 1.18.0
-  resolution: "tslint-config-prettier@npm:1.18.0"
+  resolution: "tslint-cmd-prettier@npm:1.18.0"
   bin:
-    tslint-config-prettier-check: bin/check.js
+    tslint-cmd-prettier-check: bin/check.js
   checksum: 12478d1d0c1982b430938a99810eb59486b0177564c13b86e7c3536410318cfb0a92b3c528cfa99f599956ce470c0afa509696901d2850ebd523d44cc256aaf3
   languageName: node
   linkType: hard

@@ -1,25 +1,37 @@
 {
-  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
-  "bugs": {
-    "url": "https://github.com/keithboice/kb/issues"
+  "author":        "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+  "bin":           {
+    "utils": "bin/cli.js"
   },
-  "homepage": "https://github.com/keithboice/kb",
-  "installConfig": {
-    "hoistingLimits": "none"
+  "engines":       {
+    "node": ">=14.0.0"
   },
-  "languageName": "node",
-  "main": "index.js",
+  "files":         [
+    "bin/cli.js",
+    "src/index.js"
+  ],
+  "homepage":      "https://github.com/keithboice/kb",
+  "languageName":  "node",
+  "license":       "MIT",
+  "main":          "src/index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "bin":    "bin/cli.js"
   },
-  "repository": {
+  "repository":    {
     "type": "git",
-    "url": "https://github.com/keithboice/kb.git"
+    "url":  "https://github.com/keithboice/kb.git"
   },
-  "script": {
-    "purge": "rm README.md && yarn init && rm -rf node_modules"
+  "scripts":       {
+    "build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-stylelint/vercel.json -sm -o dist/cli",
+    "build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-stylelint/vercel.json -sm -o dist/main",
+    "build": "concurrently 'npm:build:cli' 'npm:build:main'",
+    "test": "jest ../../tests/cmd-stylelint.test.js",
+    "test:dev": "jest --watch",
+    "test:coverage": "jest --coverage --no-cache"
   },
-  "types": "commonjs",
+  "types":         "commonjs",
+  "version": "0.0.0",
   "name": "@kb/utils",
   "dependencies": {
     "chalk": "^4.1.0",

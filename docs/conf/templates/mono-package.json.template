@@ -9,7 +9,7 @@
 		"app-root-path": "^3.0.0",
 		"clean": "workspace:^0.0.6",
 		"clean": "workspace:^0.0.6",
-		"eslint-config-prettier": "^7.2.0",
+		"eslint-cmd-prettier": "^7.2.0",
 		"grunt-init": "^0.3.2",
 		"handlebars": "^4.7.6",
 		"hygen": "^6.0.4",

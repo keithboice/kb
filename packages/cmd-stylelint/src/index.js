@@ -4,7 +4,7 @@ module.exports = {
 		"stylelint-config-standard",
 		"stylelint-config-idiomatic-order",
 		"stylelint-order",
-		"stylelint-config-prettier",
+		"stylelint-cmd-prettier",
 	],
 	rules: {
 		indentation: "tab",

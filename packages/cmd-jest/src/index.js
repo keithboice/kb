@@ -7,7 +7,7 @@ const ignore = path.resolve(modPath, ".jestignore");
 
 /**
  * Applies the kb standard config for jest.
- * @module @kb/config-jest
+ * @module @kb/cmd-jest
  * @constructor
  * @see https://jestjs.io/docs/en/configuration#preset-string
  * @see https://jestjs.io/docs/en/configuration.html

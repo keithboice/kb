@@ -14,7 +14,7 @@ const cmd = require("yargs/yargs")(process.argv.slice(2))
 
 	/**
 	 * Applies the kb standard config for prettier.
-	 * @module @kb/config-prettier
+	 * @module @kb/cmd-prettier
 	 * @constructor
 	 */
 	require('child_process').execSync(
