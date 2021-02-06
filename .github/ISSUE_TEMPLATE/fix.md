@@ -1,11 +1,3 @@
----
-name: fix
-about: A bug or defect
-title: "[BUG] title"
-labels: fix,branch:fix
-assignees: keithboice
-
----
 
 # � bug report
 
