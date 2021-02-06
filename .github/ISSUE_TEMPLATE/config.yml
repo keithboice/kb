@@ -22,7 +22,7 @@ contact_links:
       assignees: "keithboice"
 
     - name: action
-      #url: https://github.com/keithboice/kb/issues/new?template=action.md&assignees=keithboice&labels=branch%3Abot&title=trigger
+      url: https://github.com/keithboice/kb/issues/new?template=action.md&assignees=keithboice&labels=branch%3Abot&title=trigger
       about: A github action or automated task
       title: "trigger"
       labels: tag:action,branch:bot,tag:automated
