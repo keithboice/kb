@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="run:prettier" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/packages/config-prettier">
-    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
-      <profiling log-folder="../../../../../../../." />
-    </EXTENSION>
-    <method v="2" />
-  </configuration>
-</component>

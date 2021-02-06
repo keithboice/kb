@@ -3,30 +3,30 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/clean/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/cmd-clean/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../archive/.archive/packages.grunt.bk/__tests__" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../archive/.archive/prettier-plugin/__tests__" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/version/__tests__" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/run/__tests__" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/test/__tests__" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/todo-version/__tests__" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/todo-util-grunt/__tests__" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/todo-cmd-test/__tests__" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/.archive" />
       <excludeFolder url="file://$MODULE_DIR$/.conf/grunt.bk" />
       <excludeFolder url="file://$MODULE_DIR$/packages/base/node_modules" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/run/lib/assets/md/.archive" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/run/lib/assets/package_json/.archive" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/run/lib/hygen/assets/md/.archive" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/todo-util-grunt/sources/assets/md/.archive" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/todo-util-grunt/sources/assets/package_json/.archive" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/todo-util-grunt/sources/hygen/assets/md/.archive" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/.archive/run-generate/build/root/dist" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/.archive/scaffold/build/root/dist" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/.archive/scaffold/build/root.bk" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/templates/sources/.archive" />
+      <excludeFolder url="file://$MODULE_DIR$/docs/.archive" />
       <excludeFolder url="file://$MODULE_DIR$/packages/base" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/run/lib/hygen" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/todo-util-grunt/sources/hygen" />
       <excludeFolder url="file://$MODULE_DIR$/../archive/cmd-clean.bk" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/version/src/.archive" />
-      <excludePattern pattern="archive/*" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/todo-version/src/.archive" />
+      <excludePattern pattern=".archive/*" />
       <excludePattern pattern="*.bk" />
       <excludePattern pattern="node_modules/*" />
       <excludePattern pattern=".DS_Store" />
@@ -36,6 +36,8 @@
       <excludePattern pattern="*.icloud" />
     </content>
     <content url="file://$MODULE_DIR$/.yarn" />
+    <content url="file://$MODULE_DIR$/packages/cmd-commit/dist" />
+    <content url="file://$MODULE_DIR$/packages/todo-hook-commit/dist" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="grunt" />
@@ -45,5 +47,11 @@
     <orderEntry type="library" name="NodeJS" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
     <orderEntry type="library" name="@types/mocha" level="application" />
+    <orderEntry type="library" name="@types/es6-collections" level="application" />
+    <orderEntry type="library" name="@types/eslint" level="application" />
+    <orderEntry type="library" name="@types/handlebars-helpers" level="application" />
+    <orderEntry type="library" name="@types/node" level="application" />
+    <orderEntry type="library" name="@types/prettier" level="application" />
+    <orderEntry type="library" name="@types/stylelint" level="application" />
   </component>
 </module>

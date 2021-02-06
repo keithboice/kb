@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run:stylelint:bin" type="NodeJSConfigurationType" application-parameters="stylelint &quot;positional argument&quot; --file line_count.js" path-to-js-file="cli.js" working-dir="$PROJECT_DIR$/packages/config-stylelint/bin">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+      <profiling log-folder="../../../../../../../." />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>

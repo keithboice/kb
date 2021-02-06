@@ -2,6 +2,9 @@
 	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
 	"homepage": "https://github.com/keithboice/kb",
 	"name": "@kb/config-jest",
+	"bin": {
+		"test": "bin/cli.js"
+	},
 	"scripts": {
 		"test": "jest",
 		"test:dev": "jest --watch",
@@ -9,7 +12,12 @@
 	},
 	"dependencies": {
 		"app-root-path": "^3.0.0",
+		"chalk": "^4.1.0",
+		"chalk-pipe": "^5.0.0",
+		"cli-table": "^0.3.4",
 		"jest": "^26.6.3",
-		"jest-watch-directories": "^1.1.0"
+		"jest-watch-directories": "^1.1.0",
+		"require-main-filename": "^2.0.0",
+		"yargs": "^16.2.0"
 	}
 }

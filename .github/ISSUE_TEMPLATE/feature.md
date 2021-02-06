@@ -4,7 +4,6 @@ about: A new feature or enhancement
 title: "[FTR] title"
 labels: feat,branch:feat
 assignees: keithboice
-
 ---
 
 **Is your feature request related to a problem? Please describe.**

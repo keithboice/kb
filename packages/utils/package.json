@@ -1,0 +1,28 @@
+{
+  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/keithboice/kb/issues"
+  },
+  "homepage": "https://github.com/keithboice/kb",
+  "installConfig": {
+    "hoistingLimits": "none"
+  },
+  "languageName": "node",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithboice/kb.git"
+  },
+  "script": {
+    "purge": "rm README.md && yarn init && rm -rf node_modules"
+  },
+  "types": "commonjs",
+  "name": "@kb/utils",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-table": "^0.3.4"
+  }
+}

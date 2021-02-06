@@ -1,1 +1,0 @@
-# @kb/make-react-test

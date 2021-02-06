@@ -43,13 +43,19 @@
       <option name="INTERPOLATION_NEW_LINE_BEFORE_END_DELIMITER" value="false" />
     </VueCodeStyleSettings>
     <bashpro>
+      <option name="BINARY_OPS_START_LINE" value="true" />
+      <option name="SWITCH_CASES_INDENTED" value="true" />
+      <option name="REDIRECT_FOLLOWED_BY_SPACE" value="true" />
+      <option name="KEEP_COLUMN_ALIGNMENT_PADDING" value="true" />
       <option name="SIMPLIFY_CODE" value="true" />
+      <option name="MINIFY_PROGRAM" value="true" />
     </bashpro>
     <editorconfig>
       <option name="ENABLED" value="false" />
     </editorconfig>
     <codeStyleSettings language="BashPro Shell Script">
       <indentOptions>
+        <option name="INDENT_SIZE" value="4" />
         <option name="TAB_SIZE" value="4" />
         <option name="USE_TAB_CHARACTER" value="true" />
       </indentOptions>

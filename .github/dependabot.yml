@@ -10,8 +10,8 @@ updates:
       schedule:
           interval: "daily"
       assignees:
-        - "bot"
+          - "bot"
       labels:
-        - "automerge"
-        - "tag:automated"
-        - "branch:bot"
+          - "automerge"
+          - "tag:automated"
+          - "branch:bot"

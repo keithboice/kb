@@ -17,7 +17,6 @@ assignees: ''
 >>>>>>> Update issue templates (#10)
 ---
 
-
 # � Bot / Automated
 
 ### Description
