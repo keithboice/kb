@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="make:docs:start" type="js.build_tools.npm">
+  <configuration default="false" name="make:docs:start" type="js.build_tools.npm" folderName="utils">
     <package-json value="$PROJECT_DIR$/packages/make-docs/package.json" />
     <command value="run" />
     <scripts>

@@ -1001,6 +1001,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/config-jest/",
           "packageDependencies": [
             ["@kb/config-jest", "workspace:packages/config-jest"],
+            ["@vercel/ncc", "npm:0.27.0"],
             ["app-root-path", "npm:3.0.0"],
             ["chalk", "npm:4.1.0"],
             ["chalk-pipe", "npm:5.0.0"],
@@ -1751,6 +1752,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/visitor-keys", "npm:4.14.2"],
             ["@typescript-eslint/types", "npm:4.14.2"],
             ["eslint-visitor-keys", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@vercel/ncc", [
+        ["npm:0.27.0", {
+          "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.27.0-dcc909a2db-ce8fbde305.zip/node_modules/@vercel/ncc/",
+          "packageDependencies": [
+            ["@vercel/ncc", "npm:0.27.0"],
+            ["node-gyp", "npm:7.1.2"]
           ],
           "linkType": "HARD",
         }]

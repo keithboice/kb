@@ -32,7 +32,7 @@ module.exports = {
 	collectCoverageFrom: ["**/*.js"],
 
 	// The directory where Jest should output its coverage files
-	coverageDirectory: `${appRoot}/docs/coverage`,
+	coverageDirectory: `${appRoot}/docs/reports/coverage/jest`,
 
 	// An array of regexp pattern strings used to skip coverage collection
 	coveragePathIgnorePatterns: [
@@ -46,7 +46,7 @@ module.exports = {
 		"tools",
 		".[a-zA-Z]rc.js",
 		".pnp.js",
-	  "bin","cli.js"
+	  "bin","cli.js","dist"
 	],
 
 	// Indicates which provider should be used to instrument code for coverage

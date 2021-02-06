@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="clean:pkg" type="js.build_tools.npm" singleton="false">
+  <configuration default="false" name="clean:pkg" type="js.build_tools.npm" folderName="utils" singleton="false">
     <package-json value="$PROJECT_DIR$/packages/clean/package.json" />
     <command value="run" />
     <scripts>

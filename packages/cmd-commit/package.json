@@ -1,7 +1,7 @@
 {
 	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
 	"bin": {
-		"test": "bin/cli.js"
+		"commit": "bin/cli.js"
 	},
 	"homepage": "https://github.com/keithboice/kb",
 	"files": [
@@ -12,7 +12,7 @@
 	"main": "src/index.js",
 	"publishConfig": {
 		"access": "public",
-		"bin": "bin.js"
+		"bin": "bin/cli.js"
 	},
 	"types": "commonjs",
 	"name": "@kb/cmd-commit",

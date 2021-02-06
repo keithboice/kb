@@ -6,11 +6,15 @@
 		"test": "bin/cli.js"
 	},
 	"scripts": {
-		"test": "jest",
+		"build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/config-jest/vercel.json -sm -o dist/cli",
+		"build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/config-jest/vercel.json -sm -o dist/main",
+		"build": "concurrently 'npm:build:cli' 'npm:build:main'",
+		"test": "jest ../../tests/config-jest.test.js",
 		"test:dev": "jest --watch",
 		"test:coverage": "jest --coverage --no-cache"
 	},
 	"dependencies": {
+		"@vercel/ncc": "^0.27.0",
 		"app-root-path": "^3.0.0",
 		"chalk": "^4.1.0",
 		"chalk-pipe": "^5.0.0",

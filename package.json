@@ -4,6 +4,11 @@
 		"url": "https://github.com/keithboice/kb/issues"
 	},
 	"description": "kb packages",
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
 	"engines": {
 		"node": ">=14.0.0"
 	},

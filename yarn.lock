@@ -740,6 +740,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kb/config-jest@workspace:packages/config-jest"
   dependencies:
+    "@vercel/ncc": ^0.27.0
     app-root-path: ^3.0.0
     chalk: ^4.1.0
     chalk-pipe: ^5.0.0
@@ -1311,6 +1312,17 @@ __metadata:
     "@typescript-eslint/types": 4.14.2
     eslint-visitor-keys: ^2.0.0
   checksum: 03c92e600213a2fab8e9460b91fe9a7552eb6b85a64d1e61b8ac67dd3d3cf492f72318f72f701a6c0d45f8779f090e902cfdb4da56866816548baf1281e979e0
+  languageName: node
+  linkType: hard
+
+"@vercel/ncc@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "@vercel/ncc@npm:0.27.0"
+  dependencies:
+    node-gyp: latest
+  bin:
+    ncc: dist/ncc/cli.js
+  checksum: ce8fbde30502da756b804b81e5203031a227a42d175c654381f36d81417d1ba2c06fd2ffc2514a61beb44bfd361b443a454f688cc4a98eeccd300bc5558c4e9a
   languageName: node
   linkType: hard
 
