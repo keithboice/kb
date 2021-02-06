@@ -1,7 +1,7 @@
 ---
 name: feature
 about: A new feature or enhancement
-title: "[FTR] title"
+title: "new"
 labels: feat,branch:feat
 assignees: keithboice
 
