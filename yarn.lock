@@ -1117,9 +1117,9 @@ __metadata:
   linkType: hard
 
 "@types/prettier@npm:^2, @types/prettier@npm:^2.0.0, @types/prettier@npm:^2.1.6":
-  version: 2.1.6
-  resolution: "@types/prettier@npm:2.1.6"
-  checksum: c78a6406b0b0d167c3285c84ca63308028517bc772b16960d959ae0ab8947f58c33aac4ba4485ac878f114be230764f7d5582a43115727ba68e5fb59360d5f37
+  version: 2.2.0
+  resolution: "@types/prettier@npm:2.2.0"
+  checksum: 68d29aee4cc009c863388cce564406599630cd287c830436e943cebfd38280c15903e2e74f0270b25f8ef84307030600e1fd4bdc3205c2aa17eae758b9560d3e
   languageName: node
   linkType: hard
 
@@ -3486,9 +3486,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.649":
-  version: 1.3.654
-  resolution: "electron-to-chromium@npm:1.3.654"
-  checksum: a931a3fac49de50fb83bc88afbdfe8d1e0a74fb2bd73c2fdb5156d0d958d2010d9e1ecc349f481207e7749b5d4b93aca6bf826080b13e4d2989f05c35d2079fb
+  version: 1.3.657
+  resolution: "electron-to-chromium@npm:1.3.657"
+  checksum: 3c2b2a1290450b9f42d9b8aa242d1da3ad2ce120c3dde91d91c37d9c67aa78c86db2992e3a4a4aa88ad5a8a50f827fff6b1d7c0b57250faa886d8b1e277cc113
   languageName: node
   linkType: hard
 
@@ -4159,11 +4159,11 @@ __metadata:
   linkType: hard
 
 "esquery@npm:^1.0.0, esquery@npm:^1.0.1, esquery@npm:^1.2.0, esquery@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "esquery@npm:1.3.1"
+  version: 1.4.0
+  resolution: "esquery@npm:1.4.0"
   dependencies:
     estraverse: ^5.1.0
-  checksum: 0aac7572bc8cf4aad87f4424b3e5e80917c214d15a1da02718c4bb0e6030552b0dea700777747507d5e310cfba43ea719e6397a45050fb50b9b68c0f7de6b26a
+  checksum: 3293ecc1507a8cec8d2da8a4707275c2ccf5413e7a3c771fe41c16cee603cacd193bb7383a6e219d1f7d2449156ef575ffd66c839073d4a8058f72856a15f622
   languageName: node
   linkType: hard
 
@@ -4988,9 +4988,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.3, graceful-fs@npm:^4.2.4":
-  version: 4.2.4
-  resolution: "graceful-fs@npm:4.2.4"
-  checksum: d095ee4dc6eacc76814cd52d5d185b860119378a6fd4888e7d4e94983095c54d4f6369942a5e3d759cdbdd4e3ee7eaeb27a39ff938c6ee4610894fd9de46b6cb
+  version: 4.2.5
+  resolution: "graceful-fs@npm:4.2.5"
+  checksum: 164eeef7f8aca15aff8d3c61c780e286ec8867deb23d6f3cee2d6231e0b422233bf4d905edf585ce2c204e485b8511188e6752e1a28e7176f296fbdaa6269dc1
   languageName: node
   linkType: hard
 

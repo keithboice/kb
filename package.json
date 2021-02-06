@@ -25,9 +25,7 @@
 		"stage": "yarn stage --commit",
 		"install": "yarn install",
 		"pack": "yarn pack",
-		"git:push": "git push",
-		"build": "yarn workspaces foreach run build",
-		"start": "yarn workspaces server start"
+		"git:push": "git push"
 	},
 	"resolutions": {
 		"@kb/cmd-commit": "workspace:packages/cmd-commit",
