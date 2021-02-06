@@ -1,29 +1,29 @@
 blank_issues_enabled: false
 contact_links:
     - name: fix
-      url: https://github.com/keithboice/kb/issues/new?template=fix.md&assignees=keithboice&labels=branch%3Afix&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/issues/new?template=fix.md&assignees=keithboice&labels=branch%3Afix&title=fixes
       about: A bug or defect
-      title: "[BUG] title"
+      title: "fixes"
       labels: branch:fix,tag:fix
       assignees: "keithboice"
 
     - name: feature
-      url: https://github.com/keithboice/kb/issues/new?template=feature.md&assignees=keithboice&labels=branch%3Afeat&title=%5BFEAT%5D+title
+      url: https://github.com/keithboice/kb/issues/new?template=feature.md&assignees=keithboice&labels=branch%3Afeat&title=feature
       about: A new feature or enhancement
-      title: "[FEAT] title"
+      title: "feature"
       labels: tag:feat,branch:feat
       assignees: "keithboice"
 
     - name: chore
-      url: https://github.com/keithboice/kb/issues/new?template=chore.md&assignees=keithboice&labels=branch%3Achore&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/issues/new?template=chore.md&assignees=keithboice&labels=branch%3Achore&title=chore
       about: A non-functional requirement on technical task
-      title: "[CHORE] title"
+      title: "chore"
       labels: tag:chore,branch:chore
       assignees: "keithboice"
 
     - name: action
-      url: https://github.com/keithboice/kb/issues/new?template=action.md&assignees=keithboice&labels=branch%3Abot&title=%5BBUG%5D+title
+      url: https://github.com/keithboice/kb/issues/new?template=action.md&assignees=keithboice&labels=branch%3Abot&title=trigger
       about: A github action or automated task
-      title: "[BOT] trigger the <action> action"
+      title: "trigger"
       labels: tag:action,branch:bot,tag:automated
       assignees: "bot"
