@@ -2,6 +2,7 @@
 .yarn
 .yarn/*
 *.lock
+*.pnp.js
 
 ### JetBrains
 .idea
@@ -182,3 +183,4 @@ LICENSE
 *-lock
 *.lock
 /.*
+*rc.js
