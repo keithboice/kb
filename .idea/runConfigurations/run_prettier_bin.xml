@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="run:prettier:bin" type="NodeJSConfigurationType" application-parameters="prettier &quot;positional argument&quot; --file line_count.js" path-to-js-file="cli.js" working-dir="$PROJECT_DIR$/packages/config-prettier/bin">
+  <configuration default="false" name="run:prettier:bin" type="NodeJSConfigurationType" application-parameters="prettier &quot;positional argument&quot; --file line_count.js" path-to-js-file="$PROJECT_DIR$/packages/cmd-prettier/bin/cli.js" working-dir="$PROJECT_DIR$/packages/cmd-prettier/bin">
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
       <profiling log-folder="../../../../../../../." />
     </EXTENSION>

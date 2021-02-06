@@ -115,24 +115,10 @@ V
 &.idea/runConfigurations/yarn_stage.xml,6/1/6124821343ee02b9e92eb43a0009061b66d3d6d1
 K
 tools/git: setup commitizen,8/8/88ecf800317151f1f3f60a0940aa4b06b1cdf20a
-W
-'packages/config-prettier/.prettierrc.js,9/c/9c220ea995b7a102fc1728d05de1b5dd38f4f9d1
 M
 tools/global_install_lints.sh,3/e/3e56414bd1d83ac7bdda553acff262d855e72f27
-Y
-)packages/config-stylelint/.stylelintrc.js,4/e/4e6e9297139a8c406920f7b84bb7f7739cf6e804
 M
 tools/git: commit and push.sh,9/5/9511ada7a054dae6c1e7f240238f4764a833f233
-L
-packages/cmd-commit/index.js,e/6/e66b9b2ab607028ed3dbe4c29da40300c141f8cd
-V
-&packages/cmd-clean/tests/index.test.js,3/4/34cbf0384d400b2ffb07d17b92a6ddfa4273da49
-S
-#packages/config-eslint/.eslintrc.js,7/e/7e87e074adac54b90d8880decada8942bb20ec53
-I
-packages/cmd-clean/bin.js,e/d/ed2c00ce259b50063341f63d6ffc7ac15b121976
-K
-packages/cmd-clean/index.js,7/f/7ffc7111bd1ac251773edf1f01020d42e773c504
 [
 +docs/conf/templates/json/clean_scripts.json,4/6/464e1cecfe9db4bae0ac261f367819a94b51f7e0
 W
@@ -141,33 +127,65 @@ U
 %docs/conf/templates/grunt/template.js,4/9/49701abf494eac9fdacedadba52963ea65261d2b
 P
  packages/cmd-commit/package.json,0/3/030db7baded9e4ccf989de0ee149b49d1bdf7f8a
-O
-packages/cmd-clean/package.json,1/a/1a49da7d110e52234a53a15dd9229844967e60c9
-S
-#packages/config-jest/jest-preset.js,e/1/e1c3a4bf140c38dfc2dfe81c4b9ed97f64d9ef43
-X
-(packages/config-jest/tests/index.test.js,f/d/fd59a51611d1cf346b239493f045aa1c8b20e20a
-Q
-!packages/config-jest/package.json,e/4/e4c66b26b9fe178659e276e718d35d7505b72575
-T
-$packages/config-eslint/.eslintignore,f/4/f4976dc2d624d95623e9f8fd230334c471370cb2
-Z
-*packages/config-stylelint/.stylelintignore,4/4/442bbc25ef4183e11ed17de6653b1eff79f9115d
-R
-"packages/config-stylelint/index.js,a/8/a85bfe7ecf368725da0c9e9e81d1e49c64bc8872
-M
-packages/config-jest/index.js,a/b/ab751546dc634783be984626e8362121cbbc2e89
-S
-#packages/config-jest/jest.config.js,b/9/b9f9c0e9364f132d1d70ba53c48f408310e47110
-Q
-!packages/config-prettier/index.js,b/6/b605d8e867fec51fb35c2449dcf94a9768cc8b73
-O
-packages/config-eslint/index.js,2/4/248fa997f3d941e643aad955df4a24a56edd0df4
 U
-%packages/config-prettier/package.json,d/d/dd1e6e6b777c45a6a52aef3b23017a6071e504bf
+%packages/cmd-eslint/src/.eslintignore,f/2/f21ac0516243dbed73c31af886aadd99bc04b97c
+Y
+)packages/cmd-prettier/src/.prettierignore,7/9/7964df75e270f5099a73d2268ba518d5a6181ab3
+T
+$packages/cmd-jest/src/jest-preset.js,2/c/2c307b78314afafb5a13a3531f2cd7d153281606
+Q
+!packages/cmd-jest/src/.jestignore,f/9/f995bb20cf7ae0cc567e1eb3a7fd6ca1ae285941
+H
+tests/cmd-commit.test.js,6/6/6661a8abd5b371b94ae160da723d7ecbba8eff1e
+K
+packages/utils/src/index.js,a/d/ad56b210dcb476761d934703da9c5e15fa96ef39
+C
+tests/utils.test.js,3/9/39ecd6ffba60d3327f2f3623c649f0ad3154e1b8
+P
+ packages/cmd-eslint/src/index.js,5/7/5749ae9b27611df1e3abb371fc7e1c677f14435a
+L
+packages/cmd-jest/bin/cli.js,a/4/a41b2b399bef4bf408b0e65f98f384bf8f127c75
+N
+packages/cmd-eslint/bin/cli.js,9/2/928fc702e28212808acbfdfcaf793fa9ffa7e538
+R
+"packages/cmd-prettier/src/index.js,b/c/bcf0070ff6ad460b281e463c62e1fc625878c5a5
 S
-#packages/config-eslint/package.json,9/9/999aa1d78613661d31df34a1a67a933a0e2779dc
+#packages/cmd-stylelint/src/index.js,a/3/a30e7d22cd790c68dd52376ff5bf2e67dd95d114
+Q
+!packages/cmd-stylelint/bin/cli.js,c/2/c2aeecfd09df6c3757fc0dca72e2466aa9a6e844
+P
+ packages/cmd-prettier/bin/cli.js,f/4/f40d1e5ed4f107eed0fde2de0b5c61c71455e3b9
+N
+packages/cmd-jest/src/index.js,0/c/0c74e5303d1d5320eeb3bc5941a6b2effa22f56b
+P
+ packages/cmd-commit/src/index.js,7/3/73b5074c489ff99c6137b575797eb71bc158de7b
+N
+packages/cmd-commit/bin/cli.js,2/9/29be74bf166ed0b25c045936e177da8187afc937
+I
+packages/utils/bin/cli.js,e/6/e69ae34d3c07ce9682bc56efc4b4c2a4be15ff21
+N
+packages/cmd-jest/package.json,4/3/434a536391d06b144df1db2a62ce25a41fbdd021
+P
+ packages/cmd-eslint/package.json,5/d/5d6a49df2cc5ce47c7284f254f99648ca1569736
+R
+"packages/cmd-prettier/package.json,3/4/3452f470181e8d10f8693bec330d2676abeca99a
+S
+#packages/cmd-stylelint/package.json,b/e/be89f215bac52c800e5d605e2f9e619d6d1caf9b
+K
+packages/utils/package.json,3/a/3a9fc31a2deb46023b9a2ba979de9c4b2e77b11c
+H
+tests/cmd-eslint.test.js,c/8/c868477eb85307c8953a425c0e094f463d10d2d8
+K
+tests/cmd-stylelint.test.js,8/a/8af9cd2c1b6ddef44567ac9a565e866bcb0b61a2
 J
-packages/cmd-commit/bin.js,1/1/113192eefc301cd20f64c0362954a705d74d486d
-V
-&packages/config-stylelint/package.json,a/b/ab9578f280735e2326a9a0e0c71d6983e40b33d4
+tests/cmd-prettier.test.js,f/3/f315105012a2c5fd3d48ca07903e16526abca0e6
+F
+tests/cmd-jest.test.js,c/5/c5ebb240ff9e20dea6e2d13f940845d82083f051
+J
+tools/new-package/index.js,a/e/ae55e89a09dd25a7cde6a4e77984f345a7683c0c
+D
+pnpm-workspaces.yaml,d/0/d0486f8f3558f70bd27e1eb9be475e7d8e95626a
+;
+pnpmfile.js,0/0/0001323f9b1cf1c6706228b7cd8262ae35597b4e
+6
+.npmrc,1/2/12453d06e6e35287172e482940b954ba12dc25a2

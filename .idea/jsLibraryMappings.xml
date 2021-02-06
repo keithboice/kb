@@ -2,5 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{@types/es6-collections, @types/eslint, @types/handlebars-helpers, @types/jest, @types/node, @types/prettier, @types/semver, @types/shelljs, @types/stylelint, @types/yargs, HTML, HTTP Response Handler, Node.js Core}" />
+    <file url="PROJECT" libraries="{@types/pnpapi}" />
   </component>
 </project>

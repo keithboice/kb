@@ -31,7 +31,7 @@
     "test:coverage": "jest --coverage --no-cache"
   },
   "types":         "commonjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "@kb/utils",
   "dependencies": {
     "chalk": "^4.1.0",

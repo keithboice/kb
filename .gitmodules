@@ -1,0 +1,6 @@
+[submodule ".github/workflows"]
+	path = .github/workflows
+	url = git@github.com:keithboice/.github_actions.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:keithboice/.github_docs.git

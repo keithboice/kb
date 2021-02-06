@@ -33,7 +33,7 @@
 		"test:coverage": "jest --coverage --no-cache"
 	},
 	"types": "commonjs",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"dependencies": {
 		"@vercel/ncc": "^0.27.0",
 		"app-root-path": "^3.0.0",
