@@ -2,5 +2,5 @@
 	path = .github/workflows
 	url = git@github.com:keithboice/.github_actions.git
 [submodule "docs"]
-	path = docs
+	path = lib/docs
 	url = git@github.com:keithboice/.github_docs.git
