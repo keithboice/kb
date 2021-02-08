@@ -1,0 +1,4 @@
+---
+archetypes:
+    - build
+    - build-dev

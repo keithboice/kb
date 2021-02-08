@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn path" type="BashProRunConfiguration" folderName="utils">
+  <configuration default="false" name="yarn path" type="BashProRunConfiguration" folderName="archive">
     <option name="interpreterPath" value="/Users/dkb/.npm-packages/lib/node_modules/yarn/bin/yarn.js" />
     <scriptContent>yarn bin</scriptContent>
     <option name="sourceType" value="snippet" />

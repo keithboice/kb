@@ -1,30 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="github_actions" stopOnFirstError="true" exclude=".svn;.cvs;.DS_Store;.git;.hg;*.hprof;*.pyc" autoUploadExternalChanges="true">
-    <serverData>
-      <paths name="docs">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$/docs" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="github_actions">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$/.github/workflows" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="ide">
-        <serverdata>
-          <mappings>
-            <mapping deploy="project_kb" local="$PROJECT_DIR$/.idea" web="/" />
-            <mapping deploy="vscode" local="$PROJECT_DIR$/.vscode" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
-  </component>
+  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="github_actions" overwriteAll="false" preserveTimestamps="false" promptOnLocalOverwrite="false" exclude=".svn;.cvs;.DS_Store;.git;.hg;*.hprof;*.pyc" remoteFilesAllowedToDisappearOnAutoupload="false" showDialogOnRemoteDnD="false" />
 </project>

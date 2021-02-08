@@ -5,7 +5,8 @@
 		"commit": "bin/cli.js"
 	},
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
 	},
 	"files": [
 		"bin/cli.js",
@@ -25,6 +26,7 @@
 	},
 	"scripts": {
 		"commit": "cz",
+		"build": "rimraf dist && ncc build src/index.js --license ../../LICENSE --stats-out ../../dist/reports/builds/config-jest/vercel.json -sm -o dist/",
 		"build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/cli",
 		"build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/main",
 		"build": "concurrently 'npm:build:cli' 'npm:build:main'",

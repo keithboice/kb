@@ -9,8 +9,6 @@
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 =
 .editorconfig,6/2/626a747c8694eaae66f2afb3d1a745b045782c70
-;
-.yarnrc.yml,9/d/9da6c3f8f0ef45beafba161d8dd084500ea7d884
 8
 start.js,7/1/714ba0644640b28429ef8edf2bf15bd7510ce83a
 ?
@@ -39,8 +37,6 @@ F
 .github/dependabot.yml,0/9/091aff741808a09242f252264b14f4a9adaa5305
 M
 .idea/.vscode/extensions.json,1/4/1486cbeb1e8d716f8ee924e47bc329ff25749540
-G
-.vscode/extensions.json,7/c/7cf89ab29dcfeb05af08dbd113b027290e879286
 C
 tests/index.test.js,3/c/3c41ab34e2f6ae47f5cbaa99190558d48be62a6f
 X
@@ -63,8 +59,6 @@ L
 ,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
 K
 .idea/.vscode/settings.json,f/b/fb6f005f107b63c820e64903874bfe6f024752ba
-E
-.vscode/settings.json,8/9/89aa447020cdcb580cea0495694d46a55941edbe
 Z
 *.idea/runConfigurations/startup_script.xml,c/9/c99f672495217c46937f601d919ec01038ffd9fb
 z
@@ -73,8 +67,6 @@ J.idea/runConfigurations/utils____install_dependencies_globally__clean_.xml,6/b
 ..idea/runConfigurations/utils_mono_rebuild.xml,7/e/7eb9b9154acc596965432a48d1535967ddb4d233
 _
 /.idea/runConfigurations/version_mono_change.xml,8/2/8238b0b30b25b8e83407ef05a77b5add5b03733d
-M
-.yarn/releases/yarn-2.4.0.cjs,f/3/f34fde94fdb66e70192c844366f854e2aba54a69
 b
 2.idea/runConfigurations/yarn____latest_version.xml,0/5/056fa70c232c430a6b455b7ef35fb03656932858
 _
@@ -85,8 +77,6 @@ f
 0.idea/runConfigurations/yarn_ide_sdk_updates.xml,3/b/3b47e91dba2a691f48002e25e83df0e26e9c30b4
 U
 %.idea/runConfigurations/yarn_test.xml,c/9/c99ff2179bc4bcc8dc9cae0d581f6e0b5c21e6e5
-E
-.yarn/build-state.yml,d/1/d1b5fe0098ded06b50ceef77545e440339c0343d
 X
 (.github/PULL_REQUEST_TEMPLATE/config.yml,d/c/dcd9eacbc38f2b0c7f7e215da2e683aa49c3ac67
 b

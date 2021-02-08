@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="version:mono:change" type="js.build_tools.npm" folderName="utils">
+  <configuration default="false" name="version:mono:change" type="js.build_tools.npm" folderName="archive">
     <package-json value="$PROJECT_DIR$/package.json" />
     <command value="version" />
     <arguments value="check --interactive" />

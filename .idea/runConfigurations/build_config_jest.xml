@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build:config-jest" type="js.build_tools.npm" singleton="false">
+    <package-json value="$PROJECT_DIR$/packages/config-jest/package.json" />
+    <command value="build" />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,15 @@
+{
+  "name": "@kb/config-rollup-node",
+  "version": "1.0.0",
+  "description": "Rollup nodejs config for kb projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rollup",
+    "kb"
+  ],
+  "author": "Keith Boice",
+  "license": "MIT"
+}

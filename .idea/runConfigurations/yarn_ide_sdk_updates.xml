@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn ide sdk updates" type="BashProRunConfiguration" folderName="startup">
+  <configuration default="false" name="yarn ide sdk updates" type="BashProRunConfiguration" folderName="archive">
     <scriptContent>yarn dlx @yarnpkg/pnpify --sdk vscode vim 
 yarn dlx @yarnpkg/pnpify --sdk</scriptContent>
     <option name="sourceType" value="snippet" />

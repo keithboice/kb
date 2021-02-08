@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EslintConfiguration">
-    <custom-configuration-file used="true" path="$PROJECT_DIR$/packages/config-eslint/src/index.js" />
-    <option name="fix-on-save" value="true" />
+    <work-dir-patterns value="$PROJECT_DIR$" />
+    <custom-configuration-file used="true" path="$PROJECT_DIR$/packages/cmd-eslint/src/index.js" />
   </component>
 </project>

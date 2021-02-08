@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/cmd-clean/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/cmd-rimraf/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../archive/.archive/packages.grunt.bk/__tests__" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../archive/.archive/prettier-plugin/__tests__" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/packages/todo-version/__tests__" isTestSource="true" />

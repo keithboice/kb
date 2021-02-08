@@ -4,7 +4,8 @@
 		"test": "bin/cli.js"
 	},
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
 	},
 	"files": [
 		"bin/cli.js",

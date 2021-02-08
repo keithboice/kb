@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn init" type="BashProRunConfiguration">
+  <configuration default="false" name="yarn init" type="BashProRunConfiguration" folderName="archive">
     <option name="defaultInterpreter" value="none" />
     <option name="interpreterPath" value="/Users/dkb/.npm-packages/lib/node_modules/yarn/bin/yarn.js" />
     <scriptContent>yarn init</scriptContent>

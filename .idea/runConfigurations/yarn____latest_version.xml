@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn -&gt; latest version" type="BashProRunConfiguration" folderName="startup">
+  <configuration default="false" name="yarn -&gt; latest version" type="BashProRunConfiguration" folderName="archive">
     <option name="defaultInterpreter" value="bash" />
     <scriptContent>yarn set version latest</scriptContent>
     <option name="sourceType" value="snippet" />

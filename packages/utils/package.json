@@ -3,6 +3,10 @@
   "bin":           {
     "utils": "bin/cli.js"
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "pnpm": ">=5"
+  },
   "engines":       {
     "node": ">=14.0.0"
   },

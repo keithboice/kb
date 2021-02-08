@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn:add:all (prettier)" type="js.build_tools.npm" folderName="utils" singleton="false">
+  <configuration default="false" name="yarn:add:all (prettier)" type="js.build_tools.npm" folderName="archive" singleton="false">
     <package-json value="$PROJECT_DIR$/packages/config-prettier/package.json" />
     <command value="add" />
     <arguments value="@prettier/plugin-xml  @types/eslint-plugin-prettier  @types/prettier  app-root-path  indent-string  prettier  prettier-eslint-cli  prettier-plugin-jsdoc  prettier-plugin-organize-imports  prettier-plugin-package  prettier-plugin-packagejson  prettier-plugin-sh  tslint-config-prettier  typescript " />

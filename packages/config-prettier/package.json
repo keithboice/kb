@@ -1,0 +1,55 @@
+{
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"bin": {
+		"prettier": "bin/cli.js"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"files": [
+		"bin/cli.js",
+		"src/index.js"
+	],
+	"homepage": "https://github.com/keithboice/kb",
+	"languageName": "node",
+	"license": "MIT",
+	"main": "src/index.js",
+	"publishConfig": {
+		"access": "public",
+		"bin": "bin/cli.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git"
+	},
+	"scripts": {
+		"build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/config-prettier/vercel.json -sm -o dist/cli",
+		"build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/config-prettier/vercel.json -sm -o dist/main",
+		"build": "concurrently 'npm:build:cli' 'npm:build:main'",
+		"test": "jest ../../tests/config-prettier.test.js",
+		"test:dev": "jest --watch",
+		"test:coverage": "jest --coverage --no-cache"
+	},
+	"types": "commonjs",
+	"version": "0.0.1",
+	"name": "@kb/config-prettier",
+	"dependencies": {
+		"@prettier/plugin-xml": "^0.13.0",
+		"@types/eslint-plugin-prettier": "^3.1.0",
+		"@types/prettier": "^2.2.0",
+		"app-root-path": "^3.0.0",
+		"eslint-config-prettier": "^7.2.0",
+		"indent-string": "^4.0.0",
+		"prettier": "^2.2.1",
+		"prettier-eslint-cli": "^5.0.0",
+		"prettier-plugin-jsdoc": "^0.3.9",
+		"prettier-plugin-organize-imports": "^1.1.1",
+		"prettier-plugin-package": "^1.3.0",
+		"prettier-plugin-packagejson": "^2.2.9",
+		"prettier-plugin-sh": "^0.6.0",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^4.1.3",
+		"yargs": "^16.2.0",
+		"tslint-plugin-prettier": "^2.3.0"
+	}
+}

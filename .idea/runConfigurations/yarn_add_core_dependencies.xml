@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yarn add core dependencies" type="BashProRunConfiguration" folderName="startup">
+  <configuration default="false" name="yarn add core dependencies" type="BashProRunConfiguration" folderName="archive">
     <scriptContent>yarn add eslint prettier stylelint handlebars jest</scriptContent>
     <option name="sourceType" value="snippet" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />

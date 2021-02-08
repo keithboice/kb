@@ -1,0 +1,14 @@
+{
+  "name": "@kb/task-repo-release",
+  "version": "1.0.0",
+  "description": "Package repo release task",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "kb"
+  ],
+  "author": "Keith Boice",
+  "license": "MIT"
+}

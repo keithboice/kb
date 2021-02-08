@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="stage yarn config" type="BashProRunConfiguration" folderName="pre-commit">
+  <configuration default="false" name="stage yarn config" type="BashProRunConfiguration" folderName="archive">
     <scriptContent>yarn stage</scriptContent>
     <option name="sourceType" value="snippet" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
