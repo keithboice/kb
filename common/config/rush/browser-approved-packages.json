@@ -23,6 +23,10 @@
       "allowedCategories": [ "packages" ]
     },
     {
+      "name": "directory-tree",
+      "allowedCategories": [ "packages" ]
+    },
+    {
       "name": "eslint",
       "allowedCategories": [ "packages" ]
     },
@@ -100,6 +104,14 @@
     },
     {
       "name": "eslint-plugin-yml",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "fast-glob",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "find-package-json",
       "allowedCategories": [ "packages" ]
     },
     {
