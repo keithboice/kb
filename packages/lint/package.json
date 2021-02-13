@@ -1,0 +1,89 @@
+{
+	"name": "@kb/lint",
+	"version": "0.0.1",
+	"description": "Nodejs readme script for kb projects",
+	"homepage": "https://github.com/keithboice/kb",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git"
+	},
+	"license": "MIT",
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"main": "index.js",
+	"module": "index.mjs",
+	"types": "commonjs",
+	"bin": {
+		"lint": "cli.js"
+	},
+	"files": [
+		"dist/**",
+		"cli.js",
+		"index.js",
+		"conf/**"
+	],
+	"scripts": {
+		"build": "build ./",
+		"commit:": "commit ./",
+		"deploy": "deploy ./",
+		"docs": "docs ./",
+		"lint": "./cli.js lint ./",
+		"release": "release ./",
+		"reports": "reports ./",
+		"test": "test ./"
+	},
+	"dependencies": {
+		"@babel/core": "^7.12.16",
+		"@babel/eslint-parser": "^7.12.16",
+		"@babel/eslint-plugin": "^7.12.13",
+		"@babel/plugin-proposal-class-properties": "^7.12.13",
+		"@babel/plugin-syntax-class-properties": "^7.12.13",
+		"@babel/preset-env": "^7.12.16",
+		"@types/eslint": "^7.2.6",
+		"@types/eslint-plugin-prettier": "^3.1.0",
+		"@types/prettier": "^2.2.0",
+		"@typescript-eslint/eslint-plugin": "^4.14.2",
+		"@typescript-eslint/parser": "^4.14.2",
+		"app-root-path": "^3.0.0",
+		"eslint": "^7.19.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-prettier": "^7.2.0",
+		"eslint-config-xo": "^0.34.0",
+		"eslint-plugin-ava": "^11.0.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-html": "^6.1.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jest": "^24.1.3",
+		"eslint-plugin-jest-formatting": "^2.0.1",
+		"eslint-plugin-json": "^2.1.2",
+		"eslint-plugin-json-files": "^0.8.1",
+		"eslint-plugin-markdown": "^1.0.2",
+		"eslint-plugin-no-use-extend-native": "^0.5.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-unicorn": "^27.0.0",
+		"eslint-plugin-yaml": "^0.3.0",
+		"eslint-plugin-yml": "^0.7.0",
+		"indent-string": "^4.0.0",
+		"prettier": "^2.2.1",
+		"stylelint": "^13.10.0",
+		"stylelint-config-idiomatic-order": "^8.1.0",
+		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-config-standard": "^20.0.0",
+		"stylelint-order": "^4.1.0",
+		"typescript": "^4.1.5",
+		"typescript-eslint": "^0.0.1-alpha.0",
+		"yaml-eslint-parser": "^0.3.2",
+		"yargs": "^16.2.0"
+	},
+	"bundledDependencies": [
+		"eslint",
+		"prettier",
+		"yargs"
+	],
+	"engines": {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	},
+	"languageName": "node"
+}

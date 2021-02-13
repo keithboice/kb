@@ -37,8 +37,8 @@
 	"hotfixChangeEnabled": false,
 	"projects": [
 		{
-			"packageName": "@kb/get-paths",
-			"projectFolder": "packages/get-paths",
+			"packageName": "@kb/core-paths",
+			"projectFolder": "packages/core-paths",
 			"reviewCategory": "packages"
 		}
 	]

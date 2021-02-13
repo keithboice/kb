@@ -2,11 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/task-docs-github-wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/task-docs-github-workflows" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/template-github" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/template-jsdoc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/script-docs-node/theme" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/template-jsdoc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/docs/sources/templates" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/docs/sources/wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/version/workflows" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,54 @@
+{
+	"name":                "@kb/core-cli",
+	"version":             "0.0.1",
+	"description":         "Commmon CLI library",
+	"homepage":            "https://github.com/keithboice/kb",
+	"repository":          {
+		"type": "git",
+		"url":  "https://github.com/keithboice/kb.git"
+	},
+	"license":             "MIT",
+	"author":              "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"main":                "index.js",
+	"module":              "index.mjs",
+	"types":               "commonjs",
+	"bin":                 {
+		"build": "cli.js",
+		"clean": "cli.js",
+		"docs":  "cli.js",
+		"lint":  "cli.js"
+	},
+	"files":               [
+		"dist/**",
+		"./**"
+	],
+	"scripts":             {
+		"preinstall": "npx only-allow pnpm",
+		"commit:":    "echo 'please do git actions from mono root'",
+		"build":      "./cli.js build --wd ./",
+		"deploy":     "./cli.js deploy --wd ./",
+		"docs":       "./cli.js docs --wd ./",
+		"clean":      "./cli.js clean --wd ./",
+		"lint":       "./cli.js lint --wd ./",
+		"release":    "./cli.js release --wd ./",
+		"reports":    "./cli.js reports --wd ./",
+		"test":       "./cli.js test --wd ./"
+	},
+	"dependencies":        {
+		"app-root-path": "^3.0.0",
+		"chalk":         "^4.1.0",
+		"fast-glob":     "^3.2.5",
+		"yargs":         "^16.2.0"
+	},
+	"bundledDependencies": [
+		"yargs",
+		"chalk",
+		"fast-glob",
+		"app-root-path"
+	],
+	"engines":             {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	},
+	"languageName":        "node"
+}

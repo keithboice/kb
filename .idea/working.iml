@@ -9,6 +9,31 @@
       <excludeFolder url="file://$MODULE_DIR$/script-docs-node/.pnpm-store" />
       <excludeFolder url="file://$MODULE_DIR$/common" />
       <excludeFolder url="file://$MODULE_DIR$/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/.github" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/build/.pnpm-store" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core-cli/.pnpm-store" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core-paths/.pnpm-store" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core-paths/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/docs/sources/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/docs/sources/wiki" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/lint/.pnpm-store" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/test/.pnpm-store" />
+      <excludePattern pattern=".github/*" />
+      <excludePattern pattern=".idea/*" />
+      <excludePattern pattern="common/*" />
+      <excludePattern pattern="docs/*" />
+      <excludePattern pattern="/**/.pnpm-store/*" />
+      <excludePattern pattern=".pnpm-store/*" />
+      <excludePattern pattern="node_modules/*" />
+      <excludePattern pattern="/**/node_modules/*" />
+      <excludePattern pattern="*lock*" />
+      <excludePattern pattern="/**/.rush/*" />
+      <excludePattern pattern=".rush/*" />
+      <excludePattern pattern="/**/temp/*" />
+      <excludePattern pattern="temp/*" />
+      <excludePattern pattern="/**/tmp/*" />
+      <excludePattern pattern="tmp/*" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

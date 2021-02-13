@@ -17,9 +17,9 @@
 	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
 	"main": "start.js",
 	"scripts": {
+		"build": "rimraf ./lib/ && tsc",
 		"commit": "cz -a",
 		"preinstall": "npx only-allow pnpm",
-		"jsdoctest": "mocha --require jsdoctest `find packages/** -name \"*.js\"`",
 		"rush:update": "rush update"
 	},
 	"config": {
