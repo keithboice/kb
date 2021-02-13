@@ -7,7 +7,7 @@
     <option name="PARENT_ENVS" value="true" />
     <option name="SCRIPT_NAME" value="" />
     <option name="PARAMETERS" value="" />
-    <scriptContent>yarn run rollup -c</scriptContent>
+    <scriptContent>rush update</scriptContent>
     <option name="sourceType" value="snippet" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
     <method v="2" />

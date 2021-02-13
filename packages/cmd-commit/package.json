@@ -2,36 +2,36 @@
 	"name": "@kb/cmd-commit",
 	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
 	"bin": {
-		"commit": "bin/cli.js"
+		"commit": "cli.js"
 	},
-	"engines": {
+	"engines":       {
 		"node": ">=14.0.0",
 		"pnpm": ">=5"
 	},
-	"files": [
-		"bin/cli.js",
-		"src/index.js"
+	"files":         [
+		"cli.js",
+		"index.js"
 	],
-	"homepage": "https://github.com/keithboice/kb",
-	"languageName": "node",
-	"license": "MIT",
-	"main": "src/index.js",
+	"homepage":      "https://github.com/keithboice/kb",
+	"languageName":  "node",
+	"license":       "MIT",
+	"main":          "index.js",
 	"publishConfig": {
 		"access": "public",
 		"bin": "bin/cli.js"
 	},
-	"repository": {
+	"repository":    {
 		"type": "git",
 		"url": "https://github.com/keithboice/kb.git"
 	},
-	"scripts": {
-		"commit": "cz",
-		"build": "rimraf dist && ncc build src/index.js --license ../../LICENSE --stats-out ../../dist/reports/builds/config-jest/vercel.json -sm -o dist/",
-		"build:cli": "ncc build ./bin/cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/cli",
-		"build:main": "ncc build src/index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/main",
-		"build": "concurrently 'npm:build:cli' 'npm:build:main'",
-		"test": "jest ../../tests/cmd-commit.test.js",
-		"test:dev": "jest --watch",
+	"scripts":       {
+		"commit":        "cz",
+		"build":         "rimraf dist && ncc build index.js --license ../../LICENSE --stats-out ../../dist/reports/builds/config-jest/vercel.json -sm -o dist/",
+		"build:cli":     "ncc build cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/cli",
+		"build:main":    "ncc build index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/main",
+		"build":         "concurrently 'npm:build:cli' 'npm:build:main'",
+		"test":          "jest ../../common/tests/cmd-commit.test.js",
+		"test:dev":      "jest --watch",
 		"test:coverage": "jest --coverage --no-cache"
 	},
 	"types": "commonjs",

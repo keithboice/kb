@@ -1,0 +1,166 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@prettier/plugin-xml",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@vercel/ncc",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "app-root-path",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-config-airbnb-base",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-config-xo",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-ava",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-eslint-comments",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-html",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-jest-formatting",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-json",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-json-files",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-markdown",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-no-use-extend-native",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-node",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-promise",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-unicorn",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-yaml",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "eslint-plugin-yml",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "indent-string",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-eslint-cli",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-plugin-jsdoc",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-plugin-organize-imports",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-plugin-package",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-plugin-packagejson",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "prettier-plugin-sh",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "rimraf",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "tslint-config-prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "tslint-plugin-prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "typescript-eslint",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "yaml-eslint-parser",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "yargs",
+      "allowedCategories": [ "packages" ]
+    }
+  ]
+}

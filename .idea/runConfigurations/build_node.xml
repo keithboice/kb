@@ -1,9 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="build:node" type="js.build_tools.gulp" singleton="false">
+  <configuration default="false" name="build node" type="js.build_tools.gulp">
     <node-interpreter>project</node-interpreter>
     <node-options />
-    <gulpfile>$PROJECT_DIR$/packages/cmd-build-node/src/gulpfile.js/index.js</gulpfile>
-    <tasks />
+    <gulpfile>$PROJECT_DIR$/cmd-build-node/gulpfile.js.js</gulpfile>
+    <tasks>
+      <task>default</task>
+    </tasks>
     <arguments />
     <envs />
     <method v="2" />

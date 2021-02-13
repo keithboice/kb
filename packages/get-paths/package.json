@@ -1,0 +1,51 @@
+{
+	"name":                "@kb/get-paths",
+	"version":             "0.0.1",
+	"description":         "Commmon library for handling anything path related",
+	"homepage":            "https://github.com/keithboice/kb",
+	"repository":          {
+		"type": "git",
+		"url":  "https://github.com/keithboice/kb.git"
+	},
+	"license":             "MIT",
+	"author":              "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"main":                "index.js",
+	"module":              "index.mjs",
+	"types":               "commonjs",
+	"bin":                 {
+		"docs": "cli.js"
+	},
+	"files":               [
+		"dist/**"
+	],
+	"scripts":             {
+		"build":   "build ./",
+		"commit:": "commit ./",
+		"deploy":  "deploy ./",
+		"docs":    "docs ./",
+		"paths":   "./cli.js ./",
+		"lint":    "lint ./",
+		"release": "release ./",
+		"reports": "reports ./",
+		"test":    "test ./"
+	},
+	"dependencies":        {
+		"app-root-path":     "^3.0.0",
+		"directory-tree":    "^2.2.6",
+		"fast-glob":         "^3.2.5",
+		"find-package-json": "^1.2.0",
+		"rimraf":            "^3.0.2"
+	},
+	"bundledDependencies": [
+		"directory-tree",
+		"app-root-path",
+		"fast-glob",
+		"find-package-json",
+		"rimraf"
+	],
+	"engines":             {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	},
+	"languageName":        "node"
+}

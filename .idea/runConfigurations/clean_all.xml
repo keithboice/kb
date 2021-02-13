@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="clean:all" type="BashProRunConfiguration" singleton="false">
+    <scriptContent>rm -rf **/.pnp-store &amp; rm -rf .pnp-store &amp;  rm -rf **/node_modules &amp; rm -rf node_modules &amp; cd packages &amp;&amp; rm -rf shrinkwrap.yaml npm-shrinkwrap.json package-lock.json yarn.lock .npmrc
+ echo &quot;removed dependency stores&quot;
+ rm -rf docs/documentation &amp; rm -rf **/docs/documentation
+ echo &quot;removed documentation artifacts&quot;
+ rm -rf dist &amp;&amp; echo &quot;removed distro artifacts&quot;
+ rm -rf LICENSE &amp;&amp; echo &quot;removed LICENSE&quot;
+ rm -rf README.md &amp;&amp; echo &quot;removed README&quot;</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

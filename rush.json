@@ -1,0 +1,45 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+	"rushVersion": "5.38.0",
+	"pnpmVersion": "5.15.2",
+	"pnpmOptions": {
+		"pnpmStore": "local",
+		"strictPeerDependencies": true,
+		"preventManualShrinkwrapChanges": true,
+		"useWorkspaces": true
+	},
+	"nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=15.0.0",
+	"suppressNodeLtsWarning": true,
+	"ensureConsistentVersions": true,
+	"projectFolderMinDepth": 2,
+	"projectFolderMaxDepth": 3,
+	"allowMostlyStandardPackageNames": false,
+	"approvedPackagesPolicy": {
+		"reviewCategories": ["packages"],
+		"ignoredNpmScopes": ["@types", "@kb"]
+	},
+	"gitPolicy": {
+		"versionBumpCommitMessage": "Applying package updates. [skip-ci]",
+		"changeLogUpdateCommitMessage": "Applying package updates. [skip-ci]"
+	},
+	"repository": {
+		"url": "https://github.com/keithboice/kb",
+		"defaultBranch": "main",
+		"defaultRemote": "origin"
+	},
+	"eventHooks": {
+		"preRushInstall": ["common/scripts/pre-rush-install.js"],
+		"postRushInstall": [],
+		"preRushBuild": [],
+		"postRushBuild": []
+	},
+	"telemetryEnabled": false,
+	"hotfixChangeEnabled": false,
+	"projects": [
+		{
+			"packageName": "@kb/get-paths",
+			"projectFolder": "packages/get-paths",
+			"reviewCategory": "packages"
+		}
+	]
+}

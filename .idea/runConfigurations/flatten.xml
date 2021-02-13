@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="flatten" type="BashProRunConfiguration" singleton="false">
+    <scriptContent>find ./ -mindepth 1 -type f -exec mv -i '{}' ./ ';' &amp;&amp; rm -r */</scriptContent>
+    <option name="sourceType" value="snippet" />
+    <option name="workingDirectory" value="$FilePrompt$" />
+    <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+    <method v="2" />
+  </configuration>
+</component>

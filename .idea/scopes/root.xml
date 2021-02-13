@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="root" pattern="file[packages]:.editorconfig||file[packages]:.gitattributes||file[packages]:.gitignore||file[packages]:.gitmodules||file[packages]:.travis.yml||file[packages]:package.json||file[packages]:pnpm-lock.yaml||file[packages]:README.md||file[packages]:rush.json||file[packages]:start.js" />
+</component>

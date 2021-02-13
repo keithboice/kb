@@ -1,65 +1,40 @@
 {
 	"name": "kb",
-	"version": "0.0.0",
 	"private": true,
 	"description": "kb packages",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/keithboice/kb.git"
-	},
-	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
+	"keywords": [
+		"kb"
+	],
 	"homepage": "https://keithboice.github.io/kb/",
 	"bugs": {
 		"url": "https://github.com/keithboice/kb/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git"
+	},
+	"license": "MIT",
+	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
 	"main": "start.js",
-	"engines": {
-		"node": ">=14.0.0",
-		"pnpm": ">=5"
-	},
 	"scripts": {
-		"clean": "builder run npm:clean",
 		"commit": "cz -a",
-		"dev": "builder run npm:dev",
-		"postcommit": "git push",
-		"postdev": "echo postdev",
-		"precommit": "echo precommit",
-		"predev": "echo predev",
 		"preinstall": "npx only-allow pnpm",
-		"test": "builder run npm:test"
-	},
-	"keywords": [
-		"kb"
-	],
-	"dependencies": {
-		"@kb/cmd-commit": "link:packages/cmd-commit",
-		"@kb/cmd-eslint": "link:packages/cmd-eslint",
-		"@kb/cmd-jest": "link:packages/cmd-jest",
-		"@kb/cmd-prettier": "link:packages/cmd-prettier",
-		"@kb/cmd-stylelint": "link:packages/cmd-stylelint",
-		"@kb/utils": "link:packages/utils",
-		"builder": "^5.0.0",
-		"dot-json": "^1.2.1"
-	},
-	"devDependencies": {
-		"@changesets/cli": "^2.14.1",
-		"cz-conventional-changelog": "^3.3.0"
-	},
-	"resolutions": {
-		"@kb/cmd-commit": "workspace:packages/cmd-commit",
-		"@kb/cmd-eslint": "workspace:packages/cmd-eslint",
-		"@kb/cmd-jest": "workspace:packages/cmd-jest",
-		"@kb/cmd-prettier": "workspace:packages/cmd-prettier",
-		"@kb/cmd-stylelint": "workspace:packages/cmd-stylelint",
-		"@kb/utils": "workspace:packages/utils"
+		"jsdoctest": "mocha --require jsdoctest `find packages/** -name \"*.js\"`",
+		"rush:update": "rush update"
 	},
 	"config": {
 		"commitizen": {
 			"path": "cz-conventional-changelog"
 		}
 	},
-	"workspaces": [
-		"packages/*"
-	]
+	"dependencies": {
+		"app-root-path": "^3.0.0"
+	},
+	"devDependencies": {
+		"cz-conventional-changelog": "^3.3.0"
+	},
+	"engines": {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	}
 }

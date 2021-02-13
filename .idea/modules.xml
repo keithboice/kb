@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../.github/.idea/.github.iml" filepath="$PROJECT_DIR$/../.github/.idea/.github.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../grunt/.idea/grunt.iml" filepath="$PROJECT_DIR$/../grunt/.idea/grunt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/packages.iml" filepath="$PROJECT_DIR$/.idea/packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/working.iml" filepath="$PROJECT_DIR$/.idea/working.iml" />
     </modules>
   </component>
 </project>

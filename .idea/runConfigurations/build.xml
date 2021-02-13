@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build" type="NodeJSConfigurationType" application-parameters="build ./" path-to-js-file="cli.js" working-dir="$PROJECT_DIR$/cmd-build-node/src">
+    <method v="2" />
+  </configuration>
+</component>

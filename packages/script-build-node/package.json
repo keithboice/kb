@@ -1,0 +1,55 @@
+{
+  "name": "@kb/script-build-node",
+  "version": "0.0.1",
+  "description": "Nodejs build script for kb projects",
+  "main": "index.js",
+  "module": "index.mjs",
+  "bin": {
+    "build": "cli.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "pnpm": ">=5"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "types": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithboice/kb.git"
+  },
+  "homepage": "https://github.com/keithboice/kb",
+  "languageName": "node",
+  "scripts": {
+    "build":            "./cli.js build ./",
+    "test":             "test ./",
+    "lint":             "lint ./",
+    "commit:":          "commit ./",
+    "deploy":           "deploy ./",
+    "release":          "release ./",
+    "generate:docs":    "docs ./",
+    "generate:reports": "reports ./"
+  },
+  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.26.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "app-root-path": "^3.0.0",
+    "child_process": "^1.0.2",
+    "fsevents": "^2.3.2",
+    "google-closure-compiler-linux": "^20210202.0.0",
+    "path": "^0.12.7",
+    "rollup": "^2.38.5",
+    "rollup-plugin-local-resolve": "^1.0.7",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "shelljs": "*",
+    "yargs": "^16.2.0"
+  },
+  "bundledDependencies": [
+    "rollup"
+  ]
+}

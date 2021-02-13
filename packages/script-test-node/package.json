@@ -1,0 +1,50 @@
+{
+  "name": "@kb/script-test-node",
+  "version": "0.0.1",
+  "description": "Nodejs test script for kb projects",
+  "main": "index.js",
+  "module": "index.mjs",
+  "bin": {
+    "build": "cli.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "pnpm": ">=5"
+  },
+  "files": [
+    "dist/**", "cli.js", "index.js"
+  ],
+  "types": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithboice/kb.git"
+  },
+  "homepage": "https://github.com/keithboice/kb",
+  "languageName": "node",
+  "scripts": {
+    "build": "build ./",
+    "test": "jest --config ./conf.js",
+    "lint": "lint ./",
+    "commit:": "commit ./",
+    "deploy": "deploy ./",
+    "release": "release ./",
+    "generate:docs": "docs ./",
+    "generate:reports": "reports ./"
+  },
+  "author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "jest": "^26.6.3",
+    "jest-watch-directories": "^1.1.0",
+    "path": "^0.12.7",
+    "shelljs": "*",
+    "yargs": "^16.2.0"
+  },
+  "bundledDependencies": [
+    "jest"
+  ],
+  "devDependencies": {
+    "app-root-path": "^3.0.0"
+  }
+}

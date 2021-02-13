@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CommitMessageInspectionProfile">
-    <profile version="1.0">
-      <inspection_tool class="GrazieCommit" enabled="true" level="TYPO" enabled_by_default="true" />
-      <inspection_tool class="SubjectBodySeparation" enabled="true" level="WARNING" enabled_by_default="true" />
-    </profile>
-  </component>
-  <component name="GitSharedSettings">
-    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
-  </component>
-  <component name="IssueNavigationConfiguration">
-    <option name="links">
-      <list>
-        <IssueNavigationLink>
-          <option name="issueRegexp" value="[\w]+[(]+(\d+)[)]" />
-          <option name="linkRegexp" value="https://github.com/keithboice/kb/issues/$1" />
-        </IssueNavigationLink>
-      </list>
-    </option>
-  </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/task-docs-github-wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/task-docs-github-workflows" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/template-github" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/template-jsdoc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/script-docs-node/theme" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/template-jsdoc" vcs="Git" />
   </component>
 </project>

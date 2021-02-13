@@ -1,0 +1,46 @@
+{
+	"name":                "@kb/make-docs",
+	"version":             "0.0.1",
+	"description":         "Nodejs readme script for kb projects",
+	"homepage":            "https://github.com/keithboice/kb",
+	"repository":          {
+		"type": "git",
+		"url":  "https://github.com/keithboice/kb.git"
+	},
+	"license":             "MIT",
+	"author":              "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"main":                "index.js",
+	"module":              "index.mjs",
+	"types":               "commonjs",
+	"bin":                 {
+		"docs": "cli.js"
+	},
+	"files":               [
+		"dist/**"
+	],
+	"scripts":             {
+		"build":   "build ./",
+		"commit:": "commit ./",
+		"deploy":  "deploy ./",
+		"docs":    "docs ./",
+		"lint":    "lint ./",
+		"release": "release ./",
+		"reports": "reports ./",
+		"test":    "test ./"
+	},
+	"dependencies":        {
+		"handlebars":  "^4.7.6",
+		"jsdoc":       "^3.6.6",
+		"jsdoc-api":   "^6.0.0",
+		"jsdoc-parse": "^5.0.0"
+	},
+	"bundledDependencies": [
+		"jsdoc",
+		"handlebars"
+	],
+	"engines":             {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	},
+	"languageName":        "node"
+}

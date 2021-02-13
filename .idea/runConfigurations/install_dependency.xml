@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="install dependency" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/script-build-node/package.json" />
+    <command value="install" />
+    <arguments value="$ClipboardContent$" />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
