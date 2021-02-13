@@ -1,25 +1,22 @@
 ---
 name: action
-<<<<<<< HEAD
-about: Will trigger a github action on the repo
-<<<<<<< HEAD
-title: "[BOT] <action>"
-labels: action, branch:bot, tag:automated
-assignees: bot
-=======
-=======
-about: will trigger a github action on the repo
->>>>>>> Update issue templates (#11)
-title: "[ACT] trigger this"
-labels: ''
-assignees: ''
 
->>>>>>> Update issue templates (#10)
+about: Will trigger a github action on the repo
+
+title: "trigger <action>"
+
+labels: action, "branch:bot", "tag:automated"
+
+assignees: bot
+
 ---
 
-# � Bot / Automated
+
+# � Action
+
 
 ### Description
+
 
 <pre><code>
 This is an automated Github action.
