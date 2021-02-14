@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GitToolBoxProjectSettings">
+    <option name="commitMessageValidation" value="true" />
+    <option name="completionConfigs">
+      <list>
+        <CommitCompletionConfig />
+        <CommitCompletionConfig>
+          <option name="type" value="PATTERN" />
+          <option name="pattern" value="(\w+-\d+).*" />
+          <option name="testInput" value="JIRA4PRJ(999)_branch_name" />
+        </CommitCompletionConfig>
+      </list>
+    </option>
+  </component>
+</project>
