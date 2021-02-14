@@ -19,7 +19,7 @@
 		"conf/**"
 	],
 	"scripts":             {
-		"build":   "\"/Users/dkb/repos/kb/packages/cli/cli.js\" dev build --wd \"/Users/dkb/repos/kb/packages/lint\" --name index.js",
+		"build":   "npx rollup index.js --file dist/main.js",
 		"commit:": "commit ./",
 		"deploy":  "deploy ./",
 		"docs":    "docs ./",

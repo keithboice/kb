@@ -1,9 +1,9 @@
 module.exports = {
-	useTabs: true,
-	tabWidth: 4,
-	semi: false,
-	singleQuote: true,
-	quoteProps: "consistent",
+	useTabs:                 true,
+	tabWidth:                4,
+	semi:                    true,
+	singleQuote:             false,
+	quoteProps:              "consistent",
 	vueIndentScriptAndStyle: true,
-	jsxSingleQuote: true,
+	jsxSingleQuote:          false
 };

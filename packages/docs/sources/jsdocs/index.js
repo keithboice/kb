@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /**
  * Bundled jsdoc library for kb projects.
@@ -10,4 +10,4 @@
  * @module @kb/script-docs-node
  * @usasge $ ./cli.js docs ./
  */
-module.exports = require('jsdoc')
+module.exports = require( 'jsdoc' );

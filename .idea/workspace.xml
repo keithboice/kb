@@ -5,28 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/add_dependency2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cli/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pnpm_install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/build_vercel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/install_dependency.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/rush/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/build.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/build.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/dev.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/dev.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/generate.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/generate.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/start.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/start.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/storybook.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/storybook.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.run/storybook_build.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/storybook_build.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/assets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/error.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/inspire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/inspire.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/plugins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/plugins/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/vuetify-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/static/vuetify-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Page.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/code-brackets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/code-brackets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/colors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/colors.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/comments.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/comments.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/direction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/direction.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/flow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/plugin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/plugin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/repo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/repo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/stackalt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/stackalt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/builds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_code-of-conduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_codecov.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_codecov.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_contributing.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_contributing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_contributing_general.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_contributing_general.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_license.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_license.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_license_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_license_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_readme-os.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_readme-os.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_readme.md.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_readme.md.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_readme_package.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_readme_package.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_readme_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_readme_project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/docs_dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/docs_dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/docs_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/docs_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/docs_issue-branch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/docs_issue-branch.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/docs_labels.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/docs_labels.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_action.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_action.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_chore.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_chore.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_feature.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/issue_template_feature.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/issues_fix.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/issues_fix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Bold-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-BoldItalic-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Italic-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Light-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Light-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-LightItalic-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Regular-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Semibold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-Semibold-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-SemiboldItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/fonts/OpenSans-SemiboldItalic-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/icons/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/icons/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/icons/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/icons/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/scripts/linenumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/scripts/linenumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/scripts/pagelocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/scripts/pagelocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/jsdoc-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/jsdoc-default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/prettify-jsdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/prettify-jsdoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/prettify-tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/static/styles/prettify-tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/paths/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/paths/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/conf/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/conf/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/usage.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/version/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/package.json" afterDir="false" />
     </list>
     <disabled>
@@ -226,7 +322,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/prettier/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
@@ -253,7 +349,7 @@
       <recent name="$PROJECT_DIR$/__tests__" />
     </key>
   </component>
-  <component name="RunManager" selected="BashSupport Pro.unlink">
+  <component name="RunManager" selected="BashSupport Pro.clean:all">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -267,19 +363,70 @@
       <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
       <method v="2" />
     </configuration>
-    <configuration name="cli.js.bk" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/core-paths/cli.js.bk" working-dir="$PROJECT_DIR$/packages/paths">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/make-docs/index.js" working-dir="$PROJECT_DIR$/make-docs">
-      <method v="2" />
-    </configuration>
-    <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get-paths/sandbox.js" working-dir="$PROJECT_DIR$/get-paths">
-      <method v="2" />
-    </configuration>
     <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/lint/sandbox.js" working-dir="$PROJECT_DIR$/packages/lint">
       <method v="2" />
     </configuration>
     <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/make-docs/sandbox.js" working-dir="$PROJECT_DIR$/make-docs">
+      <method v="2" />
+    </configuration>
+    <configuration name="build:builds" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/builds/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:cli" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/cli/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:docs" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/docs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:lint" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/lint/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:paths" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/paths/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:test" type="js.build_tools.npm" folderName="build">
+      <package-json value="$PROJECT_DIR$/example/frontend/packages/test/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
@@ -308,9 +455,6 @@
       <item itemvalue="Node.js.run:prettier:bin" />
       <item itemvalue="Node.js.run:stylelint:bin" />
       <item itemvalue="Node.js.build" />
-      <item itemvalue="Node.js.index.js" />
-      <item itemvalue="Node.js.sandbox.js" />
-      <item itemvalue="Node.js.cli.js.bk" />
       <item itemvalue="npm.clean:pkg" />
       <item itemvalue="npm.make:docs:build" />
       <item itemvalue="npm.make:docs:dev" />
@@ -326,14 +470,18 @@
       <item itemvalue="npm.yarn install" />
       <item itemvalue="npm.yarn install (config-prettier)" />
       <item itemvalue="npm.yarn:add:all (prettier)" />
-      <item itemvalue="npm.build:vercel" />
+      <item itemvalue="npm.build:builds" />
+      <item itemvalue="npm.build:cli" />
+      <item itemvalue="npm.build:docs" />
+      <item itemvalue="npm.build:lint" />
+      <item itemvalue="npm.build:paths" />
+      <item itemvalue="npm.build:test" />
       <item itemvalue="npm.add dependency" />
       <item itemvalue="npm.build:config-jest" />
       <item itemvalue="npm.git:commit" />
       <item itemvalue="npm.git:push" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.install" />
-      <item itemvalue="npm.install dependency" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
@@ -345,8 +493,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.cli.js.bk" />
-        <item itemvalue="Node.js.sandbox.js" />
         <item itemvalue="Node.js.sandbox.js" />
       </list>
     </recent_temporary>
@@ -397,7 +543,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="26607000" />
+      <workItem from="1613274358183" duration="28516000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>

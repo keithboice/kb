@@ -1,12 +1,9 @@
 module.exports = {
-	plugins: ["stylelint-order"],
+	plugins: [ 'stylelint-order' ],
 	extends: [
-		"stylelint-config-standard",
-		"stylelint-config-idiomatic-order",
-		"stylelint-order",
-		"stylelint-config-prettier",
+		'stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-order', 'stylelint-config-prettier'
 	],
-	rules: {
-		indentation: "tab",
-	},
+	rules:   {
+		indentation: 'tab'
+	}
 };

@@ -1,7 +1,7 @@
- # These commands are synonymous
+# These commands are synonymous
 
- ./cli.js test ./
+./cli.js  test ./
 
- npm run test
+npm  run test
 
- npx jest -o --config ./conf.js
+npx  jest -o --config ./conf.js

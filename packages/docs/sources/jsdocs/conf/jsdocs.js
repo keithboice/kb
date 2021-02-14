@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 
-const path = require( 'path' )
+const path = require( 'path' );
 const appRootPath = require( 'app-root-path' )
-	.toString()
-const GetPaths = require( 'paths' )
-const getPaths = new GetPaths( 'package', appRootPath )
-const templatePath = getPaths.getJSDocTemplate( appRootPath )
-const destPath = path.join( `${ appRootPath }`, 'docs', 'documentation', 'backend', 'html' )
+  .toString();
+const GetPaths = require( 'paths' );
+const getPaths = new GetPaths( 'package', appRootPath );
+const templatePath = getPaths.getJSDocTemplate( appRootPath );
+const destPath = path.join( `${ appRootPath }`, 'docs', 'documentation', 'backend', 'html' );
 
 //const pkg = require("./package.json");
 
@@ -51,4 +51,4 @@ module.exports = {
 		'recurse':     true                  // same as -r
 		//"tutorials":   "/Users/dkb/repos/working/docs/documentation/tutorials", // same as -u path/to/tutorials
 	}
-}
+};

@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /**
  * Repository functions for projects.
@@ -8,4 +8,4 @@
  *   => true
  *
  */
-module.exports = { foo: 'bar' }
+module.exports = { foo: "bar" };

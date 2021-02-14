@@ -21,7 +21,7 @@
 	"homepage":            "https://github.com/keithboice/kb",
 	"languageName":        "node",
 	"scripts":             {
-		"build":            "\"/Users/dkb/repos/kb/packages/cli/cli.js\" dev build --wd \"/Users/dkb/repos/kb/packages/test\" --name index.js",
+		"build":            "npx rollup index.js --file dist/main.js",
 		"test":             "jest --config conf/jest.config.js",
 		"lint":             "lint ./",
 		"commit:":          "commit ./",

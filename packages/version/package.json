@@ -26,7 +26,7 @@
 		"build:rimraf":  "rimraf dist && ncc build index.js --license ../../LICENSE --stats-out ../../dist/reports/builds/config-jest/vercel.json -sm -o dist/",
 		"build:cli":     "ncc build cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/cli",
 		"build:main":    "ncc build index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/main",
-		"build":         "\"/Users/dkb/repos/kb/packages/cli/cli.js\" dev build --wd \"/Users/dkb/repos/kb/packages/version\" --name index.js",
+		"build":         "npx rollup index.js --file dist/main.js",
 		"test":          "jest ../../common/tests/cmd-commit.test.js",
 		"test:dev":      "jest --watch",
 		"test:coverage": "jest --coverage --no-cache"

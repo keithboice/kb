@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /**
  * Execute commands and npm-scripts in the current project
@@ -11,10 +11,10 @@
  * @module @kb/build
  */
 
-const { execSync } = require( 'child_process' )
-const Paths = require( '../paths' )
-const paths = new Paths( 'package' )
-const appRoot = paths.approot
+const { execSync } = require( "child_process" );
+const Paths = require( "../paths" );
+const paths = new Paths( "package" );
+const appRoot = paths.approot;
 
 /**
  * @class
@@ -29,9 +29,9 @@ module.exports = class Main {
 		 * @type {string}
 		 * @private
 		 */
-		this._path = path.toString()
+		this._path = path.toString();
 		
-		process.chdir( path )
+		process.chdir( path );
 	}
 	
 	cmd = ( cmd, args ) => {
@@ -39,26 +39,26 @@ module.exports = class Main {
 			
 			const run = execSync( `npx ${ cmd } ${ args }`, {
 				cwd:   this._path,
-				stdio: 'inherit'
-			} )
+				stdio: "inherit"
+			} );
 			
-			run.stdout.on( 'data', ( data ) => {
-				console.info( data )
-			} )
+			run.stdout.on( "data", ( data ) => {
+				console.info( data );
+			} );
 			
-			run.stderr.on( 'data', ( data ) => {
-				console.error( `${ cmd }  error: ${ data }` )
-			} )
+			run.stderr.on( "data", ( data ) => {
+				console.error( `${ cmd }  error: ${ data }` );
+			} );
 			
-			run.on( 'close', ( code ) => {
+			run.on( "close", ( code ) => {
 				if ( code !== 0 ) {
-					reject( `${ cmd }  failed` )
+					reject( `${ cmd }  failed` );
 				}
 				
-				resolve( `${ cmd } succeeded` )
-			} )
+				resolve( `${ cmd } succeeded` );
+			} );
 			
-		} )
-	}
+		} );
+	};
 	
-}
+};

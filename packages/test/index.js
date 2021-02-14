@@ -10,4 +10,4 @@
  * @module @kb/script-test-node
  * @usasge $ ./cli.js build ./
  */
-module.exports = require("jest");
+module.exports = require( "jest" );

@@ -1,33 +1,33 @@
-const Builds = require( '../builds' )
-const Paths = require( '../paths' )
-const Lint = require( '../lint' )
+const Builds = require( '../builds' );
+const Paths = require( '../paths' );
+const Lint = require( '../lint' );
 
-const yargs = require( 'yargs/yargs' )
-const { hideBin } = require( 'yargs/helpers' )
-const path = require( 'path' )
+const yargs = require( 'yargs/yargs' );
+const { hideBin } = require( 'yargs/helpers' );
+const path = require( 'path' );
 const appRoot = require( 'app-root-path' )
-  .toString()
-const chalk = require( 'chalk' )
-const log = console.log
-const error = ( message ) => log( chalk.bold.red( `\nError: ${ message }` ) )
-const warning = ( message ) => log( chalk.dim.keyword( 'orange' )( `\n[Warn] ${ message }` ) )
-const success = ( message ) => log( chalk.dim.green( `\nSuccess! ${ message }` ) )
-const status = ( message ) => log( chalk.hex( '#555' )( `\n${ message }...` ) )
+  .toString();
+const chalk = require( 'chalk' );
+const log = console.log;
+const error = ( message ) => log( chalk.bold.red( `\nError: ${ message }` ) );
+const warning = ( message ) => log( chalk.dim.keyword( 'orange' )( `\n[Warn] ${ message }` ) );
+const success = ( message ) => log( chalk.dim.green( `\nSuccess! ${ message }` ) );
+const status = ( message ) => log( chalk.hex( '#555' )( `\n${ message }...` ) );
 /*const table = ( title, message ) => {
  log( chalk.hex( '#555' )( `\n${ title }...` ) )
  chalk.dim.grey( console.table( message ) )
  }*/
 
-let argv = hideBin( process.argv )
-argv.wd = undefined
-argv.all = undefined
-argv.backend = undefined
-argv.frontend = undefined
+let argv = hideBin( process.argv );
+argv.wd = undefined;
+argv.all = undefined;
+argv.backend = undefined;
+argv.frontend = undefined;
 
-status( `approot is ${ appRoot }` )
-status( `__dirname is ${ __dirname }` )
-status( `cwd is ${ process.cwd() }` )
-status( `root is ${ path.resolve( '../../' ) }` )
+status( `approot is ${ appRoot }` );
+status( `__dirname is ${ __dirname }` );
+status( `cwd is ${ process.cwd() }` );
+status( `root is ${ path.resolve( '../../' ) }` );
 
 /*
  "preinstall": "npx only-allow pnpm",
@@ -98,60 +98,60 @@ const args = yargs( argv )
   .alias( 'v', 'version' )
   .help( 'h' )
   .version( 'v' )
-  .epilog( 'copyright 2021' ).argv
+  .epilog( 'copyright 2021' ).argv;
 
 /**
  * Calls appropriate @kb package method or function based on command arguments
  */
 function run ( cmd, positional, wd, name ) {
 	
-	process.chdir( path.resolve( wd ) )
-	status( `changed process.cwd to ${ process.cwd() }` )
+	process.chdir( path.resolve( wd ) );
+	status( `changed process.cwd to ${ process.cwd() }` );
 	
 	if ( wd === '' ) {
-		warning( `working directory not specified so using default value` )
+		warning( `working directory not specified so using default value` );
 	}
 	
-	status( `running ${ cmd } ${ positional } from ${ path.resolve( wd ) }` )
+	status( `running ${ cmd } ${ positional } from ${ path.resolve( wd ) }` );
 	
 	switch ( positional ) {
 		case 'build':
-			build( wd, name )
-			break
+			build( wd, name );
+			break;
 		case 'clean':
-			clean()
-			break
+			clean();
+			break;
 		case 'lint':
-			lint()
-			break
+			lint();
+			break;
 		default:
-			error( 'invalid command argument' )
+			error( 'invalid command argument' );
 	}
 }
 
 function build ( wd, name ) {
 	
-	const { buildRollup } = new Builds( 'all', path.resolve( `${ wd }` ) )
+	const { buildRollup } = new Builds( 'all', path.resolve( `${ wd }` ) );
 	
 	buildRollup( name )
 	  .then( response => success( `(${ response.code }) - ${ response.message }` ) )
-	  .catch( response => error( `(${ response.code }) - ${ response.message }` ) )
+	  .catch( response => error( `(${ response.code }) - ${ response.message }` ) );
 	
 }
 
 function clean () {
 	
-	const paths = new Paths( 'package', path.resolve( `${ args.wd }` ) )
+	const paths = new Paths( 'package', path.resolve( `${ args.wd }` ) );
 	
-	let dirs = []
+	let dirs = [];
 	
-	if ( args.all ) dirs = paths.directoriesAll
-	if ( args.backend ) dirs = paths.directoriesBackend
-	if ( args.frontend ) dirs = paths.directoriesFrontend
+	if ( args.all ) dirs = paths.directoriesAll;
+	if ( args.backend ) dirs = paths.directoriesBackend;
+	if ( args.frontend ) dirs = paths.directoriesFrontend;
 	
 	paths.clean( dirs )
 	  .then( response => success( `(${ response.code }) - ${ response.message }` ) )
-	  .catch( response => error( `(${ response.code }) - ${ response.message }` ) )
+	  .catch( response => error( `(${ response.code }) - ${ response.message }` ) );
 }
 
 function lint () {
@@ -160,24 +160,24 @@ function lint () {
 		      eslintCmd,
 		      prettierCmd,
 		      stylelintCmd
-	      } = new Lint( path.resolve( `${ args.wd }` ) )
+	      } = new Lint( path.resolve( `${ args.wd }` ) );
 	
 	stylelintCmd()
 	  .then( response => success( `stylelint (${ response.code }) - ${ response.message }` ) )
-	  .catch( response => error( `stylelint (${ response.code }) - ${ response.message }` ) )
+	  .catch( response => error( `stylelint (${ response.code }) - ${ response.message }` ) );
 	
 	eslintCmd()
 	  .then( response => {
 		  
-		  success( `eslint (${ response.code }) - ${ response.message }` )
+		  success( `eslint (${ response.code }) - ${ response.message }` );
 		  
 		  prettierCmd()
 			.then( response => success( `prettier (${ response.code }) - ${ response.message }` ) )
-			.catch( response => error( `prettier (${ response.code }) - ${ response.message }` ) )
+			.catch( response => error( `prettier (${ response.code }) - ${ response.message }` ) );
 		 
 	  } )
-	  .catch( response => error( `eslint (${ response.code }) - ${ response.message }` ) )
+	  .catch( response => error( `eslint (${ response.code }) - ${ response.message }` ) );
 	
 }
 
-run( args._[ 0 ].toString(), args._[ 1 ].toString(), args.wd.toString(), args.name.toString() )
+run( args._[ 0 ].toString(), args._[ 1 ].toString(), args.wd.toString(), args.name.toString() );

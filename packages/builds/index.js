@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /**
  * Build (compile, minify, transpile) the code in the current project
@@ -10,98 +10,92 @@
  * @module @kb/build
  */
 
-const { rollup } = require( 'rollup' )
+const { rollup } = require( "rollup" );
 const {
 	      babel,
 	      getBabelOutputPlugin
-      } = require( '@rollup/plugin-babel' )
-const babelPluginProposalClassProps = require( '@babel/plugin-proposal-class-properties' )
-const babelPluginSyntaxClassProps = require( '@babel/plugin-syntax-class-properties' )
-const babelPresetEnv = require( '@babel/preset-env' )
-const { nodeResolve } = require( '@rollup/plugin-node-resolve' )
-const { terser } = require( 'rollup-plugin-terser' )
-const path = require( 'path' )
-const Paths = require( '../paths' )
-const {
-	      approot,
-	      clean
-      } = new Paths( 'package' )
+      } = require( "@rollup/plugin-babel" );
+const babelPluginProposalClassProps = require( "@babel/plugin-proposal-class-properties" );
+const babelPluginSyntaxClassProps = require( "@babel/plugin-syntax-class-properties" );
+const babelPresetEnv = require( "@babel/preset-env" );
+const { nodeResolve } = require( "@rollup/plugin-node-resolve" );
+const { terser } = require( "rollup-plugin-terser" );
+const path = require( "path" );
+const Paths = require( "../paths" );
+const { approot } = new Paths( "package" );
 
-const Cli = require( '../cli' )
-const { cmd: cmd } = new Cli( `${ approot }` )
+const Cli = require( "../cli" );
+const { cmd: cmd } = new Cli( `${ approot }` );
 
-/**
- * @class
- */
+/** @class */
 module.exports = class Main {
-	constructor ( context = 'all', path = `${ approot }` ) {
+	constructor ( context = "all", path = `${ approot }` ) {
 		/**
-		 * @type {string}
 		 * @private
+		 *
+		 * @type {string}
 		 */
-		this._context = context
+		this._context = context;
 		
 		/**
-		 * @type {string}
 		 * @private
+		 *
+		 * @type {string}
 		 */
-		this._path = path.toString()
+		this._path = path.toString();
 	}
 	
 	get context () {
-		return this._context
+		return this._context;
 	}
 	
 	set context ( value ) {
-		this._context = value
+		this._context = value;
 	}
 	
 	get path () {
-		return this._path
+		return this._path;
 	}
 	
-	buildRollup = async ( entry = 'index.js' ) => {
-		
+	buildRollup = async ( entry = "index.js" ) => {
 		return new Promise( async ( resolve ) => {
-			
 			const inputOptions = {
 				// core input options
 				external: [ ...Object.keys( this.getDependencies() || {} ) ],
 				input:    path.join( this._path, entry ),
 				plugins:  [
 					nodeResolve(), terser(), babel( {
-						                                'presets':    [ babelPresetEnv ],
-						                                'plugins':    [
+						                                presets:      [ babelPresetEnv ],
+						                                plugins:      [
 							                                babelPluginProposalClassProps, babelPluginSyntaxClassProps
 						                                ],
-						                                babelHelpers: 'bundled'
+						                                babelHelpers: "bundled"
 					                                } )
 				]
-			}
+			};
 			
 			const outputOptions = {
-				file:    path.join( this._path, 'dist/main.js' ),
-				format:  'cjs',
-				name:    'main',
+				file:    path.join( this._path, "dist/main.js" ),
+				format:  "cjs",
+				name:    "main",
 				plugins: [ getBabelOutputPlugin( { presets: [ babelPresetEnv ] } ) ]
-			}
+			};
 			
 			// create a bundle
 			const {
-				      watchFiles,
 				      generate,
 				      close,
 				      write
-			      } = await rollup( inputOptions )
+			      } = await rollup( inputOptions );
 			
 			//console.log( watchFiles ) // an array of file names this bundle depends on
 			
 			// generate output specific code in-memory
 			// you can call this function multiple times on the same bundle object
-			const { output } = await generate( outputOptions )
+			const { output } = await generate( outputOptions );
 			
 			for ( const chunkOrAsset of output ) {
-				if ( chunkOrAsset.type === 'asset' ) {
+				if ( chunkOrAsset.type === "asset" ) {
 					// For assets, this contains
 					// {
 					//   fileName: string,              // the asset file name
@@ -142,70 +136,51 @@ module.exports = class Main {
 			}
 			
 			// write the bundle to disk
-			await write( outputOptions )
+			await write( outputOptions );
 			
 			// closes the bundle
-			await close()
+			await close();
 			
 			return resolve( {
 				                code:    200,
 				                message: `generated ${ outputOptions.file } from ${ inputOptions.input }`,
 				                data:    outputOptions
-			                } )
-		} )
-	}
+			                } );
+		} );
+	};
 	
 	getDependencies = () => {
-		
-		/*console.log( '\n_________ getDependencies _________' )
-		 console.log( `approot: ${ approot }` )
-		 console.log( `this._path: ${ this._path }` )
-		 console.log( `path.join: ${ path.join( `${ this._path }`, 'package.json' ) }` )
-		 console.log( '_________ _________ _________\n' )*/
-		
-		const pkg = require( path.join( `${ this._path }`, 'package.json' ) )
-		return pkg.dependencies
-	}
+		const pkg = require( path.join( `${ this._path }`, "package.json" ) );
+		return pkg.dependencies;
+	};
 	
-	/**
-	 *
-	 * @returns {function} rollup
-	 */
+	/** @returns {function} Rollup */
 	rollup = () => {
-		return require( 'rollup' )
-	}
+		return require( "rollup" );
+	};
 	
-	/**
-	 *
-	 * @returns {Buffer} rollup command execution
-	 */
-	rollupCmd = ( entry = 'index.js', config ) => {
+	/** @returns {Buffer} Rollup command execution */
+	rollupCmd = ( entry = "index.js", config ) => {
 		return new Promise( ( resolve, reject ) => {
-			
-			cmd( 'rollup', `--config ${ config }` )
-			  .then( response => {
-				  
+			cmd( "rollup", `--config ${ config }` )
+			  .then( ( response ) => {
 				  return resolve( {
 					                  code:    200,
-					                  message: 'success',
+					                  message: "success",
 					                  data:    response
-				                  } )
+				                  } );
 			  } )
-			  .catch( error => {
-				  
+			  .catch( ( error ) => {
 				  return reject( {
 					                 code:    500,
-					                 message: 'error',
+					                 message: "error",
 					                 data:    `error caught in rollupCmd: ${ error.toString() }`
-				                 } )
-			  } )
-		} )
-	}
+				                 } );
+			  } );
+		} );
+	};
 	
 	run = () => {
-		
 		//[ 'dist', 'docs', 'build' ] |>  clean |> this.rollupCmd
-		
-	}
-	
-}
+	};
+};
