@@ -7,9 +7,9 @@
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/action.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/action.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/chore.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/chore.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fix.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <disabled>
@@ -167,6 +167,7 @@
     </option>
   </component>
   <component name="NamedScopeManager">
+    <scope name="frontend-local" pattern="file[working]:example/frontend//*" />
     <order>
       <scope name="common" />
       <scope name="packages" />
@@ -207,7 +208,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/prettier/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
@@ -367,7 +368,7 @@
       <option name="project" value="kb" />
       <option name="type" value="BUG" />
       <updated>1613267453454</updated>
-      <workItem from="1613267454029" duration="2430000" />
+      <workItem from="1613267454029" duration="4046000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>

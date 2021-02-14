@@ -13,10 +13,24 @@ assignees: keithboice
 
 # � Feature
 
-### Description
+
+#### Summary
 
 
-<pre><code>
-<!-- What is the feature and why are we building it? -->
-<!-- ✍️edit: --> words....
-</code></pre>
+> What is the feature and why are we building it?
+
+<!-- edit:A feature to.. -->
+A feature to xxxx
+
+
+#### Steps
+
+
+> What are the steps involved?
+
+<!-- edit:First do this.. -->
+
+- [ ] step
+- [ ] step
+- [ ] step
+- [ ] step

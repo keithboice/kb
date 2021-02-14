@@ -12,42 +12,34 @@ assignees: keithboice
 ---
 
 
-# � Fix
+# � Fix 
 
 
-### Description
+#### Summary
 
 
-<pre><code>
-<!-- What are we fixing and why? -->
-<!-- ✍️edit: --> words....
-</code></pre>
+> What are we fixing and why?
+
+<!-- edit:Fixing bug that.. -->
+Fixing xxxx
+
+#### Steps
 
 
-### Minimal Reproduction
+> What are the steps to reproduce?
 
+<!-- edit:First do this.. -->
 
-<!--
-Please create and share minimal reproduction of the issue starting with this template: https://stackblitz.com/fork/angular-ivy
--->
-<!-- ✍️--> - 
-
-<!--
-If necessary for reproduction of your issue, please create a minimal GitHub repository with the reproduction of the issue.
-A good way to make a minimal reproduction is to create a new app via `ng new repro-app` and add the minimum possible code to show the problem.
-Share the link to the repo below along with step-by-step instructions to reproduce the problem, as well as expected and actual behavior.
-
-Issues that don't have enough info and can't be reproduced will be closed.
-
-You can read more about issue submission guidelines here: https://github.com/keithboice/kb/blob/master/CONTRIBUTING.md#-submitting-an-issue
--->
-
+- [ ] step
+- [ ] step
+- [ ] step
+- [ ] step
 
 ### Exception or Error
 
 
 <pre><code>
-<!-- If the issue is accompanied by an exception or an error, please share it below: -->
+<!-- The exception or error: -->
 <!-- ✍️-->
 
 </code></pre>

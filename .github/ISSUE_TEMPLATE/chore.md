@@ -11,11 +11,27 @@ assignees: keithboice
 
 ---
 
+
 # � Chore
 
-### Description
 
-<pre><code>
-<!-- What is the chore and why? -->
-<!-- ✍️edit: --> words....
-</code></pre>
+#### Summary
+
+
+> What is the chore and why are we doing it?
+
+<!-- edit:Make a... -->
+Adding xxxx
+
+
+#### Steps
+
+
+> What are the steps involved?
+
+<!-- edit:First do this.. -->
+
+- [ ] step
+- [ ] step
+- [ ] step
+- [ ] step
