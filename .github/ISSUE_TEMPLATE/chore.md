@@ -5,19 +5,17 @@ about: Stories that are purely technical in nature
 
 title: "title"
 
-labels: "branch:chore", "tag:chore"
+labels: chore, "branch:chore", "tag:chore"
 
 assignees: keithboice
 
 ---
 
-
 # � Chore
-
 
 ### Description
 
-
 <pre><code>
-here
+<!-- What is the chore and why? -->
+<!-- ✍️edit: --> words....
 </code></pre>

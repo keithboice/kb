@@ -5,7 +5,7 @@ about: A bug or defect
 
 title: "title"
 
-labels: "tag:fix","branch:fix"
+labels: fix, "branch:fix", "tag:fix"
 
 assignees: keithboice
 
@@ -15,27 +15,16 @@ assignees: keithboice
 # � Fix
 
 
-#### Affected Package
+### Description
 
 
-<!-- Can you pin-point one or more @kb/* packages as the source of the bug? -->
-<!-- ✍️edit: --> The issue is caused by package @kb/....
+<pre><code>
+<!-- What are we fixing and why? -->
+<!-- ✍️edit: --> words....
+</code></pre>
 
 
-#### Is this a regression?
-
-
-<!-- Did this behavior use to work in the previous version? -->
-<!-- ✍️--> [ ] Yes
-
-
-#### Description
-
-
-<!-- ✍️--> A clear and concise description of the problem...
-
-
-#### Minimal Reproduction
+### Minimal Reproduction
 
 
 <!--
@@ -54,7 +43,7 @@ You can read more about issue submission guidelines here: https://github.com/kei
 -->
 
 
-#### Exception or Error
+### Exception or Error
 
 
 <pre><code>
@@ -62,11 +51,3 @@ You can read more about issue submission guidelines here: https://github.com/kei
 <!-- ✍️-->
 
 </code></pre>
-
-
-#### Anything else relevant?
-
-
-<!-- ✍️Is this a browser specific issue? If so, please specify the browser and version. -->
-
-<!-- ✍️Do any of these matter: operating system, IDE, package manager, HTTP server, ...? If so, please mention it below. -->

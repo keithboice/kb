@@ -5,19 +5,18 @@ about: A new feature or enhancement
 
 title: "title"
 
-labels: "branch:feat", "tag:feat"
+labels: feat, "branch:feat", "tag:feat"
 
 assignees: keithboice
 
 ---
 
-
 # � Feature
-
 
 ### Description
 
 
 <pre><code>
-here
+<!-- What is the feature and why are we building it? -->
+<!-- ✍️edit: --> words....
 </code></pre>
