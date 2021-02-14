@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/build_vercel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/install_dependency.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/rush/command-line.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/rush/command-line.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" afterDir="false" />
@@ -120,6 +119,7 @@
       <change beforePath="$PROJECT_DIR$/packages/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/usage.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -539,7 +539,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="29350000" />
+      <workItem from="1613274358183" duration="29634000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>

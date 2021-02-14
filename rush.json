@@ -23,7 +23,7 @@
 		"changeLogUpdateCommitMessage": "Applying package updates. [skip-ci]"
 	},
 	"repository": {
-		"url": "https://github.com/keithboice/kb",
+		"url": "git@github.com:keithboice/kb.git",
 		"defaultBranch": "main",
 		"defaultRemote": "origin"
 	},
