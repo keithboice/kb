@@ -5,7 +5,6 @@
 	"keywords": [
 		"kb"
 	],
-	"node": ">=14.0.0",
 	"homepage": "https://keithboice.github.io/kb/",
 	"bugs": {
 		"url": "https://github.com/keithboice/kb/issues"
@@ -18,10 +17,18 @@
 	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
 	"main": "start.js",
 	"scripts": {
-		"build": "rimraf ./lib/ && tsc",
+		"build": "rush build",
+		"clean": "clean --wd ./",
 		"commit": "cz -a",
+		"deploy": "deploy --wd ./",
+		"docs": "docs --wd ./",
 		"preinstall": "npx only-allow pnpm",
-		"rush:update": "rush update"
+		"lint": "lint --wd ./",
+		"push": "push --wd ./",
+		"release": "release --wd ./",
+		"reports": "reports --wd ./",
+		"test": "test --wd ./",
+		"update": "rush update"
 	},
 	"config": {
 		"commitizen": {
@@ -37,5 +44,6 @@
 	"engines": {
 		"node": ">=14.0.0",
 		"pnpm": ">=5"
-	}
+	},
+	"node": ">=14.0.0"
 }

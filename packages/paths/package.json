@@ -1,5 +1,5 @@
 {
-	"name":                "@kb/core-paths",
+	"name":                "@kb/paths",
 	"version":             "0.0.1",
 	"description":         "Commmon library for handling anything path related",
 	"homepage":            "https://github.com/keithboice/kb",
@@ -16,7 +16,7 @@
 		"dist/**"
 	],
 	"scripts":             {
-		"build":   "build ./",
+		"build":   "dev build --wd `/Users/dkb/repos/kb/packages/paths` --name index.js",
 		"commit:": "commit ./",
 		"deploy":  "deploy ./",
 		"docs":    "docs ./",

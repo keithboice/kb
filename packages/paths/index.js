@@ -1,21 +1,24 @@
 'use strict'
 
-const path = require( 'path' )
-//const fs = require( 'fs' )
-const tree = require( 'directory-tree' )
-const appRoot = require( 'app-root-path' )
-	.toString()
-const rimraf = require( 'rimraf' )
-const findPackageJson = require( 'find-package-json' )
-const fg = require( 'fast-glob' )
-
 //noinspection FunctionWithInconsistentReturnsJS
 /**
  * Compiles template-driven documents
  *
+ * @module @kb/paths
+ */
+
+
+const path = require( 'path' )
+//const fs = require( 'fs' )
+const tree = require( 'directory-tree' )
+const appRoot = require( 'app-root-path' )
+  .toString()
+const rimraf = require( 'rimraf' )
+const findPackageJson = require( 'find-package-json' )
+const fg = require( 'fast-glob' )
+
+/**
  * @class
- *
- * @module @kb/core-paths
  */
 module.exports = class Main {
 	
@@ -40,8 +43,6 @@ module.exports = class Main {
 		 * @private
 		 */
 		this._path = path.toString()
-		
-		process.chdir( path )
 		
 		/**
 		 * @type {string}
@@ -145,7 +146,7 @@ module.exports = class Main {
 		return new Promise( async ( resolve, reject ) => {
 			
 			await names.forEach( name => {
-				rimraf( name, opts, function ( err ) {
+				rimraf( name, opts, function( err ) {
 					if ( err ) return reject( {
 						                          code:    500,
 						                          message: err
@@ -177,13 +178,13 @@ module.exports = class Main {
 					`**/.pnpm-store/${ glob }`, `**/node_modules/${ glob }`, `/.run/${ glob }`, `/docs/${ glob }`
 				]
 			} )
-				.then( response => {
-					return resolve( {
-						                code:    200,
-						                message: 'success',
-						                data:    response
-					                } )
-				} )
+			  .then( response => {
+				  return resolve( {
+					                  code:    200,
+					                  message: 'success',
+					                  data:    response
+				                  } )
+			  } )
 			
 		} )
 		
@@ -206,17 +207,17 @@ module.exports = class Main {
 				
 				let res = {}
 				res[ 'name' ] =
-					(
-						item.hasOwnProperty( 'name' )
-					) ? item.name : ``
+				  (
+					item.hasOwnProperty( 'name' )
+				  ) ? item.name : ``
 				res[ 'path' ] =
-					(
-						item.hasOwnProperty( 'path' )
-					) ? item.path : ``
+				  (
+					item.hasOwnProperty( 'path' )
+				  ) ? item.path : ``
 				res[ 'size' ] =
-					(
-						item.hasOwnProperty( 'size' )
-					) ? item.size : 0
+				  (
+					item.hasOwnProperty( 'size' )
+				  ) ? item.size : 0
 				
 				dirs.push( res )
 			}
@@ -237,13 +238,13 @@ module.exports = class Main {
 				cwd: root,
 				dot: true
 			} )
-				.then( response => {
-					return resolve( {
-						                code:    200,
-						                message: 'success',
-						                data:    response
-					                } )
-				} )
+			  .then( response => {
+				  return resolve( {
+					                  code:    200,
+					                  message: 'success',
+					                  data:    response
+				                  } )
+			  } )
 			
 		} )
 	}
@@ -251,21 +252,23 @@ module.exports = class Main {
 	/**
 	 * Finds nearest package.json file.
 	 *
+	 * @returns {Promise<object>}
+	 * @param {string} root The root directory to start the search from
+	 *
 	 * @example
 	 *   new Main("test").getPackageJson();
 	 *   //=> { foo: "bar" }
-	 * @returns {Promise<object>}
 	 */
-	getPackageJson = ( root = this.cwd ) => new Promise( resolve => {
+	getPackageJson = ( root = this.cwd.toString() ) => new Promise( resolve => {
 		
 		const record = findPackageJson( root )
 		
 		let res = {}
 		res[ 'name' ] = 'package.json'
 		res[ 'path' ] =
-			(
-				record.hasOwnProperty( 'next' )
-			) ? record.next().filename : ``
+		  (
+			record.hasOwnProperty( 'next' )
+		  ) ? record.next().filename : ``
 		
 		return resolve( {
 			                code:    200,
@@ -294,7 +297,7 @@ module.exports = class Main {
 	 */
 	resolve = ( [ target ] ) => {
 		return (
-			path.resolve( target.toString() )
+		  path.resolve( target.toString() )
 		)
 	}
 }

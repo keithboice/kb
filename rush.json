@@ -37,8 +37,33 @@
 	"hotfixChangeEnabled": false,
 	"projects": [
 		{
-			"packageName": "@kb/core-paths",
-			"projectFolder": "packages/core-paths",
+			"packageName": "@kb/builds",
+			"projectFolder": "packages/builds",
+			"reviewCategory": "packages"
+		},
+		{
+			"packageName": "@kb/cli",
+			"projectFolder": "packages/cli",
+			"reviewCategory": "packages"
+		},
+		{
+			"packageName": "@kb/docs",
+			"projectFolder": "packages/docs",
+			"reviewCategory": "packages"
+		},
+		{
+			"packageName": "@kb/lint",
+			"projectFolder": "packages/lint",
+			"reviewCategory": "packages"
+		},
+		{
+			"packageName": "@kb/paths",
+			"projectFolder": "packages/paths",
+			"reviewCategory": "packages"
+		},
+		{
+			"packageName": "@kb/test",
+			"projectFolder": "packages/test",
 			"reviewCategory": "packages"
 		}
 	]

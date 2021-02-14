@@ -1,9 +1,6 @@
 {
-	"name":          "@kb/cmd-commit",
+	"name":          "@kb/version",
 	"author":        "Keith Boice <69816300+keithboice@users.noreply.github.com>",
-	"bin":           {
-		"commit": "cli.js"
-	},
 	"engines":       {
 		"node": ">=14.0.0",
 		"pnpm": ">=5"
@@ -29,7 +26,7 @@
 		"build:rimraf":  "rimraf dist && ncc build index.js --license ../../LICENSE --stats-out ../../dist/reports/builds/config-jest/vercel.json -sm -o dist/",
 		"build:cli":     "ncc build cli.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/cli",
 		"build:main":    "ncc build index.js --license ../../LICENSE --stats-out ../../docs/reports/builds/cmd-commit/vercel.json -sm -o dist/main",
-		"build":         "concurrently 'npm:build:cli' 'npm:build:main'",
+		"build":         "dev build --wd `/Users/dkb/repos/kb/packages/version` --name index.js",
 		"test":          "jest ../../common/tests/cmd-commit.test.js",
 		"test:dev":      "jest --watch",
 		"test:coverage": "jest --coverage --no-cache"

@@ -1,5 +1,5 @@
 {
-	"name":                "@kb/make-docs",
+	"name":                "@kb/docs",
 	"version":             "0.0.1",
 	"description":         "Nodejs readme script for kb projects",
 	"homepage":            "https://github.com/keithboice/kb",
@@ -12,14 +12,11 @@
 	"main":                "index.js",
 	"module":              "index.mjs",
 	"types":               "commonjs",
-	"bin":                 {
-		"docs": "cli.js"
-	},
 	"files":               [
 		"dist/**"
 	],
 	"scripts":             {
-		"build":   "build ./",
+		"build":   "dev build --wd `/Users/dkb/repos/kb/packages/docs` --name index.js",
 		"commit:": "commit ./",
 		"deploy":  "deploy ./",
 		"docs":    "docs ./",

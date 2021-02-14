@@ -1,12 +1,9 @@
 {
-	"name":                "@kb/script-test-node",
+	"name":                "@kb/test",
 	"version":             "0.0.1",
 	"description":         "Nodejs test script for kb projects",
 	"main":                "index.js",
 	"module":              "index.mjs",
-	"bin":                 {
-		"build": "cli.js"
-	},
 	"engines":             {
 		"node": ">=14.0.0",
 		"pnpm": ">=5"
@@ -24,7 +21,7 @@
 	"homepage":            "https://github.com/keithboice/kb",
 	"languageName":        "node",
 	"scripts":             {
-		"build":            "build ./",
+		"build":            "dev build --wd `/Users/dkb/repos/kb/packages/test` --name index.js",
 		"test":             "jest --config conf/jest.config.js",
 		"lint":             "lint ./",
 		"commit:":          "commit ./",

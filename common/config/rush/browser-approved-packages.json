@@ -3,7 +3,43 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@babel/core",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@babel/eslint-parser",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@babel/eslint-plugin",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@babel/plugin-proposal-class-properties",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@babel/plugin-syntax-class-properties",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@babel/preset-env",
+      "allowedCategories": [ "packages" ]
+    },
+    {
       "name": "@prettier/plugin-xml",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@rollup/plugin-babel",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@rollup/plugin-commonjs",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@rollup/plugin-node-resolve",
       "allowedCategories": [ "packages" ]
     },
     {
@@ -20,6 +56,14 @@
     },
     {
       "name": "app-root-path",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "chalk",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "child_process",
       "allowedCategories": [ "packages" ]
     },
     {
@@ -115,7 +159,43 @@
       "allowedCategories": [ "packages" ]
     },
     {
+      "name": "fsevents",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "google-closure-compiler-linux",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "handlebars",
+      "allowedCategories": [ "packages" ]
+    },
+    {
       "name": "indent-string",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest-watch-directories",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jsdoc",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jsdoc-api",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jsdoc-parse",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "path",
       "allowedCategories": [ "packages" ]
     },
     {
@@ -148,6 +228,42 @@
     },
     {
       "name": "rimraf",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "rollup",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "rollup-plugin-local-resolve",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "rollup-plugin-terser",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "shelljs",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "stylelint",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "stylelint-config-idiomatic-order",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "stylelint-config-prettier",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "stylelint-config-standard",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "stylelint-order",
       "allowedCategories": [ "packages" ]
     },
     {

@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/action.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/action.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/chore.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/chore.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fix.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fix.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/builds/sandbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/paths/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/version/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -194,10 +210,11 @@
     <property name="JSInitializeFieldsIntentionBase.visibility" value="private" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/cmd-build-node/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github/workflows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/builds" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -208,7 +225,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/prettier/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
@@ -221,21 +238,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/builds" />
+      <recent name="$PROJECT_DIR$/packages/cli" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/script-docs-node/conf" />
-      <recent name="$PROJECT_DIR$/script-docs-node" />
-      <recent name="$PROJECT_DIR$/script-lint-node" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/lint" />
+      <recent name="$PROJECT_DIR$/packages/cli" />
+      <recent name="$PROJECT_DIR$/packages/builds/conf" />
       <recent name="$PROJECT_DIR$/packages/test/conf" />
       <recent name="$PROJECT_DIR$/__tests__" />
-      <recent name="$PROJECT_DIR$/packages/version" />
-      <recent name="$PROJECT_DIR$/packages/docs/sources" />
-      <recent name="$PROJECT_DIR$/packages/docs/src" />
     </key>
   </component>
-  <component name="RunManager" selected="BashSupport Pro.symlink">
+  <component name="RunManager" selected="Node.js.sandbox.js (1)">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -247,6 +264,9 @@
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/make-docs/index.js" working-dir="$PROJECT_DIR$/make-docs">
+      <method v="2" />
+    </configuration>
+    <configuration name="sandbox.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/builds/sandbox.js" working-dir="$PROJECT_DIR$/packages/builds">
       <method v="2" />
     </configuration>
     <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get-paths/sandbox.js" working-dir="$PROJECT_DIR$/get-paths">
@@ -316,9 +336,11 @@
       <item itemvalue="npm.generate" />
       <item itemvalue="npm.storybook" />
       <item itemvalue="npm.storybook:build" />
+      <item itemvalue="Node.js.sandbox.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.sandbox.js (1)" />
         <item itemvalue="Node.js.cli.js.bk" />
         <item itemvalue="Node.js.sandbox.js" />
         <item itemvalue="Node.js.sandbox.js" />
@@ -360,6 +382,7 @@
     </task>
     <task active="true" id="kb-57" summary="Build readme‘s pre-commit">
       <changelist id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="" />
+      <option name="closed" value="true" />
       <created>1612807550000</created>
       <option name="issue" value="true" />
       <url>https://github.com/keithboice/kb/issues/57</url>
@@ -367,8 +390,10 @@
       <option name="presentableId" value="kb-57" />
       <option name="project" value="kb" />
       <option name="type" value="BUG" />
-      <updated>1613267453454</updated>
+      <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
+      <workItem from="1613273285329" duration="1020000" />
+      <workItem from="1613274358183" duration="21535000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>
