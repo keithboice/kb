@@ -24,6 +24,9 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/test/.pnpm-store" />
       <excludeFolder url="file://$MODULE_DIR$/example/frontend.bk/.github" />
       <excludeFolder url="file://$MODULE_DIR$/example/frontend.bk" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/builds/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/example/frontend/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/example/frontend/dist" />
       <excludePattern pattern=".github/*" />
       <excludePattern pattern=".idea/*" />
       <excludePattern pattern="common/*" />

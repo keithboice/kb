@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="" />
+    <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/working.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/working.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <disabled>
       <disabled_changelists>
         <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="" />
@@ -189,7 +193,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/cmd-build-node/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github/workflows" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -213,11 +217,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/script-docs-node/conf" />
       <recent name="$PROJECT_DIR$/script-docs-node" />
       <recent name="$PROJECT_DIR$/script-lint-node" />
-      <recent name="$PROJECT_DIR$/get-paths/testDir/childDir/chldchildDir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/test/conf" />
@@ -319,12 +323,12 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
       <changelist id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="" />
       <created>1612804122164</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612804122164</updated>
+      <updated>1613267453454</updated>
       <workItem from="1612804124562" duration="6472000" />
       <workItem from="1612820371579" duration="8629000" />
       <workItem from="1612836558566" duration="577000" />
@@ -334,7 +338,7 @@
       <workItem from="1613125551108" duration="10579000" />
       <workItem from="1613180670788" duration="25050000" />
       <workItem from="1613206618014" duration="3097000" />
-      <workItem from="1613259801030" duration="7221000" />
+      <workItem from="1613259801030" duration="7314000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613207398834</created>
@@ -350,7 +354,27 @@
       <option name="project" value="LOCAL" />
       <updated>1613265082975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task active="true" id="kb-57" summary="Build readme‘s pre-commit">
+      <changelist id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="" />
+      <created>1612807550000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/keithboice/kb/issues/57</url>
+      <option name="number" value="57" />
+      <option name="presentableId" value="kb-57" />
+      <option name="project" value="kb" />
+      <option name="type" value="BUG" />
+      <updated>1613267453454</updated>
+      <workItem from="1613267454029" duration="772000" />
+    </task>
+    <task id="LOCAL-00003" summary="added examples dir">
+      <created>1613267690609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613267690609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <option name="createBranch" value="false" />
     <servers>
       <GitHub shared="true" url="https://github.com">
         <commitMessageFormat>{taskType}{id}: {summary}
