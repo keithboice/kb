@@ -9,7 +9,7 @@
 		"pnpm": ">=5"
 	},
 	"files":               [
-		"dist/**",
+		"dist/main.js",
 		"cli.js",
 		"index.js"
 	],
@@ -21,7 +21,7 @@
 	"homepage":            "https://github.com/keithboice/kb",
 	"languageName":        "node",
 	"scripts":             {
-		"build":            "dev build --wd `/Users/dkb/repos/kb/packages/test` --name index.js",
+		"build":            "\"/Users/dkb/repos/kb/packages/cli/cli.js\" dev build --wd \"/Users/dkb/repos/kb/packages/test\" --name index.js",
 		"test":             "jest --config conf/jest.config.js",
 		"lint":             "lint ./",
 		"commit:":          "commit ./",
@@ -33,12 +33,9 @@
 	"author":              "Keith Boice <69816300+keithboice@users.noreply.github.com>",
 	"license":             "MIT",
 	"dependencies":        {
-		"child_process":          "^1.0.2",
 		"jest":                   "^26.6.3",
 		"jest-watch-directories": "^1.1.0",
-		"path":                   "^0.12.7",
-		"shelljs":                "*",
-		"yargs":                  "^16.2.0"
+		"path":                   "^0.12.7"
 	},
 	"bundledDependencies": [
 		"jest"

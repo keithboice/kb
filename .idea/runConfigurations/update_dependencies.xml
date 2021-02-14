@@ -1,8 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="pnpm install" type="BashProRunConfiguration">
-    <scriptContent>pnpm install</scriptContent>
+  <configuration default="false" name="update dependencies" type="BashProRunConfiguration">
+    <scriptContent>pnpm recursive update &amp;&amp; pnpm --recursive update &amp;&amp; pnpm --recursive update --global &amp;&amp; pnpm up</scriptContent>
     <option name="sourceType" value="snippet" />
-    <option name="workingDirectory" value="$FileParentDir$" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
     <method v="2" />
   </configuration>

@@ -13,12 +13,10 @@ importers:
       app-root-path: 3.0.0
       child_process: 1.0.2
       fsevents: 2.3.2
-      google-closure-compiler-linux: 20210202.0.0
       path: 0.12.7
       rollup: 2.39.0
       rollup-plugin-local-resolve: 1.0.7
       rollup-plugin-terser: 7.0.2_rollup@2.39.0
-      shelljs: 0.8.4
       yargs: 16.2.0
     specifiers:
       '@babel/core': ^7.12.16
@@ -31,12 +29,10 @@ importers:
       app-root-path: ^3.0.0
       child_process: ^1.0.2
       fsevents: ^2.3.2
-      google-closure-compiler-linux: ^20210202.0.0
       path: ^0.12.7
       rollup: ^2.38.5
       rollup-plugin-local-resolve: ^1.0.7
       rollup-plugin-terser: ^7.0.2
-      shelljs: '*'
       yargs: ^16.2.0
   ../../packages/cli:
     dependencies:
@@ -164,22 +160,16 @@ importers:
       rimraf: ^3.0.2
   ../../packages/test:
     dependencies:
-      child_process: 1.0.2
       jest: 26.6.3
       jest-watch-directories: 1.1.0_jest@26.6.3
       path: 0.12.7
-      shelljs: 0.8.4
-      yargs: 16.2.0
     devDependencies:
       app-root-path: 3.0.0
     specifiers:
       app-root-path: ^3.0.0
-      child_process: ^1.0.2
       jest: ^26.6.3
       jest-watch-directories: ^1.1.0
       path: ^0.12.7
-      shelljs: '*'
-      yargs: ^16.2.0
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.11:
@@ -1371,7 +1361,7 @@ packages:
   /@nodelib/fs.scandir/2.1.4:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
-      run-parallel: 1.1.10
+      run-parallel: 1.2.0
     dev: false
     engines:
       node: '>= 8'
@@ -3833,15 +3823,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-otgSPpUmdWJ43VXyiNgEYE4luzHCL2pz4wQ0OnDluC6Eg4Ko3Vexy/SrSynglw/eR+OhkzmqFCZa/OFa/RgAOQ==
-  /google-closure-compiler-linux/20210202.0.0:
-    cpu:
-      - x64
-      - x86
-    dev: false
-    os:
-      - linux
-    resolution:
-      integrity: sha512-txE9tivnY77TgIxRNiT1nwqW+gjkLBcgy5qy0pE8htIrwuz+cgcTuvwH8mMlLKJJAifd32kboVyc1iymYrdN1w==
   /graceful-fs/4.2.6:
     dev: false
     resolution:
@@ -4111,12 +4092,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
-  /interpret/1.4.0:
-    dev: false
-    engines:
-      node: '>= 0.10'
-    resolution:
-      integrity: sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
   /ip-regex/2.1.0:
     dev: false
     engines:
@@ -6242,6 +6217,10 @@ packages:
       node: '>=0.6'
     resolution:
       integrity: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  /queue-microtask/1.2.2:
+    dev: false
+    resolution:
+      integrity: sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg==
   /quick-lru/4.0.1:
     dev: false
     engines:
@@ -6317,14 +6296,6 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
-  /rechoir/0.6.2:
-    dependencies:
-      resolve: 1.20.0
-    dev: false
-    engines:
-      node: '>= 0.10'
-    resolution:
-      integrity: sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=
   /redent/3.0.0:
     dependencies:
       indent-string: 4.0.0
@@ -6638,10 +6609,12 @@ packages:
       node: 6.* || >= 7.*
     resolution:
       integrity: sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
-  /run-parallel/1.1.10:
+  /run-parallel/1.2.0:
+    dependencies:
+      queue-microtask: 1.2.2
     dev: false
     resolution:
-      integrity: sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw==
+      integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   /safe-buffer/5.1.2:
     dev: false
     resolution:
@@ -6771,17 +6744,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-NZbmMHp4FUT1kfN9phg2DzHbV7E=
-  /shelljs/0.8.4:
-    dependencies:
-      glob: 7.1.6
-      interpret: 1.4.0
-      rechoir: 0.6.2
-    dev: false
-    engines:
-      node: '>=4'
-    hasBin: true
-    resolution:
-      integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==
   /shellwords/0.1.1:
     dev: false
     optional: true
@@ -8051,4 +8013,3 @@ packages:
     dev: false
     resolution:
       integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==
-registry: ''

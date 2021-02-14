@@ -17,18 +17,19 @@
 	"author": "Keith Boice <keith.boice.work@gmail.com> (https://github.com/keithboice)",
 	"main": "start.js",
 	"scripts": {
+		"available": "rushx",
 		"build": "rush build",
-		"clean": "clean --wd ./",
+		"change": "rush change",
+		"check": "rush check",
 		"commit": "cz -a",
-		"deploy": "deploy --wd ./",
-		"docs": "docs --wd ./",
 		"preinstall": "npx only-allow pnpm",
-		"lint": "lint --wd ./",
-		"push": "push --wd ./",
-		"release": "release --wd ./",
+		"install": "rush install",
+		"puge": "rush purge",
+		"rebuild": "rush rebuild",
 		"reports": "reports --wd ./",
-		"test": "test --wd ./",
-		"update": "rush update"
+		"unlink": "rush unlink",
+		"update": "rush update",
+		"update:full": "rush update --full"
 	},
 	"config": {
 		"commitizen": {

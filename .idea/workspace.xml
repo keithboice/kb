@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/builds/sandbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/add_dependency2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cli/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pnpm_install.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/rush/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/builds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/paths/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/paths/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/version/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -214,7 +215,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/cmd-build-node/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/builds" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/cli" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -238,8 +239,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/builds" />
       <recent name="$PROJECT_DIR$/packages/cli" />
+      <recent name="$PROJECT_DIR$/packages/builds" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/script-docs-node/conf" />
@@ -252,7 +253,7 @@
       <recent name="$PROJECT_DIR$/__tests__" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.sandbox.js (1)">
+  <component name="RunManager" selected="BashSupport Pro.unlink">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -260,13 +261,16 @@
       <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
       <method v="2" />
     </configuration>
+    <configuration name="unlink" type="BashProRunConfiguration">
+      <scriptContent>rush unlink</scriptContent>
+      <option name="sourceType" value="snippet" />
+      <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
+      <method v="2" />
+    </configuration>
     <configuration name="cli.js.bk" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/core-paths/cli.js.bk" working-dir="$PROJECT_DIR$/packages/paths">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/make-docs/index.js" working-dir="$PROJECT_DIR$/make-docs">
-      <method v="2" />
-    </configuration>
-    <configuration name="sandbox.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/builds/sandbox.js" working-dir="$PROJECT_DIR$/packages/builds">
       <method v="2" />
     </configuration>
     <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get-paths/sandbox.js" working-dir="$PROJECT_DIR$/get-paths">
@@ -296,7 +300,9 @@
       <item itemvalue="BashSupport Pro.flatten" />
       <item itemvalue="BashSupport Pro.symlink" />
       <item itemvalue="BashSupport Pro.clean:all" />
-      <item itemvalue="BashSupport Pro.pnpm install" />
+      <item itemvalue="BashSupport Pro.add dependency" />
+      <item itemvalue="BashSupport Pro.update dependencies" />
+      <item itemvalue="BashSupport Pro.unlink" />
       <item itemvalue="Gulp.js.build:node" />
       <item itemvalue="Gulp.js.build node" />
       <item itemvalue="Node.js.run:prettier:bin" />
@@ -328,19 +334,17 @@
       <item itemvalue="npm.test" />
       <item itemvalue="npm.install" />
       <item itemvalue="npm.install dependency" />
-      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install nodejs latest" />
-      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install pkg" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.generate" />
       <item itemvalue="npm.storybook" />
       <item itemvalue="npm.storybook:build" />
-      <item itemvalue="Node.js.sandbox.js (1)" />
+      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install nodejs latest" />
+      <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install pkg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.sandbox.js (1)" />
         <item itemvalue="Node.js.cli.js.bk" />
         <item itemvalue="Node.js.sandbox.js" />
         <item itemvalue="Node.js.sandbox.js" />
@@ -393,7 +397,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="21535000" />
+      <workItem from="1613274358183" duration="26607000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>
