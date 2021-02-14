@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/build_vercel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/install_dependency.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/main/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" afterDir="false" />
@@ -49,17 +49,7 @@
       <change beforePath="$PROJECT_DIR$/example/frontend/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sandbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_code-of-conduct.md" afterDir="false" />
@@ -107,18 +97,6 @@
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/conf/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/babel.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/conf/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/sandbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/conf/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/conf/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/usage.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <disabled>
@@ -307,7 +285,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/cmd-build-node/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -331,11 +309,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/main" />
+      <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/packages/cli" />
       <recent name="$PROJECT_DIR$/packages/builds" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
-      <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/script-docs-node/conf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/lint" />
@@ -345,7 +323,7 @@
       <recent name="$PROJECT_DIR$/__tests__" />
     </key>
   </component>
-  <component name="RunManager" selected="BashSupport Pro.clean:all">
+  <component name="RunManager" selected="npm.publish">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -451,6 +429,7 @@
       <item itemvalue="Node.js.run:prettier:bin" />
       <item itemvalue="Node.js.run:stylelint:bin" />
       <item itemvalue="Node.js.build" />
+      <item itemvalue="npm.publish" />
       <item itemvalue="npm.clean:pkg" />
       <item itemvalue="npm.make:docs:build" />
       <item itemvalue="npm.make:docs:dev" />
@@ -539,7 +518,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="29634000" />
+      <workItem from="1613274358183" duration="31175000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>

@@ -37,6 +37,11 @@
 	"hotfixChangeEnabled": false,
 	"projects": [
 		{
+			"packageName": "@kb/main",
+			"projectFolder": "packages/main",
+			"reviewCategory": "packages"
+		},
+		{
 			"packageName": "@kb/builds",
 			"projectFolder": "packages/builds",
 			"reviewCategory": "packages"

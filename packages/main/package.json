@@ -1,0 +1,25 @@
+{
+	"name": "@kb/main",
+	"version": "0.0.1",
+	"description": "Main project",
+	"main": "index.js",
+	"engines": {
+		"node": ">=14.0.0",
+		"pnpm": ">=5"
+	},
+	"files": [
+		"dist/main.js"
+	],
+	"types": "commonjs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keithboice/kb.git"
+	},
+	"homepage": "https://github.com/keithboice/kb",
+	"languageName": "node",
+	"scripts": {
+		"build": "npx rollup index.js --file dist/main.js"
+	},
+	"author": "Keith Boice <69816300+keithboice@users.noreply.github.com>",
+	"license": "MIT"
+}
