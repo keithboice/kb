@@ -1,6 +1,6 @@
 const main = require( './index.js')
 const bin = require( './cli.js')
-const conf = require('./conf.js')
+const conf = require('./jest.config.js')
 
 /**
  * @test
@@ -36,7 +36,7 @@ if (shell.exec('npm run build').code !== 0) {
 	shell.exit(1)
 }
 
-if (shell.exec('rollup --config conf.js').code !== 0) {
+if (shell.exec('rollup --config jest.config.js').code !== 0) {
 	shell.echo('Error: Failed')
 	shell.exit(1)
 }

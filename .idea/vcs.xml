@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/example/frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/example/frontend.bk" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/docs/sources/templates" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/docs/sources/wiki" vcs="Git" />

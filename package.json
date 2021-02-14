@@ -5,6 +5,7 @@
 	"keywords": [
 		"kb"
 	],
+	"node": ">=14.0.0",
 	"homepage": "https://keithboice.github.io/kb/",
 	"bugs": {
 		"url": "https://github.com/keithboice/kb/issues"

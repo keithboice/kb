@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="code_js" pattern="file[working]://**/*.js||file[working]:__tests__/*.js||file[working]:example/**/*.js||file[working]:packages/**/*.js" />
+</component>

@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="flatten" type="BashProRunConfiguration" folderName="utils" singleton="false">
-    <scriptContent>find ./ -mindepth 1 -type f -exec mv -i '{}' ./ ';' &amp;&amp; rm -r */</scriptContent>
+  <configuration default="false" name="symlink" type="BashProRunConfiguration" folderName="utils" singleton="false">
+    <scriptContent>ln  -s $1 $2</scriptContent>
+    <option name="scriptParameters" value="$Prompt$ $Prompt$" />
     <option name="sourceType" value="snippet" />
     <option name="workingDirectory" value="$FilePrompt$" />
     <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />

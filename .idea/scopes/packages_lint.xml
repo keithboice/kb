@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="packages_lint" pattern="file[working]:packages/lint//*" />
+</component>

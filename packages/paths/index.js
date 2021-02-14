@@ -67,7 +67,7 @@ module.exports = class Main {
 		 * @type {string}
 		 * @private
 		 */
-		this._confJsDocs = '/Users/dkb/repos/kb/packages/script-docs-node/conf.js'
+		this._confJsDocs = '/Users/dkb/repos/kb/packages/script-docs-node/jest.config.js'
 		
 		/**
 		 *

@@ -5,77 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/build/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/core-cli/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/core-cli/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/core-paths/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/core-paths/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint/conf/eslint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lint/sandbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/build.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/dev.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/generate.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/start.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/storybook.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.run/storybook_build.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/.scss-lint.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/pages/pugSass.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/clean_all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/flatten.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/flatten.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scopes/root.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/src.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scopes/tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/working.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/working.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cmd-commit/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/commit/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cmd-commit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/commit/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cmd-commit/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/jsdoc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/get-paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-paths/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/get-paths/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-cli/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/get-paths/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/get-paths/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-paths/sandbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/make-docs/_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/make-docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/make-docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/make-docs/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sandbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-build-node/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/build/usage.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/conf/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/conf/jsdocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-docs-node/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/eslint.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/.stylelintignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/babel.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/eslint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/conf/stylelint.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/index.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-lint-node/sandbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/.jestignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/.jestignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/_.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/script-test-node/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/usage.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-clean-node/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-clean-node/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-clean-node/shared.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-clean-node/task-clean.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-docs-github-wiki" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-docs-github-workflows" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-repo-release/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/release/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/task-repo-release/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/template-github" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/template-jsdoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/builds/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.builds.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-cli/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.cli.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-cli/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-paths/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.paths.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-paths/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-paths/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-paths/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.docs.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/conf/jsdocs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/jsdocs/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/eslint.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/conf/stylelint.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lint/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.lint.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/.jestignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/conf/.jestignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/packages.test.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -113,6 +90,12 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="feat/48-node_build_process" />
@@ -208,13 +191,33 @@
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/packages/workflows" />
             </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1613260134" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/example/frontend.bk" />
+            </RecentBranchesForRepo>
           </list>
         </option>
       </RecentBranches>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/packages/build/cli.js" root0="FORCE_HIGHLIGHTING" />
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="common" />
+      <scope name="packages" />
+      <scope name="root" />
+      <scope name="code_js" />
+      <scope name="tests" />
+      <scope name="packages_lint" />
+      <scope name="code_css" />
+      <scope name="frontend" />
+    </order>
   </component>
   <component name="ProjectId" id="1oCwwUAYy8l9Py8gyTUDoc5uQDU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -248,6 +251,13 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="dev" />
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -258,14 +268,14 @@
       <recent name="$PROJECT_DIR$/get-paths/testDir/childDir/chldchildDir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/packages/test/conf" />
       <recent name="$PROJECT_DIR$/packages/version" />
       <recent name="$PROJECT_DIR$/packages/docs/sources" />
       <recent name="$PROJECT_DIR$/packages/docs/src" />
-      <recent name="$PROJECT_DIR$/packages/docs/templates" />
-      <recent name="$PROJECT_DIR$/packages/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="BashSupport Pro.clean:all">
+  <component name="RunManager" selected="BashSupport Pro.symlink">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -273,7 +283,7 @@
       <RunnerSettings bashdbVersion="Automatic" bashPathMapper="Automatic" RunnerId="pro.bashsupport.shDebugRunner" />
       <method v="2" />
     </configuration>
-    <configuration name="cli.js.bk" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/core-paths/cli.js.bk" working-dir="$PROJECT_DIR$/packages/core-paths">
+    <configuration name="cli.js.bk" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/core-paths/cli.js.bk" working-dir="$PROJECT_DIR$/packages/paths">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/make-docs/index.js" working-dir="$PROJECT_DIR$/make-docs">
@@ -303,8 +313,9 @@
       <item itemvalue="BashSupport Pro.yarn test" />
       <item itemvalue="BashSupport Pro.new directory as repo" />
       <item itemvalue="BashSupport Pro.rm all directories by name" />
-      <item itemvalue="BashSupport Pro.clean:all" />
       <item itemvalue="BashSupport Pro.flatten" />
+      <item itemvalue="BashSupport Pro.symlink" />
+      <item itemvalue="BashSupport Pro.clean:all" />
       <item itemvalue="BashSupport Pro.pnpm install" />
       <item itemvalue="Gulp.js.build:node" />
       <item itemvalue="Gulp.js.build node" />
@@ -339,6 +350,12 @@
       <item itemvalue="npm.install dependency" />
       <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install nodejs latest" />
       <item itemvalue="Shell Script (by BashSupport Pro).mac terminal install pkg" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.generate" />
+      <item itemvalue="npm.storybook" />
+      <item itemvalue="npm.storybook:build" />
     </list>
     <recent_temporary>
       <list>
@@ -364,8 +381,17 @@
       <workItem from="1613121669561" duration="3586000" />
       <workItem from="1613125551108" duration="10579000" />
       <workItem from="1613180670788" duration="25050000" />
-      <workItem from="1613206618014" duration="611000" />
+      <workItem from="1613206618014" duration="3097000" />
+      <workItem from="1613259801030" duration="4456000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1613207398834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613207398834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

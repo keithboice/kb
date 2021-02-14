@@ -3,7 +3,7 @@
 const path = require( 'path' )
 const appRootPath = require( 'app-root-path' )
 	.toString()
-const GetPaths = require( 'core-paths' )
+const GetPaths = require( 'paths' )
 const getPaths = new GetPaths( 'package', appRootPath )
 const templatePath = getPaths.getJSDocTemplate( appRootPath )
 const destPath = path.join( `${ appRootPath }`, 'docs', 'documentation', 'backend', 'html' )

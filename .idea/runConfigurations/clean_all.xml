@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="clean:all" type="BashProRunConfiguration" singleton="false">
-    <scriptContent>rm -rf **/.pnp-store &amp; rm -rf .pnp-store &amp;  rm -rf **/node_modules &amp; rm -rf node_modules &amp; cd packages &amp;&amp; rm -rf shrinkwrap.yaml npm-shrinkwrap.json package-lock.json yarn.lock .npmrc
+    <scriptContent>rm -rf **/.pnp-store &amp; rm -rf .pnp-store &amp;  rm -rf **/node_modules &amp; rm -rf node_modules &amp; rm -rf .nuxt &amp; rm -rf &quot;/**/.nuxt&quot; &amp;&amp; cd packages &amp;&amp; rm -rf shrinkwrap.yaml npm-shrinkwrap.json package-lock.json yarn.lock .npmrc
  echo &quot;removed dependency stores&quot;
  rm -rf docs/documentation &amp; rm -rf **/docs/documentation
  echo &quot;removed documentation artifacts&quot;
