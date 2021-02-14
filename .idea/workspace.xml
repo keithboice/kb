@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/build_vercel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/install_dependency.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/rush/command-line.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/rush/command-line.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" afterDir="false" />
@@ -50,7 +51,6 @@
       <change beforePath="$PROJECT_DIR$/example/frontend/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/builds/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/builds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/builds/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/main.js" afterDir="false" />
@@ -113,17 +113,13 @@
       <change beforePath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/prettier.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/conf/stylelint.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/lint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/lint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/lint/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lint/sandbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/paths/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/paths/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/paths/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/conf/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/conf/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/test/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/usage.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/version/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/version/package.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -543,7 +539,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="28516000" />
+      <workItem from="1613274358183" duration="29350000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>
