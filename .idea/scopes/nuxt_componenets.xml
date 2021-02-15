@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="nuxt_componenets" pattern="file[working]:example/frontend/sources/components//*" />
+</component>

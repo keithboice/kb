@@ -1,11 +1,11 @@
 {
-  "name": "example",
-  "version": "1.0.0",
-  "description": "Example full stack app",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Keith Boice",
-  "license": "MIT"
+	"name":        "example",
+	"version":     "0.0.1",
+	"description": "Example full stack app",
+	"main":        "index.js",
+	"scripts":     {
+		"test": "test"
+	},
+	"author":      "Keith Boice",
+	"license":     "MIT"
 }

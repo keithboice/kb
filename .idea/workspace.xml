@@ -5,50 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2934a57b-13ee-48db-984b-6fbb5f8bf8da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/main/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/code-brackets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/colors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/plugin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/images/vuetify-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/assets/style/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Button/Button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Button/Button.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Button/Button.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Button/Button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Button/_Button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/ExamplePugSass/ExamplePugSass.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/ExamplePugSass/ExamplePugSass.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/ExamplePugSass/ExamplePugSass.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/ExamplePugSass/ExamplePugSass.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Header/Header.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Header/Header.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Header/Header.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Image/Image.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Image/Image.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Image/Image.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Image/Image.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Image/_Image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Logo/Logo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Logo/Logo.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Logo/Logo.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Logo/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Logo/Logo2.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/LogoVuetify/LogoVuetify.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/LogoVuetify/LogoVuetify.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/LogoVuetify/_LogoVuetify.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Page/Page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Page/Page.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/Page/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/layouts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/layouts/inbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/layouts/landing.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/middleware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/pages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/pages/inspire.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/plugins/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/plugins/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/frontend/sources/test/Logo.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scssLintPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scssLintPlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/working.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/working.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/dependabot.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/semantic.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/build.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/build.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/dev.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/dev.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/generate.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/generate.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/start.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/start.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/storybook.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/storybook.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/.run/storybook_build.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/.run/storybook_build.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/assets/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/layouts/error.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/assets/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/sources/assets/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/components/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/components/VuetifyLogo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/default.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/layouts/error.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/middleware/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/pages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/pages/inspire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/pages/inspire.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/plugins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/plugins/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/static/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/static/vuetify-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/static/vuetify-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/store/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Button.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Header.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Page.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/Page.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/code-brackets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/code-brackets.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/colors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/colors.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/comments.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/comments.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/direction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/direction.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/flow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/plugin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/plugin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/repo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/repo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/stackalt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/assets/stackalt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/stories/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/inspire.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/pages/pugSass.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/plugins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/static/vuetify-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Button.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/sources/components/Introduction.stories.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Logo.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/Page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/frontend/sources/components/Page/Page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/code-brackets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/repo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/assets/stackalt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/stories/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/main.b21d1143070c96acf87e.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/main.f7fecc66a43a7ccd2f22.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/main.f7fecc66a43a7ccd2f22.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/runtime~main.870e8ee0658e83d05c6b.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/runtime~main.f7fecc66a43a7ccd2f22.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/runtime~main.f7fecc66a43a7ccd2f22.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/code-brackets.2e1112d7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/colors.a4bd0486.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/comments.a3859089.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/direction.b770f9af.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/flow.edad2ac1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/plugin.d494b228.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/repo.6d496322.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/static/media/stackalt.dba9fbb3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/vendors~main.792217a0db7b5376ff35.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/vendors~main.792217a0db7b5376ff35.bundle.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/vendors~main.f7fecc66a43a7ccd2f22.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/vendors~main.f7fecc66a43a7ccd2f22.bundle.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/storybook-static/vendors~main.f7fecc66a43a7ccd2f22.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/frontend/test/Logo.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/_changelog.md" afterDir="false" />
@@ -97,7 +185,6 @@
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/pulls_default.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/docs/sources/templates/schema_conventional-commit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -146,7 +233,7 @@
         <entry key="$PROJECT_DIR$" value="feat/48-node_build_process" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/example/frontend" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -264,6 +351,7 @@
       <scope name="packages_lint" />
       <scope name="code_css" />
       <scope name="frontend" />
+      <scope name="nuxt_componenets" />
     </order>
   </component>
   <component name="ProjectId" id="1oCwwUAYy8l9Py8gyTUDoc5uQDU" />
@@ -278,26 +366,28 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="JSInitializeFieldsIntentionBase.visibility" value="private" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.28" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/cmd-build-node/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/frontend/assets/style" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="$USER_HOME$/eslint/node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/packages/script-test-node" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="$USER_HOME$/.npm-packages/pnpm-global/4/node_modules/.pnpm/pnpm@5.16.0/node_modules/pnpm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/prettier/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/example/frontend/packages/lint/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
@@ -309,21 +399,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/frontend/assets/style" />
+      <recent name="$PROJECT_DIR$/example/frontend/assets" />
+      <recent name="$PROJECT_DIR$/example/frontend/storybook-examples" />
       <recent name="$PROJECT_DIR$/packages/main" />
       <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/packages/cli" />
-      <recent name="$PROJECT_DIR$/packages/builds" />
-      <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/lint" />
-      <recent name="$PROJECT_DIR$/packages/cli" />
-      <recent name="$PROJECT_DIR$/packages/builds/conf" />
-      <recent name="$PROJECT_DIR$/packages/test/conf" />
-      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/example/frontend/sources/components/Page" />
+      <recent name="$PROJECT_DIR$/example/frontend/sources/components/Logo" />
+      <recent name="$PROJECT_DIR$/example/frontend/sources/components/Header" />
+      <recent name="$PROJECT_DIR$/example/frontend/sources/components/Button" />
+      <recent name="$PROJECT_DIR$/example/frontend/sources" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.publish">
+  <component name="RunManager" selected="BashSupport Pro.symlink">
     <configuration default="true" type="BashProRunConfiguration">
       <scriptContent>pnpm install</scriptContent>
       <option name="sourceType" value="snippet" />
@@ -518,7 +608,7 @@
       <updated>1613270860000</updated>
       <workItem from="1613267454029" duration="4046000" />
       <workItem from="1613273285329" duration="1020000" />
-      <workItem from="1613274358183" duration="31175000" />
+      <workItem from="1613274358183" duration="61348000" />
     </task>
     <task id="LOCAL-00003" summary="added examples dir">
       <created>1613267690609</created>
