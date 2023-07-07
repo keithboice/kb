@@ -37,7 +37,7 @@
 		"eslint-plugin-unicorn": "^27.0.0",
 		"eslint-plugin-yaml": "^0.3.0",
 		"eslint-plugin-yml": "^0.7.0",
-		"stylelint": "^13.10.0",
+		"stylelint": "^15.10.1",
 		"stylelint-config-idiomatic-order": "^8.1.0",
 		"stylelint-config-prettier": "^8.0.2",
 		"stylelint-config-standard": "^20.0.0",
